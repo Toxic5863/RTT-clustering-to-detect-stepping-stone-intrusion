@@ -127,10 +127,6 @@ for a in range(S.size):
             difference_limiter += 1
 print(differences)
 
-# differences = np.where(differences < 0.5, differences, 0)
-# for a in differences:
-#     for b in a:
-#         print("here be", b.time)
 
 # ------------------debug output------------------
 print(len(E), "Echoes and", len(S), "Sends mapped to array 'differences' of shape", (S.size, difference_limit))
@@ -145,10 +141,8 @@ X = flatten(differences)
 j0 = int
 alpha = 0
 X_prime = X.copy()
-print("\n\nX' is", X_prime, "\n\n")
+#print("\n\nX' is", X_prime, "\n\n")
 # print("\nBefore MMD:")
-# print("inputted X:\t", X, "\nX':\t", X_prime, "\nC:\t", C, "\np:\t", p, "\nu:\t", u, "\nalpha:\t", alpha)
-# setting first cluster center to first item in sample set
 x1 = X_prime.index(min(X_prime))
 print("x1:", x1)
 C.append(X_prime.pop(x1))
