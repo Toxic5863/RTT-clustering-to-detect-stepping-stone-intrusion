@@ -8,11 +8,11 @@ import copy
 E = np.array(list())  # echoes
 S = np.array(list())  # sends
 X = list()  # samples for MMD algorithm
-t = 0.3  # threshold value that determines whether a new cluster is made
+t = 0.1  # threshold value that determines whether a new cluster is made
 p = 0  # number of cluster centers found
 C = list()  # cluster centers
 r = list()  # cluster sizes
-u = np.zeros((15, 15))
+u = np.zeros((30, 30))
 d = int
 sequence = []
 clusters_needed = True
@@ -72,11 +72,20 @@ def get_alpha(C):
             if (i != j):
                 undivided_alpha += abs(float(C[i]) - float(C[j]))
                 n += 1
-    #print(alpha)
+    # print(alpha)
     return undivided_alpha / n
 
 
-#print(get_alpha([1, 2, 3, 4, 5, 6, 7, 8]))  # this is 3. so evidently, a/alpha is not the averge distance
+def cluster_analysis_update():
+    print("\nNo. of Clusters:" + str(p))
+    print("\nShape of u:", np.shape(u))
+    print("\nCluster sizes are:")
+    for a in range(p):
+        print(np.count_nonzero(clusters[:, a]), end=" | ")
+    print("\n\n\n")
+
+
+# print(get_alpha([1, 2, 3, 4, 5, 6, 7, 8]))  # this is 3. so evidently, a/alpha is not the averge distance
 
 
 def get_element_of_X(i):  # returns inputted number of x; elsewise, returns 0
@@ -114,8 +123,8 @@ with open("Data/SeparateLocations/3-connection-dataset1.txt", "r") as packetData
             else:
                 # print("echo from", pr.get_source(line), "to", pr.get_destination(line), timeStamp, "\n")
                 E = np.append(E, pr.get_time(line) - first_time)
-print(E)
-print(S)
+# print(E)
+# print(S)
 difference_limit = 6
 differences = [[np.nan for i in range(difference_limit)] for j in range(S.size)]
 for a in range(S.size):
@@ -123,9 +132,9 @@ for a in range(S.size):
     for b in range(E.size):
         if E[b] - S[a] > 0 and difference_limiter < difference_limit:
             differences[a][difference_limiter] = RTT(S[a], E[b])
-            #print("updating differences[" + str(b) + "][" + str(difference_limiter) + "] to", RTT(S[a], E[b]))
+            # print("updating differences[" + str(b) + "][" + str(difference_limiter) + "] to", RTT(S[a], E[b]))
             difference_limiter += 1
-print(differences)
+# print(differences)
 
 
 # ------------------debug output------------------
@@ -137,14 +146,13 @@ start_time = time.time()
 # ------------------MMD prototype------------------
 X = flatten(differences)
 # X = list(np.concatenate((np.random.poisson(50, 100), np.random.poisson(100, 100), np.random.poisson(150, 50), np.random.poisson(250, 100), np.random.poisson(600, 40))))
-# print("X is", X)
 j0 = int
 alpha = 0
 X_prime = X.copy()
-#print("\n\nX' is", X_prime, "\n\n")
+print("Length of X':", len(X_prime))
+# print("\n\nX' is", X_prime, "\n\n")
 # print("\nBefore MMD:")
 x1 = X_prime.index(min(X_prime))
-print("x1:", x1)
 C.append(X_prime.pop(x1))
 
 # setting first element of u to 1
@@ -172,7 +180,6 @@ print("Creating clusters...")
 while clusters_needed:
     distances = {}
     minimum_distances = {}
-    #print(len(X_prime))
     for a in range(len(X_prime)):
         distances = {}
         for b in range(p):
@@ -187,7 +194,7 @@ while clusters_needed:
         C.append(X_prime.pop(X_prime.index(x_i0)))
         u[0][p - 1] = X.index(x_i0)
         alpha = get_alpha(C)
-    print("clusters:", C, "\ndistances:", len(distances), "\nd:", d, "\nalpha:", alpha, "\nclusters needed:", clusters_needed, "\n")
+    # print("clusters:", C, "\ndistances:", len(distances), "\nd:", d, "\nalpha:", alpha, "\nclusters needed:", clusters_needed, "\n")
 
 # initializing r for 1 <= j <= p
 r = [1] * p
@@ -212,7 +219,6 @@ for i in range(len(X_prime)):
 # updating cluster centers to be means of the clusters
 print("Updating cluster centers...")
 clusters = get_element_of_X_vec(u.astype(int))
-print(clusters)
 for j in range(len(C)):
     C[j] = get_mean_of_cluster(clusters[:, j])
 
@@ -226,5 +232,54 @@ print("\n\nCluster Centers:\t", C)
 print("\n\nMMD execution time:\t", end_time - start_time, "seconds")
 
 # ---visualizing the inputted data for reference---
-#plt.hist(X, density=True)  # This is debug code; for visualizing input
-#plt.show()
+# plt.hist(X, density=True)  # This is debug code; for visualizing input
+# plt.show()
+
+# ------------------END OF MMD-------------------
+print("\n\n----------END OF MMD---------\n\n", )
+
+print("\nNow starting cluster analysis :)")
+# assert len(clusters[0]) == p
+cluster_analysis_update()
+
+print("Removing RTTs with duplicate sends...\n")
+# removing RTTs from clusters that have duplicate sends
+for a in range(len(clusters[0, :])):
+    # print("\nChecking cluster", a, "(length:", str(np.count_nonzero(clusters[:, a])) + ") for duplicates")
+    new_cluster = list()
+    for b in range(np.count_nonzero(clusters[:, a])):
+        duplicate = False
+        for c in range(len(new_cluster)):
+            if clusters[b][a].send == new_cluster[c].send:
+                duplicate = True
+                new_cluster[c] = min(clusters[b][a], new_cluster[c])
+        if not duplicate:
+            new_cluster.append(clusters[b][a])
+    clusters[:, a] = 0
+    clusters[:len(new_cluster), a] = new_cluster
+
+cluster_analysis_update()
+
+print("Removing RTTs with duplicate echoes...\n")
+# removing RTTs from clusters that have duplicate echoes
+for a in range(len(clusters[0, :])):
+    # print("\nChecking cluster", a, "(length:", str(np.count_nonzero(clusters[:, a])) + ") for duplicates")
+    new_cluster = list()
+    for b in range(np.count_nonzero(clusters[:, a])):
+        duplicate = False
+        for c in range(len(new_cluster)):
+            if clusters[b][a].echo == new_cluster[c].echo:
+                duplicate = True
+                new_cluster[c] = min(clusters[b][a], new_cluster[c])
+        if not duplicate:
+            new_cluster.append(clusters[b][a])
+    clusters[:, a] = 0
+    clusters[:len(new_cluster), a] = new_cluster
+
+cluster_analysis_update()
+
+print("Creating subsets of consecutive elements in clusters...\n")
+for a in range(len(clusters[0, :])):
+    for b in range(np.count_nonzero(clusters[:, a])):
+        #print("Cluster", a, "element", b, " : ", clusters[b][a])
+        
