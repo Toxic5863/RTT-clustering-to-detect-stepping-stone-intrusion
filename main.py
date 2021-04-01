@@ -9,7 +9,7 @@ import statistics
 E = list()  # echoes
 S = list()  # sends
 X = list()  # samples for MMD algorithm
-t = 0.01  # threshold value that determines whether a new cluster is made
+t = 0.1  # threshold value that determines whether a new cluster is made
 p = 0  # number of cluster centers found
 C = list()  # cluster centers
 r = list()  # cluster sizes
@@ -112,7 +112,7 @@ def get_mean_of_cluster(ndarrayx):
 get_mean_of_cluster_vec = np.vectorize(get_mean_of_cluster)
 
 # -------------loading in packet data--------------
-with open("Data/LaptopSensor/4steppingstones.txt", "r") as packetData:
+with open("Data/LaptopSensor/5steppingstones.txt", "r") as packetData:
     first_line = packetData.readline()
     first_time = pr.get_time(first_line)
     send_source = pr.get_source(first_line)
@@ -312,7 +312,7 @@ for a in range(len(clusters[0, :])):
     for b in range(subset_count):
         subset_sizes.append(len(subsets[b]))
     biggest_subset_length = max(subset_sizes)
-    clustering_ratio = biggest_subset_length/cluster_range if cluster_range != 0 else 0
+    clustering_ratio = (biggest_subset_length/cluster_range) if cluster_range != 0 else 0
     clustering_ratios.append(clustering_ratio)
 
 
@@ -323,11 +323,14 @@ for a in clustering_ratios:
     number_of_clustering_ratios += 1
 average_clustering_ratio /= number_of_clustering_ratios
 
-minimum_difference = statistics.stdev(clustering_ratios)
+minimum_difference = 2 * statistics.stdev(clustering_ratios)
 print("Filtering for clusters whose ratio is two standard deviations above the mean...")
-for a in clustering_ratios:
-    if a - average_clustering_ratio >= minimum_difference:
+for a in range(len(clustering_ratios)):
+    if clustering_ratios[a] - average_clustering_ratio >= minimum_difference:
         high_ratio_clusters.append(a)
+
+#find maximum disjoint subset
+# code goes here
 
 print("\ndebug:")
 #last_cluster = clusters[:np.count_nonzero(clusters[:, -1]), -1]
