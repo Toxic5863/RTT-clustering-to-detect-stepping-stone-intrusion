@@ -328,8 +328,6 @@ for a in range(len(clustering_ratios)):
     if clustering_ratios[a] - average_clustering_ratio >= minimum_difference:
         high_ratio_clusters.append(a)
 
-#find maximum disjoint subset
-# code goes here
 
 #print("\ndebug:")
 #last_cluster = clusters[:np.count_nonzero(clusters[:, -1]), -1]
