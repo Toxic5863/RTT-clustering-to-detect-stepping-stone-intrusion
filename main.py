@@ -316,7 +316,7 @@ for a in range(len(clusters[0, :])):
     clustering_ratios.append(clustering_ratio)
 
 
-print("Calculating average clustering ratio and filtering for those two standard deviations above the mean...\n")
+print("Calculating average clustering ratio...\n")
 number_of_clustering_ratios, average_clustering_ratio = 0, 0
 for a in clustering_ratios:
     average_clustering_ratio += a
@@ -324,7 +324,7 @@ for a in clustering_ratios:
 average_clustering_ratio /= number_of_clustering_ratios
 
 minimum_difference = 2 * statistics.stdev(clustering_ratios)
-
+print("Filtering for clusters whose ratio is two standard deviations above the mean...")
 for a in clustering_ratios:
     if a - average_clustering_ratio >= minimum_difference:
         high_ratio_clusters.append(a)
