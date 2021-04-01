@@ -129,7 +129,7 @@ with open("Data/LaptopSensor/5steppingstones.txt", "r") as packetData:
                 E.append(pr.get_time(line) - first_time)
 # print(E)
 # print(S)
-difference_limit = 7
+difference_limit = 8
 differences = [[np.nan for i in range(difference_limit)] for j in range(len(S))]
 for a in range(len(S)):
     difference_limiter = 0
@@ -311,7 +311,7 @@ for a in range(len(clusters[0, :])):
     cluster_range = max(indices) - min(indices)
     for b in range(subset_count):
         subset_sizes.append(len(subsets[b]))
-    biggest_subset_length = max(subset_sizes)
+    biggest_subset_length = sum(subset_sizes)
     clustering_ratio = (biggest_subset_length/cluster_range) if cluster_range != 0 else 0
     clustering_ratios.append(clustering_ratio)
 
