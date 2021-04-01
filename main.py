@@ -112,7 +112,7 @@ def get_mean_of_cluster(ndarrayx):
 get_mean_of_cluster_vec = np.vectorize(get_mean_of_cluster)
 
 # -------------loading in packet data--------------
-with open("Data/LaptopSensor/5steppingstones.txt", "r") as packetData:
+with open("Data/LaptopSensor/1steppingstones1.txt", "r") as packetData:
     first_line = packetData.readline()
     first_time = pr.get_time(first_line)
     send_source = pr.get_source(first_line)
@@ -129,7 +129,7 @@ with open("Data/LaptopSensor/5steppingstones.txt", "r") as packetData:
                 E.append(pr.get_time(line) - first_time)
 # print(E)
 # print(S)
-difference_limit = 8
+difference_limit = 6
 differences = [[np.nan for i in range(difference_limit)] for j in range(len(S))]
 for a in range(len(S)):
     difference_limiter = 0
@@ -242,7 +242,6 @@ print("\n\nMMD execution time:\t", end_time - start_time, "seconds")
 # ------------------END OF MMD-------------------
 print("\n\n----------END OF MMD---------\n\n", )
 
-print("\nNow starting cluster analysis :)")
 # assert len(clusters[0]) == p
 cluster_analysis_update()
 
@@ -332,11 +331,11 @@ for a in range(len(clustering_ratios)):
 #find maximum disjoint subset
 # code goes here
 
-print("\ndebug:")
+#print("\ndebug:")
 #last_cluster = clusters[:np.count_nonzero(clusters[:, -1]), -1]
 # for a in range(len(last_cluster)):
 #     print(S.index(last_cluster[a].send))
-print(average_clustering_ratio)
-print(clustering_ratios)
-print(len(high_ratio_clusters))
+print("list of clustering ratios:", clustering_ratios)
+print("mean clustering ratio:", average_clustering_ratio)
+print("clustering ratios two standard deviations above the mean:", len(high_ratio_clusters))
 time.sleep(1)
