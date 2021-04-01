@@ -112,7 +112,7 @@ def get_mean_of_cluster(ndarrayx):
 get_mean_of_cluster_vec = np.vectorize(get_mean_of_cluster)
 
 # -------------loading in packet data--------------
-with open("Data/LaptopSensor/1steppingstones1.txt", "r") as packetData:
+with open("Data/LaptopSensor/4steppingstones1.txt", "r") as packetData:
     first_line = packetData.readline()
     first_time = pr.get_time(first_line)
     send_source = pr.get_source(first_line)
@@ -284,36 +284,42 @@ cluster_analysis_update()
 print("Creating subsets of consecutive elements in clusters...\n")
 g = 2
 clustering_ratios = list()
-for a in range(len(clusters[0, :])):
-    subsets = [[0 for i in range(np.count_nonzero(clusters[:, a]))] for j in range(np.count_nonzero(clusters[:, a]))]
-    subset_count = 0
-    current_subset = list()
-    current_send = 0
-    total_sends = list()
-    subset_sizes = list()
-    for b in range(np.count_nonzero(clusters[:, a])):
-        if not current_subset:
-            current_subset.append(clusters[b][a])
-            current_send = clusters[b][a].send
-        if abs(S.index(clusters[b][a].send) - S.index(current_send)) <= g:
-            current_subset.append(clusters[b][a])
-        else:
-            subsets[subset_count] = current_subset
-            subset_count += 1
-            current_subset = list()
-        current_send = clusters[b][a].send
-        total_sends.append(current_send)
-    subset_count += 1
-    indices = list()
-    for b in range(len(total_sends)):
-        indices.append(S.index(total_sends[b]))
-    cluster_range = max(indices) - min(indices)
-    for b in range(subset_count):
-        subset_sizes.append(len(subsets[b]))
-    biggest_subset_length = sum(subset_sizes)
-    clustering_ratio = (biggest_subset_length/cluster_range) if cluster_range != 0 else 0
-    clustering_ratios.append(clustering_ratio)
 
+    # this whole section needs to be redone
+    # to calculate the total number of connected
+    # elements in a cluster divided by the range
+    # of the cluster (maximum send index minus minimum)
+
+# for a in range(len(clusters[0, :])):
+#     subsets = [[] for j in range(np.count_nonzero(clusters[:, a]))]
+#     subset_count = 0
+#     current_subset = list()
+#     current_send = 0
+#     total_sends = list()
+#     subset_sizes = list()
+#     for b in range(np.count_nonzero(clusters[:, a])):
+#         if not current_subset:
+#             current_subset.append(clusters[b][a])
+#             current_send = clusters[b][a].send
+#         if abs(S.index(clusters[b][a].send) - S.index(current_send)) <= g:
+#             current_subset.append(clusters[b][a])
+#         else:
+#             subsets[subset_count] = current_subset
+#             subset_count += 1
+#             current_subset = list()
+#         current_send = clusters[b][a].send
+#         total_sends.append(current_send)
+#     subset_count += 1
+#     indices = list()
+#     for b in range(len(total_sends)):
+#         indices.append(S.index(total_sends[b]))
+#     cluster_range = max(indices) - min(indices)
+#     for b in range(subset_count):
+#         subset_sizes.append(len(subsets[b]))
+#     biggest_subset_length = sum(subset_sizes)
+#     clustering_ratio = (biggest_subset_length/cluster_range) if cluster_range != 0 else 0
+#     clustering_ratios.append(clustering_ratio)
+#     print("subsets of", a, ":", subsets)
 
 print("Calculating average clustering ratio...\n")
 number_of_clustering_ratios, average_clustering_ratio = 0, 0
@@ -328,9 +334,11 @@ for a in range(len(clustering_ratios)):
     if clustering_ratios[a] - average_clustering_ratio >= minimum_difference:
         high_ratio_clusters.append(a)
 
+# find maximum disjoint subset
+# code goes here
 
-#print("\ndebug:")
-#last_cluster = clusters[:np.count_nonzero(clusters[:, -1]), -1]
+# print("\ndebug:")
+# last_cluster = clusters[:np.count_nonzero(clusters[:, -1]), -1]
 # for a in range(len(last_cluster)):
 #     print(S.index(last_cluster[a].send))
 print("list of clustering ratios:", clustering_ratios)
