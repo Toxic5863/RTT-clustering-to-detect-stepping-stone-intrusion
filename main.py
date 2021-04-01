@@ -3,18 +3,21 @@ import numpy as np
 import matplotlib.pyplot as plt
 import packetreader as pr
 import copy
+import statistics
 
 # -------------------overhead-------------------
-E = np.array(list())  # echoes
-S = np.array(list())  # sends
+E = list()  # echoes
+S = list()  # sends
 X = list()  # samples for MMD algorithm
-t = 0.1  # threshold value that determines whether a new cluster is made
+t = 0.2  # threshold value that determines whether a new cluster is made
 p = 0  # number of cluster centers found
 C = list()  # cluster centers
 r = list()  # cluster sizes
-u = np.zeros((30, 30))
+u = np.zeros((1000, 1000))
 d = int
-sequence = []
+average_clustering_ratio = int
+number_of_clustering_ratios = int
+high_ratio_clusters = list()
 clusters_needed = True
 sends = 0
 echoes = 0
@@ -81,7 +84,7 @@ def cluster_analysis_update():
     print("\nShape of u:", np.shape(u))
     print("\nCluster sizes are:")
     for a in range(p):
-        print(np.count_nonzero(clusters[:, a]), end=" | ")
+        print(" | ", np.count_nonzero(clusters[:, a]), end=" | ")
     print("\n\n\n")
 
 
@@ -108,28 +111,28 @@ def get_mean_of_cluster(ndarrayx):
 get_mean_of_cluster_vec = np.vectorize(get_mean_of_cluster)
 
 # -------------loading in packet data--------------
-with open("Data/SeparateLocations/3-connection-dataset1.txt", "r") as packetData:
+with open("Data/SeparateLocations/4-connection-dataset1.txt", "r") as packetData:
     first_line = packetData.readline()
     first_time = pr.get_time(first_line)
     send_source = pr.get_source(first_line)
-    S = np.append(S, pr.get_time(first_line))
+    S.append(pr.get_time(first_line))
     for line in packetData.readlines()[:-2]:
         # print(end="")     #dummy line
         timeStamp = "at " + str(pr.get_time(line))
         if pr.check_push_flag(line):
             if pr.check_if_send(line, send_source):
                 # print("send from", pr.get_source(line), "to", pr.get_destination(line), timeStamp, "\n")
-                S = np.append(S, pr.get_time(line) - first_time)
+                S.append(pr.get_time(line) - first_time)
             else:
                 # print("echo from", pr.get_source(line), "to", pr.get_destination(line), timeStamp, "\n")
-                E = np.append(E, pr.get_time(line) - first_time)
+                E.append(pr.get_time(line) - first_time)
 # print(E)
 # print(S)
-difference_limit = 6
-differences = [[np.nan for i in range(difference_limit)] for j in range(S.size)]
-for a in range(S.size):
+difference_limit = 8
+differences = [[np.nan for i in range(difference_limit)] for j in range(len(S))]
+for a in range(len(S)):
     difference_limiter = 0
-    for b in range(E.size):
+    for b in range(len(E)):
         if E[b] - S[a] > 0 and difference_limiter < difference_limit:
             differences[a][difference_limiter] = RTT(S[a], E[b])
             # print("updating differences[" + str(b) + "][" + str(difference_limiter) + "] to", RTT(S[a], E[b]))
@@ -138,7 +141,7 @@ for a in range(S.size):
 
 
 # ------------------debug output------------------
-print(len(E), "Echoes and", len(S), "Sends mapped to array 'differences' of shape", (S.size, difference_limit))
+print(len(E), "Echoes and", len(S), "Sends mapped to array 'differences' of shape", (len(S), difference_limit))
 
 # Starting a timer to measure the runspeed of the MMD algorithm
 start_time = time.time()
@@ -279,7 +282,55 @@ for a in range(len(clusters[0, :])):
 cluster_analysis_update()
 
 print("Creating subsets of consecutive elements in clusters...\n")
+g = 3
+clustering_ratios = list()
 for a in range(len(clusters[0, :])):
+    subsets = [[0 for i in range(np.count_nonzero(clusters[:, a]))] for j in range(np.count_nonzero(clusters[:, a]))]
+    subset_count = 0
+    current_subset = list()
+    current_send = 0
+    total_sends = list()
+    subset_sizes = list()
     for b in range(np.count_nonzero(clusters[:, a])):
-        #print("Cluster", a, "element", b, " : ", clusters[b][a])
-        
+        if not current_subset:
+            current_subset.append(clusters[b][a])
+            current_send = clusters[b][a].send
+        if abs(S.index(clusters[b][a].send) - S.index(current_send)) <= g:
+            current_subset.append(clusters[b][a])
+        else:
+            subsets[subset_count] = current_subset
+            subset_count += 1
+            current_subset = list()
+        current_send = clusters[b][a].send
+        total_sends.append(current_send)
+    subset_count += 1
+    indices = list()
+    for b in range(len(total_sends)):
+        indices.append(S.index(total_sends[b]))
+    cluster_range = max(indices) - min(indices)
+    for b in range(subset_count):
+        subset_sizes.append(len(subsets[b]))
+    biggest_subset_length = max(subset_sizes)
+    clustering_ratio = biggest_subset_length/cluster_range if cluster_range != 0 else 0
+    clustering_ratios.append(clustering_ratio)
+
+number_of_clustering_ratios, average_clustering_ratio = 0, 0
+for a in clustering_ratios:
+    average_clustering_ratio += a
+    number_of_clustering_ratios += 1
+average_clustering_ratio /= number_of_clustering_ratios
+
+minimum_difference = 2 * statistics.stdev(clustering_ratios)
+
+for a in clustering_ratios:
+    if a - average_clustering_ratio >= minimum_difference:
+        high_ratio_clusters.append(a)
+
+print("\ndebug:")
+last_cluster = clusters[:np.count_nonzero(clusters[:, -1]), -1]
+# for a in range(len(last_cluster)):
+#     print(S.index(last_cluster[a].send))
+print(average_clustering_ratio)
+print(clustering_ratios)
+print(high_ratio_clusters)
+time.sleep(1)
