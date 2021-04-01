@@ -9,7 +9,7 @@ import statistics
 E = list()  # echoes
 S = list()  # sends
 X = list()  # samples for MMD algorithm
-t = 0.2  # threshold value that determines whether a new cluster is made
+t = 0.25  # threshold value that determines whether a new cluster is made
 p = 0  # number of cluster centers found
 C = list()  # cluster centers
 r = list()  # cluster sizes
@@ -112,7 +112,7 @@ def get_mean_of_cluster(ndarrayx):
 get_mean_of_cluster_vec = np.vectorize(get_mean_of_cluster)
 
 # -------------loading in packet data--------------
-with open("Data/SeparateLocations/4-connection-dataset1.txt", "r") as packetData:
+with open("Data/SeparateLocations/4-connection-dataset13.txt", "r") as packetData:
     first_line = packetData.readline()
     first_time = pr.get_time(first_line)
     send_source = pr.get_source(first_line)
@@ -315,6 +315,8 @@ for a in range(len(clusters[0, :])):
     clustering_ratio = biggest_subset_length/cluster_range if cluster_range != 0 else 0
     clustering_ratios.append(clustering_ratio)
 
+
+print("Calculating average clustering ratio and filtering for those two standard deviations above the mean...\n")
 number_of_clustering_ratios, average_clustering_ratio = 0, 0
 for a in clustering_ratios:
     average_clustering_ratio += a
