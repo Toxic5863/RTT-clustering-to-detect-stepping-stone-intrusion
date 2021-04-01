@@ -83,8 +83,9 @@ def cluster_analysis_update():
     print("\nNo. of Clusters:" + str(p))
     print("\nShape of u:", np.shape(u))
     print("\nCluster sizes are:")
+    print(" | ", end="")
     for a in range(p):
-        print(" | ", np.count_nonzero(clusters[:, a]), end=" | ")
+        print(np.count_nonzero(clusters[:, a]), end=" | ")
     print("\n\n\n")
 
 

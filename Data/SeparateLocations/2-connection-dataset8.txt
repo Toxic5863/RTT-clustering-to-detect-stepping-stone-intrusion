@@ -1,0 +1,1238 @@
+12:15:00.646644 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 2476689746:2476689782, ack 299209367, win 2048, options [nop,nop,TS val 631116008 ecr 3542490470], length 36
+12:15:00.705286 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 1:93, ack 36, win 884, options [nop,nop,TS val 3542507341 ecr 631116008], length 92
+12:15:00.705322 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 93, win 2046, options [nop,nop,TS val 631116066 ecr 3542507341], length 0
+12:15:00.908991 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 36:72, ack 93, win 2048, options [nop,nop,TS val 631116269 ecr 3542507341], length 36
+12:15:00.909716 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 72:108, ack 93, win 2048, options [nop,nop,TS val 631116269 ecr 3542507341], length 36
+12:15:00.955521 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 108, win 884, options [nop,nop,TS val 3542507590 ecr 631116269], length 0
+12:15:00.964294 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 93:153, ack 108, win 884, options [nop,nop,TS val 3542507600 ecr 631116269], length 60
+12:15:00.964329 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 153, win 2047, options [nop,nop,TS val 631116323 ecr 3542507600], length 0
+12:15:00.970224 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 153:213, ack 108, win 884, options [nop,nop,TS val 3542507607 ecr 631116269], length 60
+12:15:00.970256 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 213, win 2047, options [nop,nop,TS val 631116328 ecr 3542507607], length 0
+12:15:01.161131 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 108:144, ack 213, win 2048, options [nop,nop,TS val 631116518 ecr 3542507607], length 36
+12:15:01.216116 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 213:273, ack 144, win 884, options [nop,nop,TS val 3542507852 ecr 631116518], length 60
+12:15:01.216152 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 273, win 2047, options [nop,nop,TS val 631116573 ecr 3542507852], length 0
+12:15:01.249795 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 144:180, ack 273, win 2048, options [nop,nop,TS val 631116606 ecr 3542507852], length 36
+12:15:01.312963 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 273:333, ack 180, win 884, options [nop,nop,TS val 3542507949 ecr 631116606], length 60
+12:15:01.312993 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 333, win 2047, options [nop,nop,TS val 631116669 ecr 3542507949], length 0
+12:15:01.546924 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 180:216, ack 333, win 2048, options [nop,nop,TS val 631116901 ecr 3542507949], length 36
+12:15:01.547636 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 216:252, ack 333, win 2048, options [nop,nop,TS val 631116901 ecr 3542507949], length 36
+12:15:01.550521 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 252:288, ack 333, win 2048, options [nop,nop,TS val 631116904 ecr 3542507949], length 36
+12:15:01.596951 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 252, win 884, options [nop,nop,TS val 3542508224 ecr 631116901], length 0
+12:15:01.604703 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 333:393, ack 288, win 884, options [nop,nop,TS val 3542508241 ecr 631116904], length 60
+12:15:01.604735 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 393, win 2047, options [nop,nop,TS val 631116957 ecr 3542508241], length 0
+12:15:01.611140 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 393:453, ack 288, win 884, options [nop,nop,TS val 3542508247 ecr 631116904], length 60
+12:15:01.611172 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 453, win 2047, options [nop,nop,TS val 631116963 ecr 3542508247], length 0
+12:15:01.821064 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 288:324, ack 453, win 2048, options [nop,nop,TS val 631117172 ecr 3542508247], length 36
+12:15:01.884560 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 453:513, ack 324, win 884, options [nop,nop,TS val 3542508520 ecr 631117172], length 60
+12:15:01.884593 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 513, win 2047, options [nop,nop,TS val 631117235 ecr 3542508520], length 0
+12:15:02.083442 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 324:360, ack 513, win 2048, options [nop,nop,TS val 631117433 ecr 3542508520], length 36
+12:15:02.113131 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 360:396, ack 513, win 2048, options [nop,nop,TS val 631117462 ecr 3542508520], length 36
+12:15:02.149104 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 513:573, ack 360, win 884, options [nop,nop,TS val 3542508783 ecr 631117433], length 60
+12:15:02.149164 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 573, win 2047, options [nop,nop,TS val 631117498 ecr 3542508783], length 0
+12:15:02.168386 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 573:633, ack 396, win 884, options [nop,nop,TS val 3542508805 ecr 631117462], length 60
+12:15:02.168415 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 633, win 2047, options [nop,nop,TS val 631117517 ecr 3542508805], length 0
+12:15:02.338702 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 396:432, ack 633, win 2048, options [nop,nop,TS val 631117686 ecr 3542508805], length 36
+12:15:02.339774 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 432:468, ack 633, win 2048, options [nop,nop,TS val 631117687 ecr 3542508805], length 36
+12:15:02.384216 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 468, win 884, options [nop,nop,TS val 3542509019 ecr 631117686], length 0
+12:15:02.402922 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 633:693, ack 468, win 884, options [nop,nop,TS val 3542509030 ecr 631117686], length 60
+12:15:02.402931 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 693:753, ack 468, win 884, options [nop,nop,TS val 3542509036 ecr 631117686], length 60
+12:15:02.402960 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 693, win 2047, options [nop,nop,TS val 631117749 ecr 3542509030], length 0
+12:15:02.402977 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 753, win 2046, options [nop,nop,TS val 631117749 ecr 3542509036], length 0
+12:15:02.509463 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 468:504, ack 753, win 2048, options [nop,nop,TS val 631117854 ecr 3542509036], length 36
+12:15:02.564828 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 753:813, ack 504, win 884, options [nop,nop,TS val 3542509201 ecr 631117854], length 60
+12:15:02.564857 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 813, win 2047, options [nop,nop,TS val 631117909 ecr 3542509201], length 0
+12:15:02.604267 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 504:540, ack 813, win 2048, options [nop,nop,TS val 631117948 ecr 3542509201], length 36
+12:15:02.659774 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 813:873, ack 540, win 884, options [nop,nop,TS val 3542509296 ecr 631117948], length 60
+12:15:02.659804 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 873, win 2047, options [nop,nop,TS val 631118002 ecr 3542509296], length 0
+12:15:02.836575 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 540:576, ack 873, win 2048, options [nop,nop,TS val 631118177 ecr 3542509296], length 36
+12:15:02.839858 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 576:612, ack 873, win 2048, options [nop,nop,TS val 631118180 ecr 3542509296], length 36
+12:15:02.881365 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 612, win 884, options [nop,nop,TS val 3542509517 ecr 631118177], length 0
+12:15:02.891824 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 873:933, ack 612, win 884, options [nop,nop,TS val 3542509528 ecr 631118177], length 60
+12:15:02.891858 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 933, win 2047, options [nop,nop,TS val 631118231 ecr 3542509528], length 0
+12:15:02.897219 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 933:993, ack 612, win 884, options [nop,nop,TS val 3542509533 ecr 631118177], length 60
+12:15:02.897253 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 993, win 2047, options [nop,nop,TS val 631118236 ecr 3542509533], length 0
+12:15:02.925689 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 612:648, ack 993, win 2048, options [nop,nop,TS val 631118264 ecr 3542509533], length 36
+12:15:02.981246 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 993:1053, ack 648, win 884, options [nop,nop,TS val 3542509618 ecr 631118264], length 60
+12:15:02.981277 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 1053, win 2047, options [nop,nop,TS val 631118319 ecr 3542509618], length 0
+12:15:03.423387 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 648:684, ack 1053, win 2048, options [nop,nop,TS val 631118759 ecr 3542509618], length 36
+12:15:03.508316 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 1053:1113, ack 684, win 884, options [nop,nop,TS val 3542510144 ecr 631118759], length 60
+12:15:03.508354 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 1113, win 2047, options [nop,nop,TS val 631118844 ecr 3542510144], length 0
+12:15:03.549215 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 684:720, ack 1113, win 2048, options [nop,nop,TS val 631118884 ecr 3542510144], length 36
+12:15:03.608255 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 1113:1173, ack 720, win 884, options [nop,nop,TS val 3542510244 ecr 631118884], length 60
+12:15:03.608298 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 1173, win 2047, options [nop,nop,TS val 631118943 ecr 3542510244], length 0
+12:15:03.872961 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 720:756, ack 1173, win 2048, options [nop,nop,TS val 631119205 ecr 3542510244], length 36
+12:15:03.939816 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 756:792, ack 1173, win 2048, options [nop,nop,TS val 631119271 ecr 3542510244], length 36
+12:15:03.940662 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 1173:1233, ack 756, win 884, options [nop,nop,TS val 3542510573 ecr 631119205], length 60
+12:15:03.940679 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 1233, win 2047, options [nop,nop,TS val 631119271 ecr 3542510573], length 0
+12:15:04.001071 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 1233:1293, ack 792, win 884, options [nop,nop,TS val 3542510637 ecr 631119271], length 60
+12:15:04.001100 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 1293, win 2047, options [nop,nop,TS val 631119332 ecr 3542510637], length 0
+12:15:04.255219 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 792:828, ack 1293, win 2048, options [nop,nop,TS val 631119585 ecr 3542510637], length 36
+12:15:04.264010 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 828:864, ack 1293, win 2048, options [nop,nop,TS val 631119593 ecr 3542510637], length 36
+12:15:04.310482 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 864, win 884, options [nop,nop,TS val 3542510941 ecr 631119585], length 0
+12:15:04.320617 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 1293:1353, ack 864, win 884, options [nop,nop,TS val 3542510953 ecr 631119585], length 60
+12:15:04.320666 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 1353, win 2047, options [nop,nop,TS val 631119649 ecr 3542510953], length 0
+12:15:04.322585 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 1353:1413, ack 864, win 884, options [nop,nop,TS val 3542510958 ecr 631119585], length 60
+12:15:04.322624 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 1413, win 2047, options [nop,nop,TS val 631119650 ecr 3542510958], length 0
+12:15:04.346204 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 864:900, ack 1413, win 2048, options [nop,nop,TS val 631119673 ecr 3542510958], length 36
+12:15:04.401541 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 1413:1473, ack 900, win 884, options [nop,nop,TS val 3542511037 ecr 631119673], length 60
+12:15:04.401569 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 1473, win 2047, options [nop,nop,TS val 631119728 ecr 3542511037], length 0
+12:15:05.008466 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 900:936, ack 1473, win 2048, options [nop,nop,TS val 631120330 ecr 3542511037], length 36
+12:15:05.069552 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 1473:1549, ack 936, win 884, options [nop,nop,TS val 3542511706 ecr 631120330], length 76
+12:15:05.069594 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 1549, win 2046, options [nop,nop,TS val 631120391 ecr 3542511706], length 0
+12:15:05.105033 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 936:972, ack 1549, win 2048, options [nop,nop,TS val 631120426 ecr 3542511706], length 36
+12:15:05.160719 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 1549:1609, ack 972, win 884, options [nop,nop,TS val 3542511797 ecr 631120426], length 60
+12:15:05.160749 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 1609, win 2047, options [nop,nop,TS val 631120481 ecr 3542511797], length 0
+12:15:05.399135 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 972:1008, ack 1609, win 2048, options [nop,nop,TS val 631120717 ecr 3542511797], length 36
+12:15:05.412422 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 1008:1044, ack 1609, win 2048, options [nop,nop,TS val 631120730 ecr 3542511797], length 36
+12:15:05.452426 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 1044, win 884, options [nop,nop,TS val 3542512089 ecr 631120717], length 0
+12:15:05.458552 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 1609:1669, ack 1044, win 884, options [nop,nop,TS val 3542512095 ecr 631120717], length 60
+12:15:05.458589 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 1669, win 2047, options [nop,nop,TS val 631120776 ecr 3542512095], length 0
+12:15:05.470329 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 1669:1729, ack 1044, win 884, options [nop,nop,TS val 3542512106 ecr 631120717], length 60
+12:15:05.470360 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 1729, win 2047, options [nop,nop,TS val 631120787 ecr 3542512106], length 0
+12:15:05.660040 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 1044:1080, ack 1729, win 2048, options [nop,nop,TS val 631120976 ecr 3542512106], length 36
+12:15:05.661243 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 1080:1116, ack 1729, win 2048, options [nop,nop,TS val 631120977 ecr 3542512106], length 36
+12:15:05.699929 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 1116, win 884, options [nop,nop,TS val 3542512336 ecr 631120976], length 0
+12:15:05.717615 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 1729:1789, ack 1116, win 884, options [nop,nop,TS val 3542512353 ecr 631120976], length 60
+12:15:05.717648 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 1789, win 2047, options [nop,nop,TS val 631121032 ecr 3542512353], length 0
+12:15:06.058583 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 1116:1152, ack 1789, win 2048, options [nop,nop,TS val 631121372 ecr 3542512353], length 36
+12:15:06.123015 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 1789:1849, ack 1152, win 884, options [nop,nop,TS val 3542512759 ecr 631121372], length 60
+12:15:06.123048 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 1849, win 2047, options [nop,nop,TS val 631121436 ecr 3542512759], length 0
+12:15:06.228136 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 1152:1188, ack 1849, win 2048, options [nop,nop,TS val 631121539 ecr 3542512759], length 36
+12:15:06.292907 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 1849:1909, ack 1188, win 884, options [nop,nop,TS val 3542512929 ecr 631121539], length 60
+12:15:06.292938 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 1909, win 2047, options [nop,nop,TS val 631121603 ecr 3542512929], length 0
+12:15:06.319752 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 1188:1224, ack 1909, win 2048, options [nop,nop,TS val 631121629 ecr 3542512929], length 36
+12:15:06.382073 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 1909:1969, ack 1224, win 884, options [nop,nop,TS val 3542513018 ecr 631121629], length 60
+12:15:06.382107 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 1969, win 2047, options [nop,nop,TS val 631121691 ecr 3542513018], length 0
+12:15:07.671942 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 1224:1260, ack 1969, win 2048, options [nop,nop,TS val 631122970 ecr 3542513018], length 36
+12:15:07.736810 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 1969:2029, ack 1260, win 884, options [nop,nop,TS val 3542514372 ecr 631122970], length 60
+12:15:07.736843 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 2029, win 2047, options [nop,nop,TS val 631123033 ecr 3542514372], length 0
+12:15:08.706372 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 1260:1296, ack 2029, win 2048, options [nop,nop,TS val 631124001 ecr 3542514372], length 36
+12:15:08.768568 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 2029:2089, ack 1296, win 884, options [nop,nop,TS val 3542515404 ecr 631124001], length 60
+12:15:08.768611 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 2089, win 2047, options [nop,nop,TS val 631124063 ecr 3542515404], length 0
+12:15:09.510355 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 1296:1332, ack 2089, win 2048, options [nop,nop,TS val 631124803 ecr 3542515404], length 36
+12:15:09.604013 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 2089:2149, ack 1332, win 884, options [nop,nop,TS val 3542516240 ecr 631124803], length 60
+12:15:09.604045 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 2149, win 2047, options [nop,nop,TS val 631124896 ecr 3542516240], length 0
+12:15:10.288565 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 1332:1368, ack 2149, win 2048, options [nop,nop,TS val 631125579 ecr 3542516240], length 36
+12:15:10.350580 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 2149:2209, ack 1368, win 884, options [nop,nop,TS val 3542516986 ecr 631125579], length 60
+12:15:10.350640 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 2209, win 2047, options [nop,nop,TS val 631125641 ecr 3542516986], length 0
+12:15:11.035177 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 1368:1404, ack 2209, win 2048, options [nop,nop,TS val 631126324 ecr 3542516986], length 36
+12:15:11.106923 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 2209:2269, ack 1404, win 884, options [nop,nop,TS val 3542517733 ecr 631126324], length 60
+12:15:11.106982 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 2269, win 2047, options [nop,nop,TS val 631126395 ecr 3542517733], length 0
+12:15:11.790337 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 1404:1440, ack 2269, win 2048, options [nop,nop,TS val 631127078 ecr 3542517733], length 36
+12:15:11.851269 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 2269:2329, ack 1440, win 884, options [nop,nop,TS val 3542518487 ecr 631127078], length 60
+12:15:11.851328 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 2329, win 2047, options [nop,nop,TS val 631127139 ecr 3542518487], length 0
+12:15:12.613953 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 1440:1476, ack 2329, win 2048, options [nop,nop,TS val 631127899 ecr 3542518487], length 36
+12:15:12.668729 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 2329:2389, ack 1476, win 884, options [nop,nop,TS val 3542519305 ecr 631127899], length 60
+12:15:12.668789 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 2389, win 2047, options [nop,nop,TS val 631127953 ecr 3542519305], length 0
+12:15:13.236401 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 1476:1512, ack 2389, win 2048, options [nop,nop,TS val 631128519 ecr 3542519305], length 36
+12:15:13.299901 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 2389:2449, ack 1512, win 884, options [nop,nop,TS val 3542519936 ecr 631128519], length 60
+12:15:13.299938 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 2449, win 2047, options [nop,nop,TS val 631128582 ecr 3542519936], length 0
+12:15:13.794200 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 1512:1548, ack 2449, win 2048, options [nop,nop,TS val 631129075 ecr 3542519936], length 36
+12:15:13.856605 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 2449:2509, ack 1548, win 884, options [nop,nop,TS val 3542520493 ecr 631129075], length 60
+12:15:13.856665 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 2509, win 2047, options [nop,nop,TS val 631129137 ecr 3542520493], length 0
+12:15:14.206082 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 1548:1584, ack 2509, win 2048, options [nop,nop,TS val 631129485 ecr 3542520493], length 36
+12:15:14.269485 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 2509:2569, ack 1584, win 884, options [nop,nop,TS val 3542520905 ecr 631129485], length 60
+12:15:14.269545 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 2569, win 2047, options [nop,nop,TS val 631129548 ecr 3542520905], length 0
+12:15:14.747089 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 1584:1620, ack 2569, win 2048, options [nop,nop,TS val 631130022 ecr 3542520905], length 36
+12:15:14.820197 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 2569:2629, ack 1620, win 884, options [nop,nop,TS val 3542521455 ecr 631130022], length 60
+12:15:14.820256 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 2629, win 2047, options [nop,nop,TS val 631130095 ecr 3542521455], length 0
+12:15:15.048243 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 1620:1656, ack 2629, win 2048, options [nop,nop,TS val 631130322 ecr 3542521455], length 36
+12:15:15.105085 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 2629:2689, ack 1656, win 884, options [nop,nop,TS val 3542521741 ecr 631130322], length 60
+12:15:15.105145 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 2689, win 2047, options [nop,nop,TS val 631130379 ecr 3542521741], length 0
+12:15:15.766781 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 1656:1692, ack 2689, win 2048, options [nop,nop,TS val 631131039 ecr 3542521741], length 36
+12:15:15.826461 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 2689:2749, ack 1692, win 884, options [nop,nop,TS val 3542522462 ecr 631131039], length 60
+12:15:15.826520 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 2749, win 2047, options [nop,nop,TS val 631131098 ecr 3542522462], length 0
+12:15:16.508479 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 1692:1728, ack 2749, win 2048, options [nop,nop,TS val 631131778 ecr 3542522462], length 36
+12:15:16.577738 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 2749:2809, ack 1728, win 884, options [nop,nop,TS val 3542523205 ecr 631131778], length 60
+12:15:16.577770 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 2809, win 2047, options [nop,nop,TS val 631131845 ecr 3542523205], length 0
+12:15:17.038985 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 1728:1764, ack 2809, win 2048, options [nop,nop,TS val 631132305 ecr 3542523205], length 36
+12:15:17.100070 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 2809:2869, ack 1764, win 884, options [nop,nop,TS val 3542523736 ecr 631132305], length 60
+12:15:17.100132 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 2869, win 2047, options [nop,nop,TS val 631132366 ecr 3542523736], length 0
+12:15:17.290670 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 1764:1800, ack 2869, win 2048, options [nop,nop,TS val 631132556 ecr 3542523736], length 36
+12:15:17.345576 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 2869:2929, ack 1800, win 884, options [nop,nop,TS val 3542523982 ecr 631132556], length 60
+12:15:17.345636 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 2929, win 2047, options [nop,nop,TS val 631132611 ecr 3542523982], length 0
+12:15:18.166811 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 1800:1836, ack 2929, win 2048, options [nop,nop,TS val 631133430 ecr 3542523982], length 36
+12:15:18.235543 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 2929:2989, ack 1836, win 884, options [nop,nop,TS val 3542524872 ecr 631133430], length 60
+12:15:18.235575 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 2989, win 2047, options [nop,nop,TS val 631133498 ecr 3542524872], length 0
+12:15:18.938872 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 1836:1872, ack 2989, win 2048, options [nop,nop,TS val 631134201 ecr 3542524872], length 36
+12:15:19.009058 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 2989:3049, ack 1872, win 884, options [nop,nop,TS val 3542525645 ecr 631134201], length 60
+12:15:19.009091 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 3049, win 2047, options [nop,nop,TS val 631134271 ecr 3542525645], length 0
+12:15:19.379797 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 1872:1908, ack 3049, win 2048, options [nop,nop,TS val 631134640 ecr 3542525645], length 36
+12:15:19.440441 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 3049:3109, ack 1908, win 884, options [nop,nop,TS val 3542526077 ecr 631134640], length 60
+12:15:19.440486 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 3109, win 2047, options [nop,nop,TS val 631134700 ecr 3542526077], length 0
+12:15:19.650816 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 1908:1944, ack 3109, win 2048, options [nop,nop,TS val 631134910 ecr 3542526077], length 36
+12:15:19.712103 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 3109:3169, ack 1944, win 884, options [nop,nop,TS val 3542526348 ecr 631134910], length 60
+12:15:19.712144 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 3169, win 2047, options [nop,nop,TS val 631134971 ecr 3542526348], length 0
+12:15:20.432190 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 1944:1980, ack 3169, win 2048, options [nop,nop,TS val 631135688 ecr 3542526348], length 36
+12:15:20.498087 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 3169:3229, ack 1980, win 884, options [nop,nop,TS val 3542527134 ecr 631135688], length 60
+12:15:20.498123 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 3229, win 2047, options [nop,nop,TS val 631135754 ecr 3542527134], length 0
+12:15:20.691419 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 1980:2016, ack 3229, win 2048, options [nop,nop,TS val 631135946 ecr 3542527134], length 36
+12:15:20.747562 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 3229:3289, ack 2016, win 884, options [nop,nop,TS val 3542527384 ecr 631135946], length 60
+12:15:20.747622 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 3289, win 2047, options [nop,nop,TS val 631136002 ecr 3542527384], length 0
+12:15:20.989710 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 2016:2052, ack 3289, win 2048, options [nop,nop,TS val 631136243 ecr 3542527384], length 36
+12:15:21.056149 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 3289:3349, ack 2052, win 884, options [nop,nop,TS val 3542527693 ecr 631136243], length 60
+12:15:21.056187 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 3349, win 2047, options [nop,nop,TS val 631136309 ecr 3542527693], length 0
+12:15:21.248503 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 2052:2088, ack 3349, win 2048, options [nop,nop,TS val 631136500 ecr 3542527693], length 36
+12:15:21.306308 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 3349:3409, ack 2088, win 884, options [nop,nop,TS val 3542527942 ecr 631136500], length 60
+12:15:21.306336 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 3409, win 2047, options [nop,nop,TS val 631136557 ecr 3542527942], length 0
+12:15:21.537225 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 2088:2124, ack 3409, win 2048, options [nop,nop,TS val 631136786 ecr 3542527942], length 36
+12:15:21.608195 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 3409:3469, ack 2124, win 884, options [nop,nop,TS val 3542528233 ecr 631136786], length 60
+12:15:21.608255 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 3469, win 2047, options [nop,nop,TS val 631136857 ecr 3542528233], length 0
+12:15:22.198980 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 2124:2160, ack 3469, win 2048, options [nop,nop,TS val 631137447 ecr 3542528233], length 36
+12:15:22.261380 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 3469:3529, ack 2160, win 884, options [nop,nop,TS val 3542528896 ecr 631137447], length 60
+12:15:22.261412 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 3529, win 2047, options [nop,nop,TS val 631137509 ecr 3542528896], length 0
+12:15:22.450191 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 2160:2196, ack 3529, win 2048, options [nop,nop,TS val 631137697 ecr 3542528896], length 36
+12:15:22.520514 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 3529:3589, ack 2196, win 884, options [nop,nop,TS val 3542529157 ecr 631137697], length 60
+12:15:22.520542 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 3589, win 2047, options [nop,nop,TS val 631137767 ecr 3542529157], length 0
+12:15:23.447164 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 2196:2232, ack 3589, win 2048, options [nop,nop,TS val 631138692 ecr 3542529157], length 36
+12:15:23.508334 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 3589:3649, ack 2232, win 884, options [nop,nop,TS val 3542530145 ecr 631138692], length 60
+12:15:23.508370 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 3649, win 2047, options [nop,nop,TS val 631138753 ecr 3542530145], length 0
+12:15:25.253904 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 2232:2268, ack 3649, win 2048, options [nop,nop,TS val 631140495 ecr 3542530145], length 36
+12:15:25.330291 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 3649:3709, ack 2268, win 884, options [nop,nop,TS val 3542531965 ecr 631140495], length 60
+12:15:25.330349 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 3709, win 2047, options [nop,nop,TS val 631140571 ecr 3542531965], length 0
+12:15:25.523617 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 2268:2304, ack 3709, win 2048, options [nop,nop,TS val 631140763 ecr 3542531965], length 36
+12:15:25.546340 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 2304:2340, ack 3709, win 2048, options [nop,nop,TS val 631140785 ecr 3542531965], length 36
+12:15:25.582028 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 3709:3769, ack 2304, win 884, options [nop,nop,TS val 3542532218 ecr 631140763], length 60
+12:15:25.582058 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 3769, win 2047, options [nop,nop,TS val 631140820 ecr 3542532218], length 0
+12:15:25.612957 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 3769:3829, ack 2340, win 884, options [nop,nop,TS val 3542532247 ecr 631140785], length 60
+12:15:25.612984 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 3829, win 2047, options [nop,nop,TS val 631140850 ecr 3542532247], length 0
+12:15:25.693840 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 2340:2376, ack 3829, win 2048, options [nop,nop,TS val 631140930 ecr 3542532247], length 36
+12:15:25.750404 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 3829:3889, ack 2376, win 884, options [nop,nop,TS val 3542532385 ecr 631140930], length 60
+12:15:25.750435 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 3889, win 2047, options [nop,nop,TS val 631140986 ecr 3542532385], length 0
+12:15:25.924216 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 2376:2412, ack 3889, win 2048, options [nop,nop,TS val 631141159 ecr 3542532385], length 36
+12:15:25.929353 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 2412:2448, ack 3889, win 2048, options [nop,nop,TS val 631141164 ecr 3542532385], length 36
+12:15:25.970471 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 2448, win 884, options [nop,nop,TS val 3542532606 ecr 631141159], length 0
+12:15:25.979613 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 3889:3949, ack 2448, win 884, options [nop,nop,TS val 3542532616 ecr 631141159], length 60
+12:15:25.979644 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 3949, win 2047, options [nop,nop,TS val 631141214 ecr 3542532616], length 0
+12:15:25.985699 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 3949:4009, ack 2448, win 884, options [nop,nop,TS val 3542532622 ecr 631141159], length 60
+12:15:25.985728 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 4009, win 2047, options [nop,nop,TS val 631141220 ecr 3542532622], length 0
+12:15:26.385134 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 2448:2484, ack 4009, win 2048, options [nop,nop,TS val 631141618 ecr 3542532622], length 36
+12:15:26.455224 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 4009:4069, ack 2484, win 884, options [nop,nop,TS val 3542533091 ecr 631141618], length 60
+12:15:26.455257 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 4069, win 2047, options [nop,nop,TS val 631141688 ecr 3542533091], length 0
+12:15:26.653215 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 2484:2520, ack 4069, win 2048, options [nop,nop,TS val 631141885 ecr 3542533091], length 36
+12:15:26.709092 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 4069:4129, ack 2520, win 884, options [nop,nop,TS val 3542533344 ecr 631141885], length 60
+12:15:26.709134 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 4129, win 2047, options [nop,nop,TS val 631141941 ecr 3542533344], length 0
+12:15:26.907546 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 2520:2556, ack 4129, win 2048, options [nop,nop,TS val 631142138 ecr 3542533344], length 36
+12:15:26.968511 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 4129:4189, ack 2556, win 884, options [nop,nop,TS val 3542533605 ecr 631142138], length 60
+12:15:26.968553 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 4189, win 2047, options [nop,nop,TS val 631142199 ecr 3542533605], length 0
+12:15:27.767549 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 2556:2592, ack 4189, win 2048, options [nop,nop,TS val 631142996 ecr 3542533605], length 36
+12:15:27.829747 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 4189:4249, ack 2592, win 884, options [nop,nop,TS val 3542534465 ecr 631142996], length 60
+12:15:27.829791 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 4249, win 2047, options [nop,nop,TS val 631143058 ecr 3542534465], length 0
+12:15:28.665409 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 2592:2628, ack 4249, win 2048, options [nop,nop,TS val 631143892 ecr 3542534465], length 36
+12:15:28.722029 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 4249:4309, ack 2628, win 884, options [nop,nop,TS val 3542535358 ecr 631143892], length 60
+12:15:28.722069 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 4309, win 2047, options [nop,nop,TS val 631143948 ecr 3542535358], length 0
+12:15:29.203439 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 2628:2664, ack 4309, win 2048, options [nop,nop,TS val 631144428 ecr 3542535358], length 36
+12:15:29.265453 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 4309:4369, ack 2664, win 884, options [nop,nop,TS val 3542535902 ecr 631144428], length 60
+12:15:29.265487 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 4369, win 2047, options [nop,nop,TS val 631144489 ecr 3542535902], length 0
+12:15:29.577388 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 2664:2700, ack 4369, win 2048, options [nop,nop,TS val 631144799 ecr 3542535902], length 36
+12:15:29.638062 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 4369:4429, ack 2700, win 884, options [nop,nop,TS val 3542536276 ecr 631144799], length 60
+12:15:29.638103 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 4429, win 2047, options [nop,nop,TS val 631144859 ecr 3542536276], length 0
+12:15:29.837322 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 2700:2736, ack 4429, win 2048, options [nop,nop,TS val 631145057 ecr 3542536276], length 36
+12:15:29.899722 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 4429:4489, ack 2736, win 884, options [nop,nop,TS val 3542536532 ecr 631145057], length 60
+12:15:29.899781 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 4489, win 2047, options [nop,nop,TS val 631145119 ecr 3542536532], length 0
+12:15:30.295674 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 2736:2772, ack 4489, win 2048, options [nop,nop,TS val 631145513 ecr 3542536532], length 36
+12:15:30.370078 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 4489:4549, ack 2772, win 884, options [nop,nop,TS val 3542537005 ecr 631145513], length 60
+12:15:30.370175 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 4549, win 2047, options [nop,nop,TS val 631145587 ecr 3542537005], length 0
+12:15:31.009613 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 2772:2808, ack 4549, win 2048, options [nop,nop,TS val 631146223 ecr 3542537005], length 36
+12:15:31.071190 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 4549:4609, ack 2808, win 884, options [nop,nop,TS val 3542537706 ecr 631146223], length 60
+12:15:31.071218 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 4609, win 2047, options [nop,nop,TS val 631146284 ecr 3542537706], length 0
+12:15:31.321838 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 2808:2844, ack 4609, win 2048, options [nop,nop,TS val 631146533 ecr 3542537706], length 36
+12:15:31.382881 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 4609:4669, ack 2844, win 884, options [nop,nop,TS val 3542538019 ecr 631146533], length 60
+12:15:31.382924 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 4669, win 2047, options [nop,nop,TS val 631146594 ecr 3542538019], length 0
+12:15:31.884418 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 2844:2880, ack 4669, win 2048, options [nop,nop,TS val 631147094 ecr 3542538019], length 36
+12:15:31.950007 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 4669:4729, ack 2880, win 884, options [nop,nop,TS val 3542538586 ecr 631147094], length 60
+12:15:31.950039 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 4729, win 2047, options [nop,nop,TS val 631147159 ecr 3542538586], length 0
+12:15:32.159118 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 2880:2916, ack 4729, win 2048, options [nop,nop,TS val 631147367 ecr 3542538586], length 36
+12:15:32.219386 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 4729:4789, ack 2916, win 884, options [nop,nop,TS val 3542538855 ecr 631147367], length 60
+12:15:32.219427 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 4789, win 2047, options [nop,nop,TS val 631147427 ecr 3542538855], length 0
+12:15:32.471981 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 2916:2952, ack 4789, win 2048, options [nop,nop,TS val 631147678 ecr 3542538855], length 36
+12:15:32.539021 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 4789:4849, ack 2952, win 884, options [nop,nop,TS val 3542539175 ecr 631147678], length 60
+12:15:32.539092 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 4849, win 2047, options [nop,nop,TS val 631147745 ecr 3542539175], length 0
+12:15:32.766491 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 2952:2988, ack 4849, win 2048, options [nop,nop,TS val 631147971 ecr 3542539175], length 36
+12:15:32.991590 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 2952:2988, ack 4849, win 2048, options [nop,nop,TS val 631148195 ecr 3542539175], length 36
+12:15:33.075624 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 2988:3024, ack 4849, win 2048, options [nop,nop,TS val 631148278 ecr 3542539175], length 36
+12:15:33.083211 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 4849:4909, ack 2988, win 884, options [nop,nop,TS val 3542539466 ecr 631147971], length 60
+12:15:33.083244 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 4909, win 2047, options [nop,nop,TS val 631148285 ecr 3542539466], length 0
+12:15:33.087555 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 4849:4909, ack 2988, win 884, options [nop,nop,TS val 3542539712 ecr 631147971], length 60
+12:15:33.087590 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 4909, win 2048, options [nop,nop,TS val 631148289 ecr 3542539712,nop,nop,sack 1 {4849:4909}], length 0
+12:15:33.125436 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 2988, win 884, options [nop,nop,TS val 3542539762 ecr 631148195,nop,nop,sack 1 {2952:2988}], length 0
+12:15:33.176458 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 3024, win 884, options [nop,nop,TS val 3542539767 ecr 631148278], length 0
+12:15:33.185760 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 4909:4969, ack 3024, win 884, options [nop,nop,TS val 3542539784 ecr 631148289], length 60
+12:15:33.185783 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 4969, win 2047, options [nop,nop,TS val 631148386 ecr 3542539784], length 0
+12:15:33.857038 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 3024:3060, ack 4969, win 2048, options [nop,nop,TS val 631149056 ecr 3542539784], length 36
+12:15:34.025860 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 3060, win 884, options [nop,nop,TS val 3542540662 ecr 631149056], length 0
+12:15:34.171331 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 4969:5029, ack 3060, win 884, options [nop,nop,TS val 3542540679 ecr 631149056], length 60
+12:15:34.171379 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 5029, win 2047, options [nop,nop,TS val 631149369 ecr 3542540679], length 0
+12:15:34.362485 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 3060:3096, ack 5029, win 2048, options [nop,nop,TS val 631149559 ecr 3542540679], length 36
+12:15:34.484461 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 3096:3132, ack 5029, win 2048, options [nop,nop,TS val 631149680 ecr 3542540679], length 36
+12:15:34.538060 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 3096, win 884, options [nop,nop,TS val 3542541040 ecr 631149559], length 0
+12:15:34.541422 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 5029:5089, ack 3096, win 884, options [nop,nop,TS val 3542541057 ecr 631149559], length 60
+12:15:34.541444 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 5089, win 2047, options [nop,nop,TS val 631149735 ecr 3542541057], length 0
+12:15:34.686004 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 5089:5149, ack 3132, win 884, options [nop,nop,TS val 3542541256 ecr 631149680], length 60
+12:15:34.686037 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 5149, win 2047, options [nop,nop,TS val 631149878 ecr 3542541256], length 0
+12:15:34.756812 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 3132:3168, ack 5149, win 2048, options [nop,nop,TS val 631149948 ecr 3542541256], length 36
+12:15:34.857189 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 3168:3204, ack 5149, win 2048, options [nop,nop,TS val 631150047 ecr 3542541256], length 36
+12:15:34.863117 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 3204:3240, ack 5149, win 2048, options [nop,nop,TS val 631150052 ecr 3542541256], length 36
+12:15:35.060577 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 3240, win 884, options [nop,nop,TS val 3542541552 ecr 631149948], length 0
+12:15:35.060590 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 5149:5209, ack 3240, win 884, options [nop,nop,TS val 3542541562 ecr 631149948], length 60
+12:15:35.060592 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 5209:5269, ack 3240, win 884, options [nop,nop,TS val 3542541569 ecr 631149948], length 60
+12:15:35.060649 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 5209, win 2047, options [nop,nop,TS val 631150249 ecr 3542541562], length 0
+12:15:35.060658 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 5269, win 2046, options [nop,nop,TS val 631150249 ecr 3542541569], length 0
+12:15:35.098231 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 3240:3276, ack 5269, win 2048, options [nop,nop,TS val 631150286 ecr 3542541569], length 36
+12:15:35.238193 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 5269:5329, ack 3276, win 884, options [nop,nop,TS val 3542541793 ecr 631150286], length 60
+12:15:35.238237 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 5329, win 2047, options [nop,nop,TS val 631150425 ecr 3542541793], length 0
+12:15:37.427978 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 3276:3312, ack 5329, win 2048, options [nop,nop,TS val 631152607 ecr 3542541793], length 36
+12:15:37.491897 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 5329:5389, ack 3312, win 884, options [nop,nop,TS val 3542544126 ecr 631152607], length 60
+12:15:37.491927 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 5389, win 2047, options [nop,nop,TS val 631152670 ecr 3542544126], length 0
+12:15:37.673025 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 3312:3348, ack 5389, win 2048, options [nop,nop,TS val 631152850 ecr 3542544126], length 36
+12:15:37.730532 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 5389:5449, ack 3348, win 884, options [nop,nop,TS val 3542544367 ecr 631152850], length 60
+12:15:37.730560 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 5449, win 2047, options [nop,nop,TS val 631152907 ecr 3542544367], length 0
+12:15:38.021463 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 3348:3384, ack 5449, win 2048, options [nop,nop,TS val 631153196 ecr 3542544367], length 36
+12:15:38.091510 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 5449:5509, ack 3384, win 884, options [nop,nop,TS val 3542544726 ecr 631153196], length 60
+12:15:38.091568 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 5509, win 2047, options [nop,nop,TS val 631153265 ecr 3542544726], length 0
+12:15:38.130793 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 3384:3420, ack 5509, win 2048, options [nop,nop,TS val 631153303 ecr 3542544726], length 36
+12:15:38.195107 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 5509:5569, ack 3420, win 884, options [nop,nop,TS val 3542544823 ecr 631153303], length 60
+12:15:38.195136 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 5569, win 2047, options [nop,nop,TS val 631153366 ecr 3542544823], length 0
+12:15:38.474281 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 3420:3456, ack 5569, win 2048, options [nop,nop,TS val 631153644 ecr 3542544823], length 36
+12:15:38.476730 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 3456:3492, ack 5569, win 2048, options [nop,nop,TS val 631153646 ecr 3542544823], length 36
+12:15:38.525448 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 3492, win 884, options [nop,nop,TS val 3542545161 ecr 631153644], length 0
+12:15:38.531058 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 3492:3528, ack 5569, win 2048, options [nop,nop,TS val 631153698 ecr 3542545161], length 36
+12:15:38.541609 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 5569:5629, ack 3492, win 884, options [nop,nop,TS val 3542545178 ecr 631153644], length 60
+12:15:38.541624 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 5629, win 2047, options [nop,nop,TS val 631153708 ecr 3542545178], length 0
+12:15:38.595554 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 5629:5689, ack 3528, win 884, options [nop,nop,TS val 3542545232 ecr 631153698], length 60
+12:15:38.595595 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 5689, win 2047, options [nop,nop,TS val 631153761 ecr 3542545232], length 0
+12:15:39.683599 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 3528:3564, ack 5689, win 2048, options [nop,nop,TS val 631154847 ecr 3542545232], length 36
+12:15:39.750230 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 5689:5749, ack 3564, win 884, options [nop,nop,TS val 3542546381 ecr 631154847], length 60
+12:15:39.750290 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 5749, win 2047, options [nop,nop,TS val 631154913 ecr 3542546381], length 0
+12:15:39.945428 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 3564:3600, ack 5749, win 2048, options [nop,nop,TS val 631155106 ecr 3542546381], length 36
+12:15:39.966385 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 3600:3636, ack 5749, win 2048, options [nop,nop,TS val 631155126 ecr 3542546381], length 36
+12:15:40.013946 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 5749:5809, ack 3600, win 884, options [nop,nop,TS val 3542546651 ecr 631155106], length 60
+12:15:40.013976 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 5809, win 2047, options [nop,nop,TS val 631155173 ecr 3542546651], length 0
+12:15:40.037054 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 5809:5869, ack 3636, win 884, options [nop,nop,TS val 3542546670 ecr 631155126], length 60
+12:15:40.037087 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 5869, win 2047, options [nop,nop,TS val 631155195 ecr 3542546670], length 0
+12:15:40.273669 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 3636:3672, ack 5869, win 2048, options [nop,nop,TS val 631155431 ecr 3542546670], length 36
+12:15:40.332748 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 5869:5929, ack 3672, win 884, options [nop,nop,TS val 3542546969 ecr 631155431], length 60
+12:15:40.332779 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 5929, win 2047, options [nop,nop,TS val 631155490 ecr 3542546969], length 0
+12:15:40.800126 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 3672:3708, ack 5929, win 2048, options [nop,nop,TS val 631155956 ecr 3542546969], length 36
+12:15:40.866119 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 5929:5989, ack 3708, win 884, options [nop,nop,TS val 3542547500 ecr 631155956], length 60
+12:15:40.866149 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 5989, win 2047, options [nop,nop,TS val 631156021 ecr 3542547500], length 0
+12:15:41.060321 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 3708:3744, ack 5989, win 2048, options [nop,nop,TS val 631156215 ecr 3542547500], length 36
+12:15:41.082076 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 3744:3780, ack 5989, win 2048, options [nop,nop,TS val 631156236 ecr 3542547500], length 36
+12:15:41.115150 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 5989:6049, ack 3744, win 884, options [nop,nop,TS val 3542547752 ecr 631156215], length 60
+12:15:41.115181 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 6049, win 2047, options [nop,nop,TS val 631156269 ecr 3542547752], length 0
+12:15:41.138050 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 6049:6109, ack 3780, win 884, options [nop,nop,TS val 3542547774 ecr 631156236], length 60
+12:15:41.138109 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 6109, win 2047, options [nop,nop,TS val 631156291 ecr 3542547774], length 0
+12:15:41.312768 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 3780:3816, ack 6109, win 2048, options [nop,nop,TS val 631156464 ecr 3542547774], length 36
+12:15:41.386799 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 6109:6169, ack 3816, win 884, options [nop,nop,TS val 3542548021 ecr 631156464], length 60
+12:15:41.386835 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 6169, win 2047, options [nop,nop,TS val 631156538 ecr 3542548021], length 0
+12:15:41.586134 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 3816:3852, ack 6169, win 2048, options [nop,nop,TS val 631156736 ecr 3542548021], length 36
+12:15:41.645703 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 6169:6229, ack 3852, win 884, options [nop,nop,TS val 3542548282 ecr 631156736], length 60
+12:15:41.645734 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 6229, win 2047, options [nop,nop,TS val 631156795 ecr 3542548282], length 0
+12:15:41.840146 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 3852:3888, ack 6229, win 2048, options [nop,nop,TS val 631156988 ecr 3542548282], length 36
+12:15:41.841131 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 3888:3924, ack 6229, win 2048, options [nop,nop,TS val 631156989 ecr 3542548282], length 36
+12:15:41.909953 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 3924, win 884, options [nop,nop,TS val 3542548528 ecr 631156988], length 0
+12:15:41.909965 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 6229:6289, ack 3924, win 884, options [nop,nop,TS val 3542548540 ecr 631156988], length 60
+12:15:41.910017 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 6289, win 2047, options [nop,nop,TS val 631157057 ecr 3542548540], length 0
+12:15:41.912858 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 6289:6349, ack 3924, win 884, options [nop,nop,TS val 3542548545 ecr 631156988], length 60
+12:15:41.912912 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 6349, win 2047, options [nop,nop,TS val 631157059 ecr 3542548545], length 0
+12:15:42.110466 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 3924:3960, ack 6349, win 2048, options [nop,nop,TS val 631157256 ecr 3542548545], length 36
+12:15:42.111385 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 3960:3996, ack 6349, win 2048, options [nop,nop,TS val 631157257 ecr 3542548545], length 36
+12:15:42.153700 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 3996, win 884, options [nop,nop,TS val 3542548790 ecr 631157256], length 0
+12:15:42.166112 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 6349:6409, ack 3996, win 884, options [nop,nop,TS val 3542548803 ecr 631157256], length 60
+12:15:42.166138 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 6409, win 2047, options [nop,nop,TS val 631157311 ecr 3542548803], length 0
+12:15:42.169986 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 6409:6469, ack 3996, win 884, options [nop,nop,TS val 3542548807 ecr 631157256], length 60
+12:15:42.170015 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 6469, win 2047, options [nop,nop,TS val 631157314 ecr 3542548807], length 0
+12:15:42.394624 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 3996:4032, ack 6469, win 2048, options [nop,nop,TS val 631157538 ecr 3542548807], length 36
+12:15:42.449718 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 6469:6529, ack 4032, win 884, options [nop,nop,TS val 3542549087 ecr 631157538], length 60
+12:15:42.449781 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 6529, win 2047, options [nop,nop,TS val 631157593 ecr 3542549087], length 0
+12:15:42.557406 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 4032:4068, ack 6529, win 2048, options [nop,nop,TS val 631157700 ecr 3542549087], length 36
+12:15:42.616589 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 6529:6589, ack 4068, win 884, options [nop,nop,TS val 3542549249 ecr 631157700], length 60
+12:15:42.616617 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 6589, win 2047, options [nop,nop,TS val 631157759 ecr 3542549249], length 0
+12:15:42.645475 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 4068:4104, ack 6589, win 2048, options [nop,nop,TS val 631157787 ecr 3542549249], length 36
+12:15:42.646617 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 4104:4140, ack 6589, win 2048, options [nop,nop,TS val 631157788 ecr 3542549249], length 36
+12:15:42.688662 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 4140, win 884, options [nop,nop,TS val 3542549325 ecr 631157787], length 0
+12:15:42.700094 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 6589:6649, ack 4140, win 884, options [nop,nop,TS val 3542549337 ecr 631157787], length 60
+12:15:42.700119 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 6649, win 2047, options [nop,nop,TS val 631157840 ecr 3542549337], length 0
+12:15:42.705230 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 6649:6709, ack 4140, win 884, options [nop,nop,TS val 3542549342 ecr 631157787], length 60
+12:15:42.705242 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 6709, win 2047, options [nop,nop,TS val 631157845 ecr 3542549342], length 0
+12:15:43.454473 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 4140:4176, ack 6709, win 2048, options [nop,nop,TS val 631158593 ecr 3542549342], length 36
+12:15:43.519291 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 6709:6769, ack 4176, win 884, options [nop,nop,TS val 3542550156 ecr 631158593], length 60
+12:15:43.519353 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 6769, win 2047, options [nop,nop,TS val 631158657 ecr 3542550156], length 0
+12:15:43.710653 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 4176:4212, ack 6769, win 2048, options [nop,nop,TS val 631158847 ecr 3542550156], length 36
+12:15:43.743998 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 4212:4248, ack 6769, win 2048, options [nop,nop,TS val 631158880 ecr 3542550156], length 36
+12:15:43.767443 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 6769:6829, ack 4212, win 884, options [nop,nop,TS val 3542550404 ecr 631158847], length 60
+12:15:43.767486 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 6829, win 2047, options [nop,nop,TS val 631158903 ecr 3542550404], length 0
+12:15:43.804997 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 6829:6889, ack 4248, win 884, options [nop,nop,TS val 3542550442 ecr 631158880], length 60
+12:15:43.805029 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 6889, win 2047, options [nop,nop,TS val 631158940 ecr 3542550442], length 0
+12:15:43.879386 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 4248:4284, ack 6889, win 2048, options [nop,nop,TS val 631159013 ecr 3542550442], length 36
+12:15:43.943376 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 6889:6949, ack 4284, win 884, options [nop,nop,TS val 3542550576 ecr 631159013], length 60
+12:15:43.943405 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 6949, win 2047, options [nop,nop,TS val 631159077 ecr 3542550576], length 0
+12:15:44.967887 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 4284:4320, ack 6949, win 2048, options [nop,nop,TS val 631160099 ecr 3542550576], length 36
+12:15:45.030042 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 6949:7009, ack 4320, win 884, options [nop,nop,TS val 3542551667 ecr 631160099], length 60
+12:15:45.030075 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 7009, win 2047, options [nop,nop,TS val 631160161 ecr 3542551667], length 0
+12:15:46.285637 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 4320:4356, ack 7009, win 2048, options [nop,nop,TS val 631161415 ecr 3542551667], length 36
+12:15:46.350890 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 7009:7069, ack 4356, win 884, options [nop,nop,TS val 3542552987 ecr 631161415], length 60
+12:15:46.350927 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 7069, win 2047, options [nop,nop,TS val 631161480 ecr 3542552987], length 0
+12:15:46.563924 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 4356:4392, ack 7069, win 2048, options [nop,nop,TS val 631161692 ecr 3542552987], length 36
+12:15:46.618917 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 7069:7129, ack 4392, win 884, options [nop,nop,TS val 3542553255 ecr 631161692], length 60
+12:15:46.618960 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 7129, win 2047, options [nop,nop,TS val 631161747 ecr 3542553255], length 0
+12:15:46.639908 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 4392:4428, ack 7129, win 2048, options [nop,nop,TS val 631161767 ecr 3542553255], length 36
+12:15:46.711188 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 7129:7189, ack 4428, win 884, options [nop,nop,TS val 3542553348 ecr 631161767], length 60
+12:15:46.711220 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 7189, win 2047, options [nop,nop,TS val 631161838 ecr 3542553348], length 0
+12:15:47.111954 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 4428:4464, ack 7189, win 2048, options [nop,nop,TS val 631162237 ecr 3542553348], length 36
+12:15:47.174457 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 7189:7249, ack 4464, win 884, options [nop,nop,TS val 3542553811 ecr 631162237], length 60
+12:15:47.174484 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 7249, win 2047, options [nop,nop,TS val 631162299 ecr 3542553811], length 0
+12:15:47.201427 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 4464:4500, ack 7249, win 2048, options [nop,nop,TS val 631162325 ecr 3542553811], length 36
+12:15:47.265763 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 7249:7309, ack 4500, win 884, options [nop,nop,TS val 3542553902 ecr 631162325], length 60
+12:15:47.265795 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 7309, win 2047, options [nop,nop,TS val 631162388 ecr 3542553902], length 0
+12:15:47.367029 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 4500:4536, ack 7309, win 2048, options [nop,nop,TS val 631162487 ecr 3542553902], length 36
+12:15:47.429660 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 7309:7369, ack 4536, win 884, options [nop,nop,TS val 3542554067 ecr 631162487], length 60
+12:15:47.429690 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 7369, win 2047, options [nop,nop,TS val 631162549 ecr 3542554067], length 0
+12:15:47.599348 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 4536:4572, ack 7369, win 2048, options [nop,nop,TS val 631162718 ecr 3542554067], length 36
+12:15:47.600374 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 4572:4608, ack 7369, win 2048, options [nop,nop,TS val 631162719 ecr 3542554067], length 36
+12:15:47.648063 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 4608, win 884, options [nop,nop,TS val 3542554284 ecr 631162718], length 0
+12:15:47.665936 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 7369:7429, ack 4608, win 884, options [nop,nop,TS val 3542554301 ecr 631162718], length 60
+12:15:47.665963 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 7429, win 2047, options [nop,nop,TS val 631162783 ecr 3542554301], length 0
+12:15:47.859416 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 4608:4644, ack 7429, win 2048, options [nop,nop,TS val 631162975 ecr 3542554301], length 36
+12:15:47.922048 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 7429:7489, ack 4644, win 884, options [nop,nop,TS val 3542554557 ecr 631162975], length 60
+12:15:47.922080 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 7489, win 2047, options [nop,nop,TS val 631163037 ecr 3542554557], length 0
+12:15:48.145354 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 4644:4680, ack 7489, win 2048, options [nop,nop,TS val 631163259 ecr 3542554557], length 36
+12:15:48.211338 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 7489:7549, ack 4680, win 884, options [nop,nop,TS val 3542554844 ecr 631163259], length 60
+12:15:48.211366 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 7549, win 2047, options [nop,nop,TS val 631163325 ecr 3542554844], length 0
+12:15:48.231326 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 4680:4716, ack 7549, win 2048, options [nop,nop,TS val 631163344 ecr 3542554844], length 36
+12:15:48.291467 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 7549:7609, ack 4716, win 884, options [nop,nop,TS val 3542554928 ecr 631163344], length 60
+12:15:48.291496 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 7609, win 2047, options [nop,nop,TS val 631163403 ecr 3542554928], length 0
+12:15:48.533820 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 4716:4752, ack 7609, win 2048, options [nop,nop,TS val 631163643 ecr 3542554928], length 36
+12:15:48.546387 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 4752:4788, ack 7609, win 2048, options [nop,nop,TS val 631163655 ecr 3542554928], length 36
+12:15:48.595405 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 4788, win 884, options [nop,nop,TS val 3542555232 ecr 631163643], length 0
+12:15:48.612040 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 7609:7669, ack 4788, win 884, options [nop,nop,TS val 3542555248 ecr 631163643], length 60
+12:15:48.612067 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 7669, win 2047, options [nop,nop,TS val 631163720 ecr 3542555248], length 0
+12:15:48.646562 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 4788:4824, ack 7669, win 2048, options [nop,nop,TS val 631163753 ecr 3542555248], length 36
+12:15:48.700817 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 7669:7729, ack 4824, win 884, options [nop,nop,TS val 3542555338 ecr 631163753], length 60
+12:15:48.700846 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 7729, win 2047, options [nop,nop,TS val 631163807 ecr 3542555338], length 0
+12:15:48.935141 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 4824:4860, ack 7729, win 2048, options [nop,nop,TS val 631164039 ecr 3542555338], length 36
+12:15:48.940789 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 4860:4896, ack 7729, win 2048, options [nop,nop,TS val 631164044 ecr 3542555338], length 36
+12:15:48.980455 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 4896, win 884, options [nop,nop,TS val 3542555615 ecr 631164039], length 0
+12:15:48.990738 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 7729:7789, ack 4896, win 884, options [nop,nop,TS val 3542555627 ecr 631164039], length 60
+12:15:48.990761 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 7789, win 2047, options [nop,nop,TS val 631164093 ecr 3542555627], length 0
+12:15:48.995001 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 7789:7849, ack 4896, win 884, options [nop,nop,TS val 3542555632 ecr 631164039], length 60
+12:15:48.995016 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 7849, win 2047, options [nop,nop,TS val 631164097 ecr 3542555632], length 0
+12:15:49.013093 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 4896:4932, ack 7849, win 2048, options [nop,nop,TS val 631164114 ecr 3542555632], length 36
+12:15:49.070433 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 7849:7909, ack 4932, win 884, options [nop,nop,TS val 3542555706 ecr 631164114], length 60
+12:15:49.070487 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 7909, win 2047, options [nop,nop,TS val 631164171 ecr 3542555706], length 0
+12:15:49.488247 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 4932:4968, ack 7909, win 2048, options [nop,nop,TS val 631164585 ecr 3542555706], length 36
+12:15:49.554990 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 7909:7969, ack 4968, win 884, options [nop,nop,TS val 3542556186 ecr 631164585], length 60
+12:15:49.555024 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 7969, win 2047, options [nop,nop,TS val 631164651 ecr 3542556186], length 0
+12:15:49.806344 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 4968:5004, ack 7969, win 2048, options [nop,nop,TS val 631164902 ecr 3542556186], length 36
+12:15:49.870007 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 7969:8029, ack 5004, win 884, options [nop,nop,TS val 3542556507 ecr 631164902], length 60
+12:15:49.870043 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 8029, win 2047, options [nop,nop,TS val 631164965 ecr 3542556507], length 0
+12:15:50.068463 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 5004:5040, ack 8029, win 2048, options [nop,nop,TS val 631165163 ecr 3542556507], length 36
+12:15:50.069432 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 5040:5076, ack 8029, win 2048, options [nop,nop,TS val 631165164 ecr 3542556507], length 36
+12:15:50.120576 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 5076, win 884, options [nop,nop,TS val 3542556756 ecr 631165163], length 0
+12:15:50.136021 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 8029:8089, ack 5076, win 884, options [nop,nop,TS val 3542556773 ecr 631165163], length 60
+12:15:50.136046 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 8089, win 2047, options [nop,nop,TS val 631165230 ecr 3542556773], length 0
+12:15:50.244629 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 5076:5112, ack 8089, win 2048, options [nop,nop,TS val 631165337 ecr 3542556773], length 36
+12:15:50.306880 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 8089:8149, ack 5112, win 884, options [nop,nop,TS val 3542556937 ecr 631165337], length 60
+12:15:50.306910 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 8149, win 2047, options [nop,nop,TS val 631165398 ecr 3542556937], length 0
+12:15:50.341934 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 5112:5148, ack 8149, win 2048, options [nop,nop,TS val 631165432 ecr 3542556937], length 36
+12:15:50.397695 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 8149:8209, ack 5148, win 884, options [nop,nop,TS val 3542557035 ecr 631165432], length 60
+12:15:50.397724 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 8209, win 2047, options [nop,nop,TS val 631165487 ecr 3542557035], length 0
+12:15:50.628024 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 5148:5184, ack 8209, win 2048, options [nop,nop,TS val 631165716 ecr 3542557035], length 36
+12:15:50.630928 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 5184:5220, ack 8209, win 2048, options [nop,nop,TS val 631165718 ecr 3542557035], length 36
+12:15:50.673926 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 5220, win 884, options [nop,nop,TS val 3542557311 ecr 631165716], length 0
+12:15:50.686274 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 8209:8269, ack 5220, win 884, options [nop,nop,TS val 3542557322 ecr 631165716], length 60
+12:15:50.686307 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 8269, win 2047, options [nop,nop,TS val 631165773 ecr 3542557322], length 0
+12:15:50.690618 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 8269:8329, ack 5220, win 884, options [nop,nop,TS val 3542557327 ecr 631165716], length 60
+12:15:50.690660 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 8329, win 2047, options [nop,nop,TS val 631165777 ecr 3542557327], length 0
+12:15:50.693078 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 5220:5256, ack 8329, win 2048, options [nop,nop,TS val 631165779 ecr 3542557327], length 36
+12:15:50.761225 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 8329:8389, ack 5256, win 884, options [nop,nop,TS val 3542557398 ecr 631165779], length 60
+12:15:50.761255 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 8389, win 2047, options [nop,nop,TS val 631165846 ecr 3542557398], length 0
+12:15:51.013158 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 5256:5292, ack 8389, win 2048, options [nop,nop,TS val 631166096 ecr 3542557398], length 36
+12:15:51.016211 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 5292:5328, ack 8389, win 2048, options [nop,nop,TS val 631166099 ecr 3542557398], length 36
+12:15:51.059903 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 5328:5364, ack 8389, win 2048, options [nop,nop,TS val 631166142 ecr 3542557398], length 36
+12:15:51.059985 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 5328, win 884, options [nop,nop,TS val 3542557697 ecr 631166096], length 0
+12:15:51.077291 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 8389:8449, ack 5328, win 884, options [nop,nop,TS val 3542557714 ecr 631166096], length 60
+12:15:51.077325 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 8449, win 2047, options [nop,nop,TS val 631166159 ecr 3542557714], length 0
+12:15:51.114906 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 8449:8509, ack 5364, win 884, options [nop,nop,TS val 3542557752 ecr 631166142], length 60
+12:15:51.114937 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 8509, win 2047, options [nop,nop,TS val 631166196 ecr 3542557752], length 0
+12:15:51.282273 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 5364:5400, ack 8509, win 2048, options [nop,nop,TS val 631166362 ecr 3542557752], length 36
+12:15:51.345902 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 8509:8569, ack 5400, win 884, options [nop,nop,TS val 3542557982 ecr 631166362], length 60
+12:15:51.345940 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 8569, win 2047, options [nop,nop,TS val 631166425 ecr 3542557982], length 0
+12:15:51.542744 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 5400:5436, ack 8569, win 2048, options [nop,nop,TS val 631166621 ecr 3542557982], length 36
+12:15:51.547727 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 5436:5472, ack 8569, win 2048, options [nop,nop,TS val 631166626 ecr 3542557982], length 36
+12:15:51.590748 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 5472, win 884, options [nop,nop,TS val 3542558227 ecr 631166621], length 0
+12:15:51.608058 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 8569:8629, ack 5472, win 884, options [nop,nop,TS val 3542558244 ecr 631166621], length 60
+12:15:51.608107 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 8629, win 2047, options [nop,nop,TS val 631166686 ecr 3542558244], length 0
+12:15:51.626774 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 5472:5508, ack 8629, win 2048, options [nop,nop,TS val 631166704 ecr 3542558244], length 36
+12:15:51.711352 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 8629:8689, ack 5508, win 884, options [nop,nop,TS val 3542558327 ecr 631166704], length 60
+12:15:51.711435 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 8689, win 2047, options [nop,nop,TS val 631166787 ecr 3542558327], length 0
+12:15:51.835155 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 5508:5544, ack 8689, win 2048, options [nop,nop,TS val 631166908 ecr 3542558327], length 36
+12:15:51.891657 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 8689:8749, ack 5544, win 884, options [nop,nop,TS val 3542558529 ecr 631166908], length 60
+12:15:51.891686 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 8749, win 2047, options [nop,nop,TS val 631166964 ecr 3542558529], length 0
+12:15:52.073712 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 5544:5580, ack 8749, win 2048, options [nop,nop,TS val 631167144 ecr 3542558529], length 36
+12:15:52.076052 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 5580:5616, ack 8749, win 2048, options [nop,nop,TS val 631167146 ecr 3542558529], length 36
+12:15:52.116993 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 5616, win 884, options [nop,nop,TS val 3542558751 ecr 631167144], length 0
+12:15:52.149555 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 8749:8809, ack 5616, win 884, options [nop,nop,TS val 3542558768 ecr 631167144], length 60
+12:15:52.149592 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 8809, win 2047, options [nop,nop,TS val 631167219 ecr 3542558768], length 0
+12:15:53.304903 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 5616:5652, ack 8809, win 2048, options [nop,nop,TS val 631168371 ecr 3542558768], length 36
+12:15:53.361972 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 8809:8869, ack 5652, win 884, options [nop,nop,TS val 3542559998 ecr 631168371], length 60
+12:15:53.362008 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 8869, win 2047, options [nop,nop,TS val 631168428 ecr 3542559998], length 0
+12:15:53.553056 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 5652:5688, ack 8869, win 2048, options [nop,nop,TS val 631168618 ecr 3542559998], length 36
+12:15:53.608839 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 8869:8929, ack 5688, win 884, options [nop,nop,TS val 3542560245 ecr 631168618], length 60
+12:15:53.608875 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 8929, win 2047, options [nop,nop,TS val 631168673 ecr 3542560245], length 0
+12:15:53.927748 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 5688:5724, ack 8929, win 2048, options [nop,nop,TS val 631168990 ecr 3542560245], length 36
+12:15:53.992702 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 8929:8989, ack 5724, win 884, options [nop,nop,TS val 3542560630 ecr 631168990], length 60
+12:15:53.992735 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 8989, win 2047, options [nop,nop,TS val 631169054 ecr 3542560630], length 0
+12:15:54.182736 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 5724:5760, ack 8989, win 2048, options [nop,nop,TS val 631169239 ecr 3542560630], length 36
+12:15:54.215855 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 5760:5796, ack 8989, win 2048, options [nop,nop,TS val 631169272 ecr 3542560630], length 36
+12:15:54.243260 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 8989:9049, ack 5760, win 884, options [nop,nop,TS val 3542560881 ecr 631169239], length 60
+12:15:54.243294 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 9049, win 2047, options [nop,nop,TS val 631169299 ecr 3542560881], length 0
+12:15:54.283396 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 9049:9109, ack 5796, win 884, options [nop,nop,TS val 3542560913 ecr 631169272], length 60
+12:15:54.283429 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 9109, win 2047, options [nop,nop,TS val 631169338 ecr 3542560913], length 0
+12:15:54.451394 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 5796:5832, ack 9109, win 2048, options [nop,nop,TS val 631169505 ecr 3542560913], length 36
+12:15:54.453613 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 5832:5868, ack 9109, win 2048, options [nop,nop,TS val 631169507 ecr 3542560913], length 36
+12:15:54.512425 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 5868, win 884, options [nop,nop,TS val 3542561130 ecr 631169505], length 0
+12:15:54.512431 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 9109:9169, ack 5868, win 884, options [nop,nop,TS val 3542561147 ecr 631169505], length 60
+12:15:54.512466 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 9169, win 2047, options [nop,nop,TS val 631169564 ecr 3542561147], length 0
+12:15:54.824923 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 5868:5904, ack 9169, win 2048, options [nop,nop,TS val 631169867 ecr 3542561147], length 36
+12:15:54.894361 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 9169:9229, ack 5904, win 884, options [nop,nop,TS val 3542561526 ecr 631169867], length 60
+12:15:54.894399 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 9229, win 2047, options [nop,nop,TS val 631169934 ecr 3542561526], length 0
+12:15:54.918735 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 5904:5940, ack 9229, win 2048, options [nop,nop,TS val 631169957 ecr 3542561526], length 36
+12:15:54.982945 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 9229:9289, ack 5940, win 884, options [nop,nop,TS val 3542561620 ecr 631169957], length 60
+12:15:54.982974 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 9289, win 2047, options [nop,nop,TS val 631170020 ecr 3542561620], length 0
+12:15:55.211740 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 5940:5976, ack 9289, win 2048, options [nop,nop,TS val 631170246 ecr 3542561620], length 36
+12:15:55.217426 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 5976:6012, ack 9289, win 2048, options [nop,nop,TS val 631170251 ecr 3542561620], length 36
+12:15:55.256451 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 6012, win 884, options [nop,nop,TS val 3542561893 ecr 631170246], length 0
+12:15:55.267198 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 9289:9349, ack 6012, win 884, options [nop,nop,TS val 3542561904 ecr 631170246], length 60
+12:15:55.267228 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 9349, win 2047, options [nop,nop,TS val 631170299 ecr 3542561904], length 0
+12:15:55.273492 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 9349:9409, ack 6012, win 884, options [nop,nop,TS val 3542561910 ecr 631170246], length 60
+12:15:55.273518 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 9409, win 2047, options [nop,nop,TS val 631170305 ecr 3542561910], length 0
+12:15:55.470771 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 6012:6048, ack 9409, win 2048, options [nop,nop,TS val 631170500 ecr 3542561910], length 36
+12:15:55.524664 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 6048:6084, ack 9409, win 2048, options [nop,nop,TS val 631170553 ecr 3542561910], length 36
+12:15:55.525087 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 9409:9469, ack 6048, win 884, options [nop,nop,TS val 3542562163 ecr 631170500], length 60
+12:15:55.525106 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 9469, win 2047, options [nop,nop,TS val 631170553 ecr 3542562163], length 0
+12:15:55.580043 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 9469:9529, ack 6084, win 884, options [nop,nop,TS val 3542562216 ecr 631170553], length 60
+12:15:55.580095 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 9529, win 2047, options [nop,nop,TS val 631170607 ecr 3542562216], length 0
+12:15:55.738159 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 6084:6120, ack 9529, win 2048, options [nop,nop,TS val 631170763 ecr 3542562216], length 36
+12:15:55.741531 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 6120:6156, ack 9529, win 2048, options [nop,nop,TS val 631170766 ecr 3542562216], length 36
+12:15:55.785139 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 6156, win 884, options [nop,nop,TS val 3542562422 ecr 631170763], length 0
+12:15:55.795309 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 9529:9589, ack 6156, win 884, options [nop,nop,TS val 3542562432 ecr 631170763], length 60
+12:15:55.795338 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 9589, win 2047, options [nop,nop,TS val 631170819 ecr 3542562432], length 0
+12:15:55.798612 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 6156:6192, ack 9589, win 2048, options [nop,nop,TS val 631170822 ecr 3542562432], length 36
+12:15:55.801545 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 9589:9649, ack 6156, win 884, options [nop,nop,TS val 3542562438 ecr 631170763], length 60
+12:15:55.801575 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 9649, win 2047, options [nop,nop,TS val 631170825 ecr 3542562438], length 0
+12:15:55.856663 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 9649:9709, ack 6192, win 884, options [nop,nop,TS val 3542562493 ecr 631170822], length 60
+12:15:55.856690 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 9709, win 2047, options [nop,nop,TS val 631170878 ecr 3542562493], length 0
+12:15:56.116111 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 6192:6228, ack 9709, win 2048, options [nop,nop,TS val 631171136 ecr 3542562493], length 36
+12:15:56.119628 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 6228:6264, ack 9709, win 2048, options [nop,nop,TS val 631171140 ecr 3542562493], length 36
+12:15:56.121311 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 6264:6300, ack 9709, win 2048, options [nop,nop,TS val 631171141 ecr 3542562493], length 36
+12:15:56.170317 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 6300, win 884, options [nop,nop,TS val 3542562807 ecr 631171136], length 0
+12:15:56.180242 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 9709:9769, ack 6300, win 884, options [nop,nop,TS val 3542562817 ecr 631171136], length 60
+12:15:56.180272 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 9769, win 2047, options [nop,nop,TS val 631171199 ecr 3542562817], length 0
+12:15:56.186496 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 9769:9829, ack 6300, win 884, options [nop,nop,TS val 3542562823 ecr 631171136], length 60
+12:15:56.186550 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 9829, win 2047, options [nop,nop,TS val 631171205 ecr 3542562823], length 0
+12:15:56.218951 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 6300:6336, ack 9829, win 2048, options [nop,nop,TS val 631171236 ecr 3542562823], length 36
+12:15:56.279213 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 9829:9889, ack 6336, win 884, options [nop,nop,TS val 3542562914 ecr 631171236], length 60
+12:15:56.279247 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 9889, win 2047, options [nop,nop,TS val 631171296 ecr 3542562914], length 0
+12:15:56.458899 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 6336:6372, ack 9889, win 2048, options [nop,nop,TS val 631171474 ecr 3542562914], length 36
+12:15:56.519286 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 9889:9949, ack 6372, win 884, options [nop,nop,TS val 3542563156 ecr 631171474], length 60
+12:15:56.519318 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 9949, win 2047, options [nop,nop,TS val 631171534 ecr 3542563156], length 0
+12:15:57.510216 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 6372:6408, ack 9949, win 2048, options [nop,nop,TS val 631172523 ecr 3542563156], length 36
+12:15:57.583097 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 9949:10009, ack 6408, win 884, options [nop,nop,TS val 3542564218 ecr 631172523], length 60
+12:15:57.583130 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 10009, win 2047, options [nop,nop,TS val 631172595 ecr 3542564218], length 0
+12:15:57.610040 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 6408:6444, ack 10009, win 2048, options [nop,nop,TS val 631172621 ecr 3542564218], length 36
+12:15:57.664757 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 10009:10069, ack 6444, win 884, options [nop,nop,TS val 3542564301 ecr 631172621], length 60
+12:15:57.664788 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 10069, win 2047, options [nop,nop,TS val 631172675 ecr 3542564301], length 0
+12:15:57.906011 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 6444:6480, ack 10069, win 2048, options [nop,nop,TS val 631172914 ecr 3542564301], length 36
+12:15:57.975604 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 10069:10129, ack 6480, win 884, options [nop,nop,TS val 3542564612 ecr 631172914], length 60
+12:15:57.975635 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 10129, win 2047, options [nop,nop,TS val 631172983 ecr 3542564612], length 0
+12:15:59.372249 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 6480:6516, ack 10129, win 2048, options [nop,nop,TS val 631174377 ecr 3542564612], length 36
+12:15:59.436772 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 10129:10189, ack 6516, win 884, options [nop,nop,TS val 3542566073 ecr 631174377], length 60
+12:15:59.436814 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 10189, win 2047, options [nop,nop,TS val 631174440 ecr 3542566073], length 0
+12:15:59.873122 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 6516:6552, ack 10189, win 2048, options [nop,nop,TS val 631174863 ecr 3542566073], length 36
+12:15:59.927435 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 10189:10249, ack 6552, win 884, options [nop,nop,TS val 3542566564 ecr 631174863], length 60
+12:15:59.927500 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 10249, win 2047, options [nop,nop,TS val 631174917 ecr 3542566564], length 0
+12:15:59.960856 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 6552:6588, ack 10249, win 2048, options [nop,nop,TS val 631174950 ecr 3542566564], length 36
+12:16:00.016614 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 10249:10309, ack 6588, win 884, options [nop,nop,TS val 3542566653 ecr 631174950], length 60
+12:16:00.016644 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 10309, win 2047, options [nop,nop,TS val 631175005 ecr 3542566653], length 0
+12:16:00.257654 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 6588:6624, ack 10309, win 2048, options [nop,nop,TS val 631175244 ecr 3542566653], length 36
+12:16:00.263635 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 6624:6660, ack 10309, win 2048, options [nop,nop,TS val 631175249 ecr 3542566653], length 36
+12:16:00.308301 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 6660, win 884, options [nop,nop,TS val 3542566945 ecr 631175244], length 0
+12:16:00.319137 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 10309:10369, ack 6660, win 884, options [nop,nop,TS val 3542566955 ecr 631175244], length 60
+12:16:00.319172 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 10369, win 2047, options [nop,nop,TS val 631175303 ecr 3542566955], length 0
+12:16:00.325188 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 10369:10429, ack 6660, win 884, options [nop,nop,TS val 3542566962 ecr 631175244], length 60
+12:16:00.325242 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 10429, win 2047, options [nop,nop,TS val 631175309 ecr 3542566962], length 0
+12:16:00.431446 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 6660:6696, ack 10429, win 2048, options [nop,nop,TS val 631175414 ecr 3542566962], length 36
+12:16:00.485849 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 10429:10489, ack 6696, win 884, options [nop,nop,TS val 3542567123 ecr 631175414], length 60
+12:16:00.485881 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 10489, win 2047, options [nop,nop,TS val 631175468 ecr 3542567123], length 0
+12:16:01.226718 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 6696:6732, ack 10489, win 2048, options [nop,nop,TS val 631176207 ecr 3542567123], length 36
+12:16:01.288506 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 10489:10549, ack 6732, win 884, options [nop,nop,TS val 3542567926 ecr 631176207], length 60
+12:16:01.288541 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 10549, win 2047, options [nop,nop,TS val 631176268 ecr 3542567926], length 0
+12:16:01.502734 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 6732:6768, ack 10549, win 2048, options [nop,nop,TS val 631176481 ecr 3542567926], length 36
+12:16:01.569441 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 10549:10609, ack 6768, win 884, options [nop,nop,TS val 3542568199 ecr 631176481], length 60
+12:16:01.569475 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 10609, win 2047, options [nop,nop,TS val 631176547 ecr 3542568199], length 0
+12:16:01.765912 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 6768:6804, ack 10609, win 2048, options [nop,nop,TS val 631176743 ecr 3542568199], length 36
+12:16:01.769135 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 6804:6840, ack 10609, win 2048, options [nop,nop,TS val 631176746 ecr 3542568199], length 36
+12:16:01.807686 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 6840, win 884, options [nop,nop,TS val 3542568444 ecr 631176743], length 0
+12:16:01.825605 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 10609:10669, ack 6840, win 884, options [nop,nop,TS val 3542568461 ecr 631176743], length 60
+12:16:01.825640 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 10669, win 2047, options [nop,nop,TS val 631176801 ecr 3542568461], length 0
+12:16:01.932118 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 6840:6876, ack 10669, win 2048, options [nop,nop,TS val 631176907 ecr 3542568461], length 36
+12:16:01.992117 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 10669:10729, ack 6876, win 884, options [nop,nop,TS val 3542568629 ecr 631176907], length 60
+12:16:01.992146 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 10729, win 2047, options [nop,nop,TS val 631176967 ecr 3542568629], length 0
+12:16:02.036098 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 6876:6912, ack 10729, win 2048, options [nop,nop,TS val 631177009 ecr 3542568629], length 36
+12:16:02.111189 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 10729:10789, ack 6912, win 884, options [nop,nop,TS val 3542568734 ecr 631177009], length 60
+12:16:02.111221 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 10789, win 2047, options [nop,nop,TS val 631177084 ecr 3542568734], length 0
+12:16:02.166070 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 6912:6948, ack 10789, win 2048, options [nop,nop,TS val 631177137 ecr 3542568734], length 36
+12:16:02.242363 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 10789:10849, ack 6948, win 884, options [nop,nop,TS val 3542568877 ecr 631177137], length 60
+12:16:02.242394 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 10849, win 2047, options [nop,nop,TS val 631177213 ecr 3542568877], length 0
+12:16:02.432414 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 6948:6984, ack 10849, win 2048, options [nop,nop,TS val 631177402 ecr 3542568877], length 36
+12:16:02.487076 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 10849:10909, ack 6984, win 884, options [nop,nop,TS val 3542569124 ecr 631177402], length 60
+12:16:02.487114 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 10909, win 2047, options [nop,nop,TS val 631177456 ecr 3542569124], length 0
+12:16:02.807702 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 6984:7020, ack 10909, win 2048, options [nop,nop,TS val 631177776 ecr 3542569124], length 36
+12:16:02.865903 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 7020:7056, ack 10909, win 2048, options [nop,nop,TS val 631177834 ecr 3542569124], length 36
+12:16:02.872093 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 10909:10969, ack 7020, win 884, options [nop,nop,TS val 3542569506 ecr 631177776], length 60
+12:16:02.872128 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 10969, win 2047, options [nop,nop,TS val 631177840 ecr 3542569506], length 0
+12:16:02.920586 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 10969:11029, ack 7056, win 884, options [nop,nop,TS val 3542569558 ecr 631177834], length 60
+12:16:02.920616 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 11029, win 2047, options [nop,nop,TS val 631177888 ecr 3542569558], length 0
+12:16:03.079126 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 7056:7092, ack 11029, win 2048, options [nop,nop,TS val 631178046 ecr 3542569558], length 36
+12:16:03.082663 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 7092:7128, ack 11029, win 2048, options [nop,nop,TS val 631178049 ecr 3542569558], length 36
+12:16:03.123817 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 7128, win 884, options [nop,nop,TS val 3542569760 ecr 631178046], length 0
+12:16:03.134475 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 11029:11089, ack 7128, win 884, options [nop,nop,TS val 3542569771 ecr 631178046], length 60
+12:16:03.134502 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 11089, win 2047, options [nop,nop,TS val 631178100 ecr 3542569771], length 0
+12:16:03.144045 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 11089:11149, ack 7128, win 884, options [nop,nop,TS val 3542569777 ecr 631178046], length 60
+12:16:03.144078 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 11149, win 2047, options [nop,nop,TS val 631178109 ecr 3542569777], length 0
+12:16:03.332355 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 7128:7164, ack 11149, win 2048, options [nop,nop,TS val 631178296 ecr 3542569777], length 36
+12:16:03.387240 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 11149:11209, ack 7164, win 884, options [nop,nop,TS val 3542570024 ecr 631178296], length 60
+12:16:03.387273 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 11209, win 2047, options [nop,nop,TS val 631178351 ecr 3542570024], length 0
+12:16:03.410511 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 7164:7200, ack 11209, win 2048, options [nop,nop,TS val 631178374 ecr 3542570024], length 36
+12:16:03.465947 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 11209:11269, ack 7200, win 884, options [nop,nop,TS val 3542570103 ecr 631178374], length 60
+12:16:03.465977 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 11269, win 2047, options [nop,nop,TS val 631178428 ecr 3542570103], length 0
+12:16:03.701114 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 7200:7236, ack 11269, win 2048, options [nop,nop,TS val 631178661 ecr 3542570103], length 36
+12:16:03.703710 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 7236:7272, ack 11269, win 2048, options [nop,nop,TS val 631178663 ecr 3542570103], length 36
+12:16:03.745535 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 7272, win 884, options [nop,nop,TS val 3542570381 ecr 631178661], length 0
+12:16:03.761091 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 11269:11329, ack 7272, win 884, options [nop,nop,TS val 3542570398 ecr 631178661], length 60
+12:16:03.761117 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 11329, win 2047, options [nop,nop,TS val 631178719 ecr 3542570398], length 0
+12:16:04.445687 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 7272:7308, ack 11329, win 2048, options [nop,nop,TS val 631179401 ecr 3542570398], length 36
+12:16:04.510364 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 11329:11389, ack 7308, win 884, options [nop,nop,TS val 3542571145 ecr 631179401], length 60
+12:16:04.510392 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 11389, win 2047, options [nop,nop,TS val 631179465 ecr 3542571145], length 0
+12:16:04.713194 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 7308:7344, ack 11389, win 2048, options [nop,nop,TS val 631179665 ecr 3542571145], length 36
+12:16:04.781655 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 11389:11449, ack 7344, win 884, options [nop,nop,TS val 3542571418 ecr 631179665], length 60
+12:16:04.781717 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 11449, win 2047, options [nop,nop,TS val 631179733 ecr 3542571418], length 0
+12:16:05.155952 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 7344:7380, ack 11449, win 2048, options [nop,nop,TS val 631180106 ecr 3542571418], length 36
+12:16:05.223195 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 11449:11509, ack 7380, win 884, options [nop,nop,TS val 3542571859 ecr 631180106], length 60
+12:16:05.223255 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 11509, win 2047, options [nop,nop,TS val 631180172 ecr 3542571859], length 0
+12:16:05.797342 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 7380:7416, ack 11509, win 2048, options [nop,nop,TS val 631180744 ecr 3542571859], length 36
+12:16:05.864401 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 11509:11569, ack 7416, win 884, options [nop,nop,TS val 3542572501 ecr 631180744], length 60
+12:16:05.864444 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 11569, win 2047, options [nop,nop,TS val 631180811 ecr 3542572501], length 0
+12:16:05.971842 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 7416:7452, ack 11569, win 2048, options [nop,nop,TS val 631180917 ecr 3542572501], length 36
+12:16:06.036170 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 11569:11629, ack 7452, win 884, options [nop,nop,TS val 3542572673 ecr 631180917], length 60
+12:16:06.036198 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 11629, win 2047, options [nop,nop,TS val 631180981 ecr 3542572673], length 0
+12:16:06.206262 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 7452:7488, ack 11629, win 2048, options [nop,nop,TS val 631181150 ecr 3542572673], length 36
+12:16:06.270599 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 11629:11689, ack 7488, win 884, options [nop,nop,TS val 3542572908 ecr 631181150], length 60
+12:16:06.270640 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 11689, win 2047, options [nop,nop,TS val 631181214 ecr 3542572908], length 0
+12:16:06.525481 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 7488:7524, ack 11689, win 2048, options [nop,nop,TS val 631181468 ecr 3542572908], length 36
+12:16:06.586453 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 11689:11749, ack 7524, win 884, options [nop,nop,TS val 3542573223 ecr 631181468], length 60
+12:16:06.586495 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 11749, win 2047, options [nop,nop,TS val 631181529 ecr 3542573223], length 0
+12:16:06.603669 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 7524:7560, ack 11749, win 2048, options [nop,nop,TS val 631181546 ecr 3542573223], length 36
+12:16:06.663432 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 11749:11809, ack 7560, win 884, options [nop,nop,TS val 3542573299 ecr 631181546], length 60
+12:16:06.663462 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 11809, win 2047, options [nop,nop,TS val 631181605 ecr 3542573299], length 0
+12:16:06.915341 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 7560:7596, ack 11809, win 2048, options [nop,nop,TS val 631181856 ecr 3542573299], length 36
+12:16:06.965687 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 7596:7632, ack 11809, win 2048, options [nop,nop,TS val 631181906 ecr 3542573299], length 36
+12:16:06.982745 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 11809:11869, ack 7596, win 884, options [nop,nop,TS val 3542573620 ecr 631181856], length 60
+12:16:06.982778 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 11869, win 2047, options [nop,nop,TS val 631181923 ecr 3542573620], length 0
+12:16:07.027273 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 11869:11929, ack 7632, win 884, options [nop,nop,TS val 3542573664 ecr 631181906], length 60
+12:16:07.027303 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 11929, win 2047, options [nop,nop,TS val 631181966 ecr 3542573664], length 0
+12:16:07.200157 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 7632:7668, ack 11929, win 2048, options [nop,nop,TS val 631182138 ecr 3542573664], length 36
+12:16:07.257901 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 11929:11989, ack 7668, win 884, options [nop,nop,TS val 3542573895 ecr 631182138], length 60
+12:16:07.257942 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 11989, win 2047, options [nop,nop,TS val 631182195 ecr 3542573895], length 0
+12:16:07.298585 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 7668:7704, ack 11989, win 2048, options [nop,nop,TS val 631182235 ecr 3542573895], length 36
+12:16:07.358318 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 11989:12049, ack 7704, win 884, options [nop,nop,TS val 3542573993 ecr 631182235], length 60
+12:16:07.358348 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 12049, win 2047, options [nop,nop,TS val 631182294 ecr 3542573993], length 0
+12:16:07.536857 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 7704:7740, ack 12049, win 2048, options [nop,nop,TS val 631182472 ecr 3542573993], length 36
+12:16:07.605320 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 12049:12109, ack 7740, win 884, options [nop,nop,TS val 3542574230 ecr 631182472], length 60
+12:16:07.605355 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 12109, win 2047, options [nop,nop,TS val 631182540 ecr 3542574230], length 0
+12:16:07.714460 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 7740:7776, ack 12109, win 2048, options [nop,nop,TS val 631182648 ecr 3542574230], length 36
+12:16:07.770704 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 12109:12169, ack 7776, win 884, options [nop,nop,TS val 3542574408 ecr 631182648], length 60
+12:16:07.770733 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 12169, win 2047, options [nop,nop,TS val 631182704 ecr 3542574408], length 0
+12:16:07.811853 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 7776:7812, ack 12169, win 2048, options [nop,nop,TS val 631182744 ecr 3542574408], length 36
+12:16:07.876244 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 12169:12229, ack 7812, win 884, options [nop,nop,TS val 3542574513 ecr 631182744], length 60
+12:16:07.876274 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 12229, win 2047, options [nop,nop,TS val 631182807 ecr 3542574513], length 0
+12:16:09.350485 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 7812:7848, ack 12229, win 2048, options [nop,nop,TS val 631184279 ecr 3542574513], length 36
+12:16:09.408499 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 12229:12289, ack 7848, win 884, options [nop,nop,TS val 3542576045 ecr 631184279], length 60
+12:16:09.408531 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 12289, win 2047, options [nop,nop,TS val 631184337 ecr 3542576045], length 0
+12:16:09.512111 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 7848:7884, ack 12289, win 2048, options [nop,nop,TS val 631184439 ecr 3542576045], length 36
+12:16:09.568402 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 12289:12349, ack 7884, win 884, options [nop,nop,TS val 3542576205 ecr 631184439], length 60
+12:16:09.568431 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 12349, win 2047, options [nop,nop,TS val 631184494 ecr 3542576205], length 0
+12:16:09.607594 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 7884:7920, ack 12349, win 2048, options [nop,nop,TS val 631184533 ecr 3542576205], length 36
+12:16:09.608681 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 7920:7956, ack 12349, win 2048, options [nop,nop,TS val 631184534 ecr 3542576205], length 36
+12:16:09.654200 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 7956, win 884, options [nop,nop,TS val 3542576291 ecr 631184533], length 0
+12:16:09.663556 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 12349:12409, ack 7956, win 884, options [nop,nop,TS val 3542576300 ecr 631184533], length 60
+12:16:09.663580 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 12409, win 2047, options [nop,nop,TS val 631184588 ecr 3542576300], length 0
+12:16:09.670906 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 12409:12469, ack 7956, win 884, options [nop,nop,TS val 3542576308 ecr 631184533], length 60
+12:16:09.670924 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 12469, win 2047, options [nop,nop,TS val 631184595 ecr 3542576308], length 0
+12:16:09.842708 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 7956:7992, ack 12469, win 2048, options [nop,nop,TS val 631184766 ecr 3542576308], length 36
+12:16:09.847702 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 7992:8028, ack 12469, win 2048, options [nop,nop,TS val 631184770 ecr 3542576308], length 36
+12:16:09.910585 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 8028, win 884, options [nop,nop,TS val 3542576529 ecr 631184766], length 0
+12:16:09.910592 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 12469:12529, ack 8028, win 884, options [nop,nop,TS val 3542576539 ecr 631184766], length 60
+12:16:09.910620 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 12529, win 2047, options [nop,nop,TS val 631184833 ecr 3542576539], length 0
+12:16:09.913931 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 12529:12589, ack 8028, win 884, options [nop,nop,TS val 3542576546 ecr 631184766], length 60
+12:16:09.913960 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 12589, win 2047, options [nop,nop,TS val 631184836 ecr 3542576546], length 0
+12:16:10.106254 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 8028:8064, ack 12589, win 2048, options [nop,nop,TS val 631185027 ecr 3542576546], length 36
+12:16:10.166118 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 12589:12649, ack 8064, win 884, options [nop,nop,TS val 3542576798 ecr 631185027], length 60
+12:16:10.166152 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 12649, win 2047, options [nop,nop,TS val 631185086 ecr 3542576798], length 0
+12:16:10.271471 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 8064:8100, ack 12649, win 2048, options [nop,nop,TS val 631185191 ecr 3542576798], length 36
+12:16:10.335608 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 12649:12709, ack 8100, win 884, options [nop,nop,TS val 3542576971 ecr 631185191], length 60
+12:16:10.335639 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 12709, win 2047, options [nop,nop,TS val 631185255 ecr 3542576971], length 0
+12:16:10.494364 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 8100:8136, ack 12709, win 2048, options [nop,nop,TS val 631185412 ecr 3542576971], length 36
+12:16:10.558038 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 12709:12769, ack 8136, win 884, options [nop,nop,TS val 3542577186 ecr 631185412], length 60
+12:16:10.558068 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 12769, win 2047, options [nop,nop,TS val 631185475 ecr 3542577186], length 0
+12:16:10.591014 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 8136:8172, ack 12769, win 2048, options [nop,nop,TS val 631185507 ecr 3542577186], length 36
+12:16:10.664501 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 12769:12829, ack 8172, win 884, options [nop,nop,TS val 3542577299 ecr 631185507], length 60
+12:16:10.664531 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 12829, win 2047, options [nop,nop,TS val 631185580 ecr 3542577299], length 0
+12:16:10.868611 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 8172:8208, ack 12829, win 2048, options [nop,nop,TS val 631185782 ecr 3542577299], length 36
+12:16:10.871050 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 8208:8244, ack 12829, win 2048, options [nop,nop,TS val 631185784 ecr 3542577299], length 36
+12:16:10.886791 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 8244:8280, ack 12829, win 2048, options [nop,nop,TS val 631185799 ecr 3542577299], length 36
+12:16:10.924804 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 8244, win 884, options [nop,nop,TS val 3542577562 ecr 631185782], length 0
+12:16:10.941695 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 12829:12889, ack 8280, win 884, options [nop,nop,TS val 3542577579 ecr 631185799], length 60
+12:16:10.941723 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 12889, win 2047, options [nop,nop,TS val 631185853 ecr 3542577579], length 0
+12:16:10.953240 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 12889:12949, ack 8280, win 884, options [nop,nop,TS val 3542577590 ecr 631185799], length 60
+12:16:10.953269 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 12949, win 2047, options [nop,nop,TS val 631185864 ecr 3542577590], length 0
+12:16:11.138249 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 8280:8316, ack 12949, win 2048, options [nop,nop,TS val 631186048 ecr 3542577590], length 36
+12:16:11.160772 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 8316:8352, ack 12949, win 2048, options [nop,nop,TS val 631186070 ecr 3542577590], length 36
+12:16:11.193533 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 12949:13009, ack 8316, win 884, options [nop,nop,TS val 3542577831 ecr 631186048], length 60
+12:16:11.193566 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 13009, win 2047, options [nop,nop,TS val 631186102 ecr 3542577831], length 0
+12:16:11.220323 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 13009:13069, ack 8352, win 884, options [nop,nop,TS val 3542577857 ecr 631186070], length 60
+12:16:11.220361 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 13069, win 2047, options [nop,nop,TS val 631186127 ecr 3542577857], length 0
+12:16:11.399413 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 8352:8388, ack 13069, win 2048, options [nop,nop,TS val 631186305 ecr 3542577857], length 36
+12:16:11.454246 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 13069:13129, ack 8388, win 884, options [nop,nop,TS val 3542578091 ecr 631186305], length 60
+12:16:11.454279 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 13129, win 2047, options [nop,nop,TS val 631186359 ecr 3542578091], length 0
+12:16:11.470477 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 8388:8424, ack 13129, win 2048, options [nop,nop,TS val 631186375 ecr 3542578091], length 36
+12:16:11.526760 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 13129:13189, ack 8424, win 884, options [nop,nop,TS val 3542578164 ecr 631186375], length 60
+12:16:11.526790 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 13189, win 2047, options [nop,nop,TS val 631186430 ecr 3542578164], length 0
+12:16:11.676316 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 8424:8460, ack 13189, win 2048, options [nop,nop,TS val 631186577 ecr 3542578164], length 36
+12:16:11.732909 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 13189:13249, ack 8460, win 884, options [nop,nop,TS val 3542578370 ecr 631186577], length 60
+12:16:11.732938 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 13249, win 2047, options [nop,nop,TS val 631186633 ecr 3542578370], length 0
+12:16:18.984348 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 8460:8496, ack 13249, win 2048, options [nop,nop,TS val 631193881 ecr 3542578370], length 36
+12:16:19.063404 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 13249:13309, ack 8496, win 884, options [nop,nop,TS val 3542585700 ecr 631193881], length 60
+12:16:19.063440 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 13309, win 2047, options [nop,nop,TS val 631193960 ecr 3542585700], length 0
+12:16:19.079653 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 8496:8532, ack 13309, win 2048, options [nop,nop,TS val 631193976 ecr 3542585700], length 36
+12:16:19.139118 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 13309:13369, ack 8532, win 884, options [nop,nop,TS val 3542585776 ecr 631193976], length 60
+12:16:19.139167 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 13369, win 2047, options [nop,nop,TS val 631194034 ecr 3542585776], length 0
+12:16:19.374280 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 8532:8568, ack 13369, win 2048, options [nop,nop,TS val 631194267 ecr 3542585776], length 36
+12:16:19.438194 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 13369:13429, ack 8568, win 884, options [nop,nop,TS val 3542586075 ecr 631194267], length 60
+12:16:19.438227 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 13429, win 2047, options [nop,nop,TS val 631194331 ecr 3542586075], length 0
+12:16:20.004637 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 8568:8604, ack 13429, win 2048, options [nop,nop,TS val 631194896 ecr 3542586075], length 36
+12:16:20.065228 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 13429:13489, ack 8604, win 884, options [nop,nop,TS val 3542586703 ecr 631194896], length 60
+12:16:20.065261 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 13489, win 2047, options [nop,nop,TS val 631194956 ecr 3542586703], length 0
+12:16:20.068239 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 8604:8640, ack 13489, win 2048, options [nop,nop,TS val 631194958 ecr 3542586703], length 36
+12:16:20.127536 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 13489:13549, ack 8640, win 884, options [nop,nop,TS val 3542586765 ecr 631194958], length 60
+12:16:20.127566 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 13549, win 2047, options [nop,nop,TS val 631195017 ecr 3542586765], length 0
+12:16:20.388736 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 8640:8676, ack 13549, win 2048, options [nop,nop,TS val 631195276 ecr 3542586765], length 36
+12:16:20.392172 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 8676:8712, ack 13549, win 2048, options [nop,nop,TS val 631195279 ecr 3542586765], length 36
+12:16:20.393367 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 8712:8748, ack 13549, win 2048, options [nop,nop,TS val 631195280 ecr 3542586765], length 36
+12:16:20.434755 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 8748:8784, ack 13549, win 2048, options [nop,nop,TS val 631195321 ecr 3542586765], length 36
+12:16:20.437391 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 8748, win 884, options [nop,nop,TS val 3542587075 ecr 631195276], length 0
+12:16:20.451362 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 13549:13609, ack 8748, win 884, options [nop,nop,TS val 3542587087 ecr 631195276], length 60
+12:16:20.451388 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 13609, win 2047, options [nop,nop,TS val 631195336 ecr 3542587087], length 0
+12:16:20.454301 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 13609:13669, ack 8748, win 884, options [nop,nop,TS val 3542587092 ecr 631195276], length 60
+12:16:20.454327 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 13669, win 2047, options [nop,nop,TS val 631195338 ecr 3542587092], length 0
+12:16:20.492124 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 13669:13729, ack 8784, win 884, options [nop,nop,TS val 3542587127 ecr 631195321], length 60
+12:16:20.492155 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 13729, win 2047, options [nop,nop,TS val 631195374 ecr 3542587127], length 0
+12:16:20.704295 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 8784:8820, ack 13729, win 2048, options [nop,nop,TS val 631195585 ecr 3542587127], length 36
+12:16:20.785495 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 13729:13789, ack 8820, win 884, options [nop,nop,TS val 3542587423 ecr 631195585], length 60
+12:16:20.785528 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 13789, win 2047, options [nop,nop,TS val 631195666 ecr 3542587423], length 0
+12:16:21.130280 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 8820:8856, ack 13789, win 2048, options [nop,nop,TS val 631196008 ecr 3542587423], length 36
+12:16:21.202002 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 13789:13849, ack 8856, win 884, options [nop,nop,TS val 3542587836 ecr 631196008], length 60
+12:16:21.202030 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 13849, win 2047, options [nop,nop,TS val 631196077 ecr 3542587836], length 0
+12:16:21.214656 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 8856:8892, ack 13849, win 2048, options [nop,nop,TS val 631196089 ecr 3542587836], length 36
+12:16:21.274877 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 13849:13909, ack 8892, win 884, options [nop,nop,TS val 3542587912 ecr 631196089], length 60
+12:16:21.274909 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 13909, win 2047, options [nop,nop,TS val 631196148 ecr 3542587912], length 0
+12:16:21.681205 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 8892:8928, ack 13909, win 2048, options [nop,nop,TS val 631196546 ecr 3542587912], length 36
+12:16:21.746329 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 13909:13969, ack 8928, win 884, options [nop,nop,TS val 3542588384 ecr 631196546], length 60
+12:16:21.746364 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 13969, win 2047, options [nop,nop,TS val 631196611 ecr 3542588384], length 0
+12:16:21.854613 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 8928:8964, ack 13969, win 2048, options [nop,nop,TS val 631196718 ecr 3542588384], length 36
+12:16:21.909374 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 13969:14053, ack 8964, win 884, options [nop,nop,TS val 3542588547 ecr 631196718], length 84
+12:16:21.909403 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 14053, win 2046, options [nop,nop,TS val 631196772 ecr 3542588547], length 0
+12:16:21.950181 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 8964:9000, ack 14053, win 2048, options [nop,nop,TS val 631196812 ecr 3542588547], length 36
+12:16:22.006100 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 14053:14113, ack 9000, win 884, options [nop,nop,TS val 3542588643 ecr 631196812], length 60
+12:16:22.006133 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 14113, win 2047, options [nop,nop,TS val 631196866 ecr 3542588643], length 0
+12:16:22.220712 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 9000:9036, ack 14113, win 2048, options [nop,nop,TS val 631197078 ecr 3542588643], length 36
+12:16:22.223777 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 9036:9072, ack 14113, win 2048, options [nop,nop,TS val 631197081 ecr 3542588643], length 36
+12:16:22.264375 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 9072, win 884, options [nop,nop,TS val 3542588902 ecr 631197078], length 0
+12:16:22.276083 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 14113:14173, ack 9072, win 884, options [nop,nop,TS val 3542588913 ecr 631197078], length 60
+12:16:22.276109 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 14173, win 2047, options [nop,nop,TS val 631197132 ecr 3542588913], length 0
+12:16:22.281025 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 14173:14233, ack 9072, win 884, options [nop,nop,TS val 3542588918 ecr 631197078], length 60
+12:16:22.281054 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 14233, win 2047, options [nop,nop,TS val 631197136 ecr 3542588918], length 0
+12:16:22.391864 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 9072:9108, ack 14233, win 2048, options [nop,nop,TS val 631197246 ecr 3542588918], length 36
+12:16:22.448231 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 14233:14293, ack 9108, win 884, options [nop,nop,TS val 3542589085 ecr 631197246], length 60
+12:16:22.448263 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 14293, win 2047, options [nop,nop,TS val 631197302 ecr 3542589085], length 0
+12:16:22.489461 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 9108:9144, ack 14293, win 2048, options [nop,nop,TS val 631197343 ecr 3542589085], length 36
+12:16:22.561734 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 14293:14353, ack 9144, win 884, options [nop,nop,TS val 3542589199 ecr 631197343], length 60
+12:16:22.561767 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 14353, win 2047, options [nop,nop,TS val 631197415 ecr 3542589199], length 0
+12:16:22.772349 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 9144:9180, ack 14353, win 2048, options [nop,nop,TS val 631197625 ecr 3542589199], length 36
+12:16:22.827174 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 14353:14413, ack 9180, win 884, options [nop,nop,TS val 3542589464 ecr 631197625], length 60
+12:16:22.827219 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 14413, win 2047, options [nop,nop,TS val 631197679 ecr 3542589464], length 0
+12:16:23.675518 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 9180:9216, ack 14413, win 2048, options [nop,nop,TS val 631198526 ecr 3542589464], length 36
+12:16:23.726663 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 9216:9252, ack 14413, win 2048, options [nop,nop,TS val 631198577 ecr 3542589464], length 36
+12:16:23.736623 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 14413:14473, ack 9216, win 884, options [nop,nop,TS val 3542590374 ecr 631198526], length 60
+12:16:23.736663 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 14473, win 2047, options [nop,nop,TS val 631198587 ecr 3542590374], length 0
+12:16:23.789220 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 14473:14533, ack 9252, win 884, options [nop,nop,TS val 3542590422 ecr 631198577], length 60
+12:16:23.789270 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 14533, win 2047, options [nop,nop,TS val 631198638 ecr 3542590422], length 0
+12:16:23.942395 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 9252:9288, ack 14533, win 2048, options [nop,nop,TS val 631198791 ecr 3542590422], length 36
+12:16:23.997731 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 14533:14593, ack 9288, win 884, options [nop,nop,TS val 3542590635 ecr 631198791], length 60
+12:16:23.997769 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 14593, win 2047, options [nop,nop,TS val 631198846 ecr 3542590635], length 0
+12:16:24.264064 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 9288:9324, ack 14593, win 2048, options [nop,nop,TS val 631199111 ecr 3542590635], length 36
+12:16:24.355880 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 14593:14733, ack 9324, win 884, options [nop,nop,TS val 3542590992 ecr 631199111], length 140
+12:16:24.355923 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 14733, win 2045, options [nop,nop,TS val 631199202 ecr 3542590992], length 0
+12:16:31.952526 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 9324:9360, ack 14733, win 2048, options [nop,nop,TS val 631206792 ecr 3542590992], length 36
+12:16:32.018082 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 14733:14793, ack 9360, win 884, options [nop,nop,TS val 3542598655 ecr 631206792], length 60
+12:16:32.018135 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 14793, win 2047, options [nop,nop,TS val 631206857 ecr 3542598655], length 0
+12:16:32.287991 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 9360:9396, ack 14793, win 2048, options [nop,nop,TS val 631207125 ecr 3542598655], length 36
+12:16:32.381052 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 14793:14853, ack 9396, win 884, options [nop,nop,TS val 3542599016 ecr 631207125], length 60
+12:16:32.381085 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 14853, win 2047, options [nop,nop,TS val 631207218 ecr 3542599016], length 0
+12:16:32.407788 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 9396:9432, ack 14853, win 2048, options [nop,nop,TS val 631207243 ecr 3542599016], length 36
+12:16:32.467283 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 14853:14913, ack 9432, win 884, options [nop,nop,TS val 3542599105 ecr 631207243], length 60
+12:16:32.467323 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 14913, win 2047, options [nop,nop,TS val 631207302 ecr 3542599105], length 0
+12:16:32.695625 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 9432:9468, ack 14913, win 2048, options [nop,nop,TS val 631207529 ecr 3542599105], length 36
+12:16:32.758584 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 14913:14973, ack 9468, win 884, options [nop,nop,TS val 3542599389 ecr 631207529], length 60
+12:16:32.758623 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 14973, win 2047, options [nop,nop,TS val 631207592 ecr 3542599389], length 0
+12:16:33.583801 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 9468:9504, ack 14973, win 2048, options [nop,nop,TS val 631208415 ecr 3542599389], length 36
+12:16:33.750319 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 14973:15033, ack 9504, win 884, options [nop,nop,TS val 3542600283 ecr 631208415], length 60
+12:16:33.750382 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 15033, win 2047, options [nop,nop,TS val 631208581 ecr 3542600283], length 0
+12:16:33.944917 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 9504:9540, ack 15033, win 2048, options [nop,nop,TS val 631208775 ecr 3542600283], length 36
+12:16:34.110925 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 15033:15093, ack 9540, win 884, options [nop,nop,TS val 3542600709 ecr 631208775], length 60
+12:16:34.111007 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 15093, win 2047, options [nop,nop,TS val 631208940 ecr 3542600709], length 0
+12:16:34.117794 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 9540:9576, ack 15093, win 2048, options [nop,nop,TS val 631208946 ecr 3542600709], length 36
+12:16:34.199945 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 15093:15153, ack 9576, win 884, options [nop,nop,TS val 3542600826 ecr 631208946], length 60
+12:16:34.199984 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 15153, win 2047, options [nop,nop,TS val 631209028 ecr 3542600826], length 0
+12:16:34.439012 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 9576:9612, ack 15153, win 2048, options [nop,nop,TS val 631209265 ecr 3542600826], length 36
+12:16:34.556857 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 9612:9648, ack 15153, win 2048, options [nop,nop,TS val 631209380 ecr 3542600826], length 36
+12:16:34.705894 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 9648:9684, ack 15153, win 2048, options [nop,nop,TS val 631209529 ecr 3542600826], length 36
+12:16:34.756531 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 9648, win 884, options [nop,nop,TS val 3542601248 ecr 631209265], length 0
+12:16:34.760963 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 15153:15213, ack 9648, win 884, options [nop,nop,TS val 3542601265 ecr 631209265], length 60
+12:16:34.760989 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 15213, win 2047, options [nop,nop,TS val 631209583 ecr 3542601265], length 0
+12:16:34.937996 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 15213:15273, ack 9684, win 884, options [nop,nop,TS val 3542601461 ecr 631209529], length 60
+12:16:34.938039 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 15273, win 2047, options [nop,nop,TS val 631209759 ecr 3542601461], length 0
+12:16:34.951885 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 9684:9720, ack 15273, win 2048, options [nop,nop,TS val 631209772 ecr 3542601461], length 36
+12:16:35.086691 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 15273:15333, ack 9720, win 884, options [nop,nop,TS val 3542601653 ecr 631209772], length 60
+12:16:35.086722 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 15333, win 2047, options [nop,nop,TS val 631209906 ecr 3542601653], length 0
+12:16:35.329043 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 9720:9756, ack 15333, win 2048, options [nop,nop,TS val 631210144 ecr 3542601653], length 36
+12:16:35.334652 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 9756:9792, ack 15333, win 2048, options [nop,nop,TS val 631210149 ecr 3542601653], length 36
+12:16:35.475726 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 9792:9828, ack 15333, win 2048, options [nop,nop,TS val 631210289 ecr 3542601653], length 36
+12:16:35.634832 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 9792, win 884, options [nop,nop,TS val 3542602141 ecr 631210144], length 0
+12:16:35.639717 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 15333:15393, ack 9828, win 884, options [nop,nop,TS val 3542602158 ecr 631210289], length 60
+12:16:35.639729 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 15393:15453, ack 9828, win 884, options [nop,nop,TS val 3542602169 ecr 631210289], length 60
+12:16:35.639778 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 15393, win 2047, options [nop,nop,TS val 631210452 ecr 3542602158], length 0
+12:16:35.639804 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 15453, win 2046, options [nop,nop,TS val 631210452 ecr 3542602169], length 0
+12:16:35.747867 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 9828:9864, ack 15453, win 2048, options [nop,nop,TS val 631210559 ecr 3542602169], length 36
+12:16:35.838397 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 9864:9900, ack 15453, win 2048, options [nop,nop,TS val 631210649 ecr 3542602169], length 36
+12:16:35.943775 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 9900:9936, ack 15453, win 2048, options [nop,nop,TS val 631210754 ecr 3542602169], length 36
+12:16:36.001237 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 9900, win 884, options [nop,nop,TS val 3542602515 ecr 631210559], length 0
+12:16:36.005950 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 15453:15513, ack 9900, win 884, options [nop,nop,TS val 3542602518 ecr 631210559], length 60
+12:16:36.005957 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 15513:15573, ack 9900, win 884, options [nop,nop,TS val 3542602532 ecr 631210559], length 60
+12:16:36.005977 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 15513, win 2047, options [nop,nop,TS val 631210815 ecr 3542602518], length 0
+12:16:36.005989 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 15573, win 2046, options [nop,nop,TS val 631210815 ecr 3542602532], length 0
+12:16:36.153408 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 15573:15633, ack 9936, win 884, options [nop,nop,TS val 3542602708 ecr 631210754], length 60
+12:16:36.153442 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 15633, win 2047, options [nop,nop,TS val 631210962 ecr 3542602708], length 0
+12:16:38.859150 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 9936:9972, ack 15633, win 2048, options [nop,nop,TS val 631213665 ecr 3542602708], length 36
+12:16:38.929717 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 15633:15693, ack 9972, win 884, options [nop,nop,TS val 3542605561 ecr 631213665], length 60
+12:16:38.929754 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 15693, win 2047, options [nop,nop,TS val 631213735 ecr 3542605561], length 0
+12:16:39.125410 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 9972:10008, ack 15693, win 2048, options [nop,nop,TS val 631213930 ecr 3542605561], length 36
+12:16:39.244816 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 15693:15753, ack 10008, win 884, options [nop,nop,TS val 3542605836 ecr 631213930], length 60
+12:16:39.244849 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 15753, win 2047, options [nop,nop,TS val 631214048 ecr 3542605836], length 0
+12:16:39.588638 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 10008:10044, ack 15753, win 2048, options [nop,nop,TS val 631214391 ecr 3542605836], length 36
+12:16:39.661546 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 15753:15813, ack 10044, win 884, options [nop,nop,TS val 3542606298 ecr 631214391], length 60
+12:16:39.661583 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 15813, win 2047, options [nop,nop,TS val 631214464 ecr 3542606298], length 0
+12:16:39.697262 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 10044:10080, ack 15813, win 2048, options [nop,nop,TS val 631214498 ecr 3542606298], length 36
+12:16:39.777532 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 15813:15873, ack 10080, win 884, options [nop,nop,TS val 3542606400 ecr 631214498], length 60
+12:16:39.777563 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 15873, win 2047, options [nop,nop,TS val 631214578 ecr 3542606400], length 0
+12:16:40.818487 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 10080:10116, ack 15873, win 2048, options [nop,nop,TS val 631215616 ecr 3542606400], length 36
+12:16:40.891976 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 15873:15933, ack 10116, win 884, options [nop,nop,TS val 3542607529 ecr 631215616], length 60
+12:16:40.892047 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 15933, win 2047, options [nop,nop,TS val 631215689 ecr 3542607529], length 0
+12:16:41.085356 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 10116:10152, ack 15933, win 2048, options [nop,nop,TS val 631215881 ecr 3542607529], length 36
+12:16:41.088626 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 10152:10188, ack 15933, win 2048, options [nop,nop,TS val 631215884 ecr 3542607529], length 36
+12:16:41.130324 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 10188, win 884, options [nop,nop,TS val 3542607767 ecr 631215881], length 0
+12:16:41.140608 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 15933:15993, ack 10188, win 884, options [nop,nop,TS val 3542607778 ecr 631215881], length 60
+12:16:41.140630 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 15993, win 2047, options [nop,nop,TS val 631215935 ecr 3542607778], length 0
+12:16:41.146426 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 15993:16053, ack 10188, win 884, options [nop,nop,TS val 3542607784 ecr 631215881], length 60
+12:16:41.146440 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 16053, win 2047, options [nop,nop,TS val 631215940 ecr 3542607784], length 0
+12:16:41.426294 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 10188:10224, ack 16053, win 2048, options [nop,nop,TS val 631216219 ecr 3542607784], length 36
+12:16:41.489812 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 16053:16113, ack 10224, win 884, options [nop,nop,TS val 3542608128 ecr 631216219], length 60
+12:16:41.489852 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 16113, win 2047, options [nop,nop,TS val 631216282 ecr 3542608128], length 0
+12:16:41.598057 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 10224:10260, ack 16113, win 2048, options [nop,nop,TS val 631216389 ecr 3542608128], length 36
+12:16:41.670560 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 16113:16173, ack 10260, win 884, options [nop,nop,TS val 3542608302 ecr 631216389], length 60
+12:16:41.670637 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 16173, win 2047, options [nop,nop,TS val 631216461 ecr 3542608302], length 0
+12:16:41.777300 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 10260:10296, ack 16173, win 2048, options [nop,nop,TS val 631216567 ecr 3542608302], length 36
+12:16:41.836632 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 16173:16233, ack 10296, win 884, options [nop,nop,TS val 3542608474 ecr 631216567], length 60
+12:16:41.836666 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 16233, win 2047, options [nop,nop,TS val 631216625 ecr 3542608474], length 0
+12:16:41.871155 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 10296:10332, ack 16233, win 2048, options [nop,nop,TS val 631216659 ecr 3542608474], length 36
+12:16:41.937369 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 16233:16293, ack 10332, win 884, options [nop,nop,TS val 3542608570 ecr 631216659], length 60
+12:16:41.937401 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 16293, win 2047, options [nop,nop,TS val 631216725 ecr 3542608570], length 0
+12:16:42.224649 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 10332:10368, ack 16293, win 2048, options [nop,nop,TS val 631217010 ecr 3542608570], length 36
+12:16:42.286280 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 16293:16353, ack 10368, win 884, options [nop,nop,TS val 3542608923 ecr 631217010], length 60
+12:16:42.286313 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 16353, win 2047, options [nop,nop,TS val 631217071 ecr 3542608923], length 0
+12:16:42.302128 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 10368:10404, ack 16353, win 2048, options [nop,nop,TS val 631217086 ecr 3542608923], length 36
+12:16:42.359366 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 16353:16413, ack 10404, win 884, options [nop,nop,TS val 3542608997 ecr 631217086], length 60
+12:16:42.359397 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 16413, win 2047, options [nop,nop,TS val 631217142 ecr 3542608997], length 0
+12:16:42.508169 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 10404:10440, ack 16413, win 2048, options [nop,nop,TS val 631217289 ecr 3542608997], length 36
+12:16:42.573022 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 16413:16473, ack 10440, win 884, options [nop,nop,TS val 3542609210 ecr 631217289], length 60
+12:16:42.573055 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 16473, win 2047, options [nop,nop,TS val 631217354 ecr 3542609210], length 0
+12:16:42.743002 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 10440:10476, ack 16473, win 2048, options [nop,nop,TS val 631217522 ecr 3542609210], length 36
+12:16:42.822650 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 16473:16533, ack 10476, win 884, options [nop,nop,TS val 3542609436 ecr 631217522], length 60
+12:16:42.822688 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 16533, win 2047, options [nop,nop,TS val 631217600 ecr 3542609436], length 0
+12:16:42.931549 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 10476:10512, ack 16533, win 2048, options [nop,nop,TS val 631217708 ecr 3542609436], length 36
+12:16:43.025383 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 16533:16593, ack 10512, win 884, options [nop,nop,TS val 3542609628 ecr 631217708], length 60
+12:16:43.025446 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 16593, win 2047, options [nop,nop,TS val 631217801 ecr 3542609628], length 0
+12:16:43.059372 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 10512:10548, ack 16593, win 2048, options [nop,nop,TS val 631217834 ecr 3542609628], length 36
+12:16:43.119747 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 16593:16653, ack 10548, win 884, options [nop,nop,TS val 3542609757 ecr 631217834], length 60
+12:16:43.119778 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 16653, win 2047, options [nop,nop,TS val 631217894 ecr 3542609757], length 0
+12:16:43.341767 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 10548:10584, ack 16653, win 2048, options [nop,nop,TS val 631218114 ecr 3542609757], length 36
+12:16:43.405775 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 16653:16713, ack 10584, win 884, options [nop,nop,TS val 3542610044 ecr 631218114], length 60
+12:16:43.405838 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 16713, win 2047, options [nop,nop,TS val 631218178 ecr 3542610044], length 0
+12:16:43.518754 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 10584:10620, ack 16713, win 2048, options [nop,nop,TS val 631218289 ecr 3542610044], length 36
+12:16:43.584883 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 16713:16773, ack 10620, win 884, options [nop,nop,TS val 3542610221 ecr 631218289], length 60
+12:16:43.584916 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 16773, win 2047, options [nop,nop,TS val 631218355 ecr 3542610221], length 0
+12:16:43.617174 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 10620:10656, ack 16773, win 2048, options [nop,nop,TS val 631218387 ecr 3542610221], length 36
+12:16:43.685774 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 16773:16833, ack 10656, win 884, options [nop,nop,TS val 3542610323 ecr 631218387], length 60
+12:16:43.685805 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 16833, win 2047, options [nop,nop,TS val 631218455 ecr 3542610323], length 0
+12:16:43.873548 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 10656:10692, ack 16833, win 2048, options [nop,nop,TS val 631218640 ecr 3542610323], length 36
+12:16:43.933910 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 16833:16893, ack 10692, win 884, options [nop,nop,TS val 3542610570 ecr 631218640], length 60
+12:16:43.933974 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 16893, win 2047, options [nop,nop,TS val 631218700 ecr 3542610570], length 0
+12:16:43.971344 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 10692:10728, ack 16893, win 2048, options [nop,nop,TS val 631218737 ecr 3542610570], length 36
+12:16:44.026072 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 16893:16953, ack 10728, win 884, options [nop,nop,TS val 3542610664 ecr 631218737], length 60
+12:16:44.026104 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 16953, win 2047, options [nop,nop,TS val 631218791 ecr 3542610664], length 0
+12:16:44.202616 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 10728:10764, ack 16953, win 2048, options [nop,nop,TS val 631218966 ecr 3542610664], length 36
+12:16:44.206327 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 10764:10800, ack 16953, win 2048, options [nop,nop,TS val 631218969 ecr 3542610664], length 36
+12:16:44.250403 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 10800, win 884, options [nop,nop,TS val 3542610887 ecr 631218966], length 0
+12:16:44.266442 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 16953:17013, ack 10800, win 884, options [nop,nop,TS val 3542610904 ecr 631218966], length 60
+12:16:44.266541 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 17013, win 2048, options [nop,nop,TS val 631219029 ecr 3542610904], length 0
+12:16:44.471877 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 10800:10836, ack 17013, win 2048, options [nop,nop,TS val 631219234 ecr 3542610904], length 36
+12:16:44.529125 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 17013:17073, ack 10836, win 884, options [nop,nop,TS val 3542611167 ecr 631219234], length 60
+12:16:44.529170 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 17073, win 2047, options [nop,nop,TS val 631219290 ecr 3542611167], length 0
+12:16:44.542791 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 10836:10872, ack 17073, win 2048, options [nop,nop,TS val 631219303 ecr 3542611167], length 36
+12:16:44.726166 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 10872:10908, ack 17073, win 2048, options [nop,nop,TS val 631219486 ecr 3542611167], length 36
+12:16:44.764249 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 10836, win 884, options [nop,nop,TS val 3542611402 ecr 631219290,nop,nop,sack 1 {10872:10908}], length 0
+12:16:44.764291 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], seq 10836:10872, ack 17073, win 2048, options [nop,nop,TS val 631219524 ecr 3542611402], length 36
+12:16:44.801931 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 10908, win 884, options [nop,nop,TS val 3542611439 ecr 631219524], length 0
+12:16:44.858245 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 17073:17133, ack 10908, win 884, options [nop,nop,TS val 3542611456 ecr 631219524], length 60
+12:16:44.858347 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 17133, win 2048, options [nop,nop,TS val 631219616 ecr 3542611456], length 0
+12:16:44.895417 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 10908:10944, ack 17133, win 2048, options [nop,nop,TS val 631219653 ecr 3542611456], length 36
+12:16:44.965595 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 17133:17193, ack 10944, win 884, options [nop,nop,TS val 3542611603 ecr 631219653], length 60
+12:16:44.965628 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 17193, win 2047, options [nop,nop,TS val 631219723 ecr 3542611603], length 0
+12:16:45.184745 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 10944:10980, ack 17193, win 2048, options [nop,nop,TS val 631219940 ecr 3542611603], length 36
+12:16:45.247725 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 17193:17253, ack 10980, win 884, options [nop,nop,TS val 3542611884 ecr 631219940], length 60
+12:16:45.247784 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 17253, win 2047, options [nop,nop,TS val 631220003 ecr 3542611884], length 0
+12:16:46.943300 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 10980:11016, ack 17253, win 2048, options [nop,nop,TS val 631221696 ecr 3542611884], length 36
+12:16:47.029682 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 17253:17313, ack 11016, win 884, options [nop,nop,TS val 3542613642 ecr 631221696], length 60
+12:16:47.029743 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 17313, win 2047, options [nop,nop,TS val 631221782 ecr 3542613642], length 0
+12:16:47.220581 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 11016:11052, ack 17313, win 2048, options [nop,nop,TS val 631221971 ecr 3542613642], length 36
+12:16:47.286672 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 17313:17373, ack 11052, win 884, options [nop,nop,TS val 3542613924 ecr 631221971], length 60
+12:16:47.286708 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 17373, win 2047, options [nop,nop,TS val 631222037 ecr 3542613924], length 0
+12:16:48.546290 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 11052:11088, ack 17373, win 2048, options [nop,nop,TS val 631223295 ecr 3542613924], length 36
+12:16:48.650802 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 17373:17433, ack 11088, win 884, options [nop,nop,TS val 3542615242 ecr 631223295], length 60
+12:16:48.650833 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 17433, win 2047, options [nop,nop,TS val 631223399 ecr 3542615242], length 0
+12:16:48.843920 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 11088:11124, ack 17433, win 2048, options [nop,nop,TS val 631223591 ecr 3542615242], length 36
+12:16:48.932786 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 17433:17493, ack 11124, win 884, options [nop,nop,TS val 3542615544 ecr 631223591], length 60
+12:16:48.932845 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 17493, win 2047, options [nop,nop,TS val 631223680 ecr 3542615544], length 0
+12:16:49.489295 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 11124:11160, ack 17493, win 2048, options [nop,nop,TS val 631224236 ecr 3542615544], length 36
+12:16:49.580272 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 17493:17553, ack 11160, win 884, options [nop,nop,TS val 3542616218 ecr 631224236], length 60
+12:16:49.580308 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 17553, win 2047, options [nop,nop,TS val 631224326 ecr 3542616218], length 0
+12:16:49.686872 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 11160:11196, ack 17553, win 2048, options [nop,nop,TS val 631224432 ecr 3542616218], length 36
+12:16:49.808988 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 17553:17613, ack 11196, win 884, options [nop,nop,TS val 3542616384 ecr 631224432], length 60
+12:16:49.809030 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 17613, win 2047, options [nop,nop,TS val 631224553 ecr 3542616384], length 0
+12:16:50.074149 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 11196:11232, ack 17613, win 2048, options [nop,nop,TS val 631224817 ecr 3542616384], length 36
+12:16:50.141813 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 17613:17673, ack 11232, win 884, options [nop,nop,TS val 3542616780 ecr 631224817], length 60
+12:16:50.141845 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 17673, win 2047, options [nop,nop,TS val 631224884 ecr 3542616780], length 0
+12:16:50.338699 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 11232:11268, ack 17673, win 2048, options [nop,nop,TS val 631225080 ecr 3542616780], length 36
+12:16:50.396130 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 17673:17733, ack 11268, win 884, options [nop,nop,TS val 3542617033 ecr 631225080], length 60
+12:16:50.396167 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 17733, win 2047, options [nop,nop,TS val 631225137 ecr 3542617033], length 0
+12:16:50.659812 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 11268:11304, ack 17733, win 2048, options [nop,nop,TS val 631225399 ecr 3542617033], length 36
+12:16:50.730822 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 17733:17793, ack 11304, win 884, options [nop,nop,TS val 3542617366 ecr 631225399], length 60
+12:16:50.730854 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 17793, win 2047, options [nop,nop,TS val 631225470 ecr 3542617366], length 0
+12:16:50.735266 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 11304:11340, ack 17793, win 2048, options [nop,nop,TS val 631225474 ecr 3542617366], length 36
+12:16:50.805071 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 17793:17853, ack 11340, win 884, options [nop,nop,TS val 3542617427 ecr 631225474], length 60
+12:16:50.805101 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 17853, win 2047, options [nop,nop,TS val 631225543 ecr 3542617427], length 0
+12:16:51.053600 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 11340:11376, ack 17853, win 2048, options [nop,nop,TS val 631225790 ecr 3542617427], length 36
+12:16:51.127921 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 11376:11412, ack 17853, win 2048, options [nop,nop,TS val 631225864 ecr 3542617427], length 36
+12:16:51.154273 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 17853:17913, ack 11376, win 884, options [nop,nop,TS val 3542617752 ecr 631225790], length 60
+12:16:51.154314 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 17913, win 2047, options [nop,nop,TS val 631225890 ecr 3542617752], length 0
+12:16:51.211350 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 17913:17973, ack 11412, win 884, options [nop,nop,TS val 3542617825 ecr 631225864], length 60
+12:16:51.211389 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 17973, win 2047, options [nop,nop,TS val 631225947 ecr 3542617825], length 0
+12:16:51.421290 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 11412:11448, ack 17973, win 2048, options [nop,nop,TS val 631226156 ecr 3542617825], length 36
+12:16:51.482142 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 17973:18033, ack 11448, win 884, options [nop,nop,TS val 3542618119 ecr 631226156], length 60
+12:16:51.482169 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 18033, win 2047, options [nop,nop,TS val 631226217 ecr 3542618119], length 0
+12:16:51.673997 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 11448:11484, ack 18033, win 2048, options [nop,nop,TS val 631226406 ecr 3542618119], length 36
+12:16:51.730864 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 18033:18093, ack 11484, win 884, options [nop,nop,TS val 3542618369 ecr 631226406], length 60
+12:16:51.730892 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 18093, win 2047, options [nop,nop,TS val 631226462 ecr 3542618369], length 0
+12:16:51.764353 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 11484:11520, ack 18093, win 2048, options [nop,nop,TS val 631226495 ecr 3542618369], length 36
+12:16:51.820154 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 18093:18153, ack 11520, win 884, options [nop,nop,TS val 3542618458 ecr 631226495], length 60
+12:16:51.820187 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 18153, win 2047, options [nop,nop,TS val 631226550 ecr 3542618458], length 0
+12:16:52.277592 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 11520:11556, ack 18153, win 2048, options [nop,nop,TS val 631227005 ecr 3542618458], length 36
+12:16:52.338549 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 18153:18213, ack 11556, win 884, options [nop,nop,TS val 3542618976 ecr 631227005], length 60
+12:16:52.338591 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 18213, win 2047, options [nop,nop,TS val 631227066 ecr 3542618976], length 0
+12:16:52.449831 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 11556:11592, ack 18213, win 2048, options [nop,nop,TS val 631227176 ecr 3542618976], length 36
+12:16:52.517310 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 18213:18273, ack 11592, win 884, options [nop,nop,TS val 3542619155 ecr 631227176], length 60
+12:16:52.517339 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 18273, win 2047, options [nop,nop,TS val 631227243 ecr 3542619155], length 0
+12:16:53.003685 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 11592:11628, ack 18273, win 2048, options [nop,nop,TS val 631227728 ecr 3542619155], length 36
+12:16:53.073558 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 18273:18333, ack 11628, win 884, options [nop,nop,TS val 3542619705 ecr 631227728], length 60
+12:16:53.073625 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 18333, win 2047, options [nop,nop,TS val 631227798 ecr 3542619705], length 0
+12:16:53.664416 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 11628:11664, ack 18333, win 2048, options [nop,nop,TS val 631228388 ecr 3542619705], length 36
+12:16:53.739424 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 18333:18393, ack 11664, win 884, options [nop,nop,TS val 3542620357 ecr 631228388], length 60
+12:16:53.739483 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 18393, win 2047, options [nop,nop,TS val 631228463 ecr 3542620357], length 0
+12:16:53.934321 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 11664:11700, ack 18393, win 2048, options [nop,nop,TS val 631228652 ecr 3542620357], length 36
+12:16:53.959254 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 11700:11736, ack 18393, win 2048, options [nop,nop,TS val 631228676 ecr 3542620357], length 36
+12:16:54.032986 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 18393:18453, ack 11700, win 884, options [nop,nop,TS val 3542620634 ecr 631228652], length 60
+12:16:54.033045 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 18453, win 2047, options [nop,nop,TS val 631228747 ecr 3542620634], length 0
+12:16:54.038689 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 18453:18513, ack 11736, win 884, options [nop,nop,TS val 3542620676 ecr 631228676], length 60
+12:16:54.038749 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 18513, win 2047, options [nop,nop,TS val 631228752 ecr 3542620676], length 0
+12:16:54.520346 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 11736:11772, ack 18513, win 2048, options [nop,nop,TS val 631229233 ecr 3542620676], length 36
+12:16:54.583817 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 18513:18573, ack 11772, win 884, options [nop,nop,TS val 3542621219 ecr 631229233], length 60
+12:16:54.583860 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 18573, win 2047, options [nop,nop,TS val 631229295 ecr 3542621219], length 0
+12:16:54.783225 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 11772:11808, ack 18573, win 2048, options [nop,nop,TS val 631229493 ecr 3542621219], length 36
+12:16:54.847136 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 18573:18633, ack 11808, win 884, options [nop,nop,TS val 3542621485 ecr 631229493], length 60
+12:16:54.847175 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 18633, win 2047, options [nop,nop,TS val 631229557 ecr 3542621485], length 0
+12:16:55.042265 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 11808:11844, ack 18633, win 2048, options [nop,nop,TS val 631229749 ecr 3542621485], length 36
+12:16:55.054439 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 11844:11880, ack 18633, win 2048, options [nop,nop,TS val 631229761 ecr 3542621485], length 36
+12:16:55.096182 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 11880, win 884, options [nop,nop,TS val 3542621734 ecr 631229749], length 0
+12:16:55.100439 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 18633:18693, ack 11880, win 884, options [nop,nop,TS val 3542621738 ecr 631229749], length 60
+12:16:55.100459 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 18693, win 2047, options [nop,nop,TS val 631229806 ecr 3542621738], length 0
+12:16:55.113535 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 18693:18753, ack 11880, win 884, options [nop,nop,TS val 3542621751 ecr 631229749], length 60
+12:16:55.113568 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 18753, win 2047, options [nop,nop,TS val 631229819 ecr 3542621751], length 0
+12:16:55.210255 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 11880:11916, ack 18753, win 2048, options [nop,nop,TS val 631229914 ecr 3542621751], length 36
+12:16:55.270290 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 18753:18813, ack 11916, win 884, options [nop,nop,TS val 3542621908 ecr 631229914], length 60
+12:16:55.270321 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 18813, win 2047, options [nop,nop,TS val 631229974 ecr 3542621908], length 0
+12:16:55.301067 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 11916:11952, ack 18813, win 2048, options [nop,nop,TS val 631230004 ecr 3542621908], length 36
+12:16:55.365721 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 18813:18873, ack 11952, win 884, options [nop,nop,TS val 3542622003 ecr 631230004], length 60
+12:16:55.365757 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 18873, win 2047, options [nop,nop,TS val 631230068 ecr 3542622003], length 0
+12:16:55.598486 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 11952:11988, ack 18873, win 2048, options [nop,nop,TS val 631230299 ecr 3542622003], length 36
+12:16:55.659152 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 18873:18933, ack 11988, win 884, options [nop,nop,TS val 3542622295 ecr 631230299], length 60
+12:16:55.659190 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 18933, win 2047, options [nop,nop,TS val 631230359 ecr 3542622295], length 0
+12:16:56.105929 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 11988:12024, ack 18933, win 2048, options [nop,nop,TS val 631230805 ecr 3542622295], length 36
+12:16:56.170590 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 12024:12060, ack 18933, win 2048, options [nop,nop,TS val 631230869 ecr 3542622295], length 36
+12:16:56.200839 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 18933:18993, ack 12024, win 884, options [nop,nop,TS val 3542622828 ecr 631230805], length 60
+12:16:56.200867 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 18993, win 2047, options [nop,nop,TS val 631230899 ecr 3542622828], length 0
+12:16:56.242926 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 18993:19053, ack 12060, win 884, options [nop,nop,TS val 3542622880 ecr 631230869], length 60
+12:16:56.242958 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 19053, win 2047, options [nop,nop,TS val 631230940 ecr 3542622880], length 0
+12:16:56.409218 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 12060:12096, ack 19053, win 2048, options [nop,nop,TS val 631231105 ecr 3542622880], length 36
+12:16:56.410395 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 12096:12132, ack 19053, win 2048, options [nop,nop,TS val 631231106 ecr 3542622880], length 36
+12:16:56.451098 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 12132, win 884, options [nop,nop,TS val 3542623089 ecr 631231105], length 0
+12:16:56.463411 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 19053:19113, ack 12132, win 884, options [nop,nop,TS val 3542623101 ecr 631231105], length 60
+12:16:56.463437 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 19113, win 2047, options [nop,nop,TS val 631231158 ecr 3542623101], length 0
+12:16:56.468351 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 19113:19173, ack 12132, win 884, options [nop,nop,TS val 3542623106 ecr 631231105], length 60
+12:16:56.468389 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 19173, win 2047, options [nop,nop,TS val 631231162 ecr 3542623106], length 0
+12:16:56.670312 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 12132:12168, ack 19173, win 2048, options [nop,nop,TS val 631231363 ecr 3542623106], length 36
+12:16:56.726233 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 19173:19233, ack 12168, win 884, options [nop,nop,TS val 3542623364 ecr 631231363], length 60
+12:16:56.726263 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 19233, win 2047, options [nop,nop,TS val 631231419 ecr 3542623364], length 0
+12:16:56.919455 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 12168:12204, ack 19233, win 2048, options [nop,nop,TS val 631231611 ecr 3542623364], length 36
+12:16:56.974727 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 12204:12240, ack 19233, win 2048, options [nop,nop,TS val 631231666 ecr 3542623364], length 36
+12:16:56.986452 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 19233:19293, ack 12204, win 884, options [nop,nop,TS val 3542623616 ecr 631231611], length 60
+12:16:56.986488 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 19293, win 2047, options [nop,nop,TS val 631231677 ecr 3542623616], length 0
+12:16:57.030979 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 19293:19353, ack 12240, win 884, options [nop,nop,TS val 3542623669 ecr 631231666], length 60
+12:16:57.031011 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 19353, win 2047, options [nop,nop,TS val 631231720 ecr 3542623669], length 0
+12:16:57.196943 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 12240:12276, ack 19353, win 2048, options [nop,nop,TS val 631231884 ecr 3542623669], length 36
+12:16:57.198067 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 12276:12312, ack 19353, win 2048, options [nop,nop,TS val 631231885 ecr 3542623669], length 36
+12:16:57.272347 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 12312, win 884, options [nop,nop,TS val 3542623894 ecr 631231884], length 0
+12:16:57.279640 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 19353:19413, ack 12312, win 884, options [nop,nop,TS val 3542623912 ecr 631231884], length 60
+12:16:57.279675 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 19413, win 2047, options [nop,nop,TS val 631231966 ecr 3542623912], length 0
+12:16:57.544617 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 12312:12348, ack 19413, win 2048, options [nop,nop,TS val 631232230 ecr 3542623912], length 36
+12:16:57.637133 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 19413:19473, ack 12348, win 884, options [nop,nop,TS val 3542624266 ecr 631232230], length 60
+12:16:57.637193 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 19473, win 2047, options [nop,nop,TS val 631232322 ecr 3542624266], length 0
+12:16:57.656236 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 12348:12384, ack 19473, win 2048, options [nop,nop,TS val 631232340 ecr 3542624266], length 36
+12:16:57.721942 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 19473:19533, ack 12384, win 884, options [nop,nop,TS val 3542624358 ecr 631232340], length 60
+12:16:57.721971 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 19533, win 2047, options [nop,nop,TS val 631232405 ecr 3542624358], length 0
+12:16:57.950126 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 12384:12420, ack 19533, win 2048, options [nop,nop,TS val 631232631 ecr 3542624358], length 36
+12:16:58.177927 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 19533:19593, ack 12420, win 884, options [nop,nop,TS val 3542624646 ecr 631232631], length 60
+12:16:58.177986 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 19593, win 2047, options [nop,nop,TS val 631232858 ecr 3542624646], length 0
+12:16:59.299509 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 12420:12456, ack 19593, win 2048, options [nop,nop,TS val 631233972 ecr 3542624646], length 36
+12:16:59.359776 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 19593:19653, ack 12456, win 884, options [nop,nop,TS val 3542625994 ecr 631233972], length 60
+12:16:59.359806 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 19653, win 2047, options [nop,nop,TS val 631234031 ecr 3542625994], length 0
+12:17:07.039625 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 12456:12492, ack 19653, win 2048, options [nop,nop,TS val 631241707 ecr 3542625994], length 36
+12:17:07.127285 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 19653:19713, ack 12492, win 884, options [nop,nop,TS val 3542633761 ecr 631241707], length 60
+12:17:07.127318 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 19713, win 2047, options [nop,nop,TS val 631241794 ecr 3542633761], length 0
+12:17:07.352079 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 12492:12528, ack 19713, win 2048, options [nop,nop,TS val 631242018 ecr 3542633761], length 36
+12:17:07.410537 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 19713:19773, ack 12528, win 884, options [nop,nop,TS val 3542634047 ecr 631242018], length 60
+12:17:07.410572 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 19773, win 2047, options [nop,nop,TS val 631242076 ecr 3542634047], length 0
+12:17:07.608165 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 12528:12564, ack 19773, win 2048, options [nop,nop,TS val 631242272 ecr 3542634047], length 36
+12:17:07.673739 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 19773:19833, ack 12564, win 884, options [nop,nop,TS val 3542634301 ecr 631242272], length 60
+12:17:07.673772 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 19833, win 2047, options [nop,nop,TS val 631242337 ecr 3542634301], length 0
+12:17:07.870114 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 12564:12600, ack 19833, win 2048, options [nop,nop,TS val 631242532 ecr 3542634301], length 36
+12:17:07.946734 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 19833:19893, ack 12600, win 884, options [nop,nop,TS val 3542634564 ecr 631242532], length 60
+12:17:07.946793 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 19893, win 2047, options [nop,nop,TS val 631242608 ecr 3542634564], length 0
+12:17:08.238913 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 12600:12636, ack 19893, win 2048, options [nop,nop,TS val 631242898 ecr 3542634564], length 36
+12:17:08.313997 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 19893:19953, ack 12636, win 884, options [nop,nop,TS val 3542634951 ecr 631242898], length 60
+12:17:08.314031 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 19953, win 2047, options [nop,nop,TS val 631242973 ecr 3542634951], length 0
+12:17:08.329490 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 12636:12672, ack 19953, win 2048, options [nop,nop,TS val 631242988 ecr 3542634951], length 36
+12:17:08.390592 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 19953:20013, ack 12672, win 884, options [nop,nop,TS val 3542635028 ecr 631242988], length 60
+12:17:08.390622 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 20013, win 2047, options [nop,nop,TS val 631243048 ecr 3542635028], length 0
+12:17:08.641247 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 12672:12708, ack 20013, win 2048, options [nop,nop,TS val 631243296 ecr 3542635028], length 36
+12:17:08.644750 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 12708:12744, ack 20013, win 2048, options [nop,nop,TS val 631243299 ecr 3542635028], length 36
+12:17:08.669846 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 12744:12780, ack 20013, win 2048, options [nop,nop,TS val 631243324 ecr 3542635028], length 36
+12:17:08.709378 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 12744, win 884, options [nop,nop,TS val 3542635325 ecr 631243296], length 0
+12:17:08.709386 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 20013:20073, ack 12744, win 884, options [nop,nop,TS val 3542635342 ecr 631243296], length 60
+12:17:08.709419 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 20073, win 2047, options [nop,nop,TS val 631243363 ecr 3542635342], length 0
+12:17:08.759138 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 20073:20133, ack 12780, win 884, options [nop,nop,TS val 3542635362 ecr 631243324], length 60
+12:17:08.759169 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 20133, win 2047, options [nop,nop,TS val 631243412 ecr 3542635362], length 0
+12:17:08.917080 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 12780:12816, ack 20133, win 2048, options [nop,nop,TS val 631243569 ecr 3542635362], length 36
+12:17:08.974823 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 20133:20193, ack 12816, win 884, options [nop,nop,TS val 3542635612 ecr 631243569], length 60
+12:17:08.974857 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 20193, win 2047, options [nop,nop,TS val 631243626 ecr 3542635612], length 0
+12:17:09.474184 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 12816:12852, ack 20193, win 2048, options [nop,nop,TS val 631244124 ecr 3542635612], length 36
+12:17:09.567143 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 20193:20253, ack 12852, win 884, options [nop,nop,TS val 3542636182 ecr 631244124], length 60
+12:17:09.567174 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 20253, win 2047, options [nop,nop,TS val 631244217 ecr 3542636182], length 0
+12:17:09.598439 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 12852:12888, ack 20253, win 2048, options [nop,nop,TS val 631244247 ecr 3542636182], length 36
+12:17:09.654470 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 20253:20313, ack 12888, win 884, options [nop,nop,TS val 3542636292 ecr 631244247], length 60
+12:17:09.654500 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 20313, win 2047, options [nop,nop,TS val 631244303 ecr 3542636292], length 0
+12:17:10.113825 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 12888:12924, ack 20313, win 2048, options [nop,nop,TS val 631244760 ecr 3542636292], length 36
+12:17:10.216344 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 20313:20373, ack 12924, win 884, options [nop,nop,TS val 3542636839 ecr 631244760], length 60
+12:17:10.216380 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 20373, win 2047, options [nop,nop,TS val 631244862 ecr 3542636839], length 0
+12:17:10.236917 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 12924:12960, ack 20373, win 2048, options [nop,nop,TS val 631244881 ecr 3542636839], length 36
+12:17:10.336182 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 20373:20433, ack 12960, win 884, options [nop,nop,TS val 3542636974 ecr 631244881], length 60
+12:17:10.336214 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 20433, win 2047, options [nop,nop,TS val 631244980 ecr 3542636974], length 0
+12:17:10.535841 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 12960:12996, ack 20433, win 2048, options [nop,nop,TS val 631245178 ecr 3542636974], length 36
+12:17:10.541482 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 12996:13032, ack 20433, win 2048, options [nop,nop,TS val 631245183 ecr 3542636974], length 36
+12:17:10.581975 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 13032, win 884, options [nop,nop,TS val 3542637220 ecr 631245178], length 0
+12:17:10.591363 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 20433:20493, ack 13032, win 884, options [nop,nop,TS val 3542637229 ecr 631245178], length 60
+12:17:10.591388 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 20493, win 2047, options [nop,nop,TS val 631245232 ecr 3542637229], length 0
+12:17:10.598383 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 20493:20553, ack 13032, win 884, options [nop,nop,TS val 3542637236 ecr 631245178], length 60
+12:17:10.598418 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 20553, win 2047, options [nop,nop,TS val 631245239 ecr 3542637236], length 0
+12:17:10.794391 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 13032:13068, ack 20553, win 2048, options [nop,nop,TS val 631245434 ecr 3542637236], length 36
+12:17:10.865018 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 20553:20613, ack 13068, win 884, options [nop,nop,TS val 3542637502 ecr 631245434], length 60
+12:17:10.865078 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 20613, win 2047, options [nop,nop,TS val 631245504 ecr 3542637502], length 0
+12:17:11.063827 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 13068:13104, ack 20613, win 2048, options [nop,nop,TS val 631245701 ecr 3542637502], length 36
+12:17:11.123352 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 13104:13140, ack 20613, win 2048, options [nop,nop,TS val 631245760 ecr 3542637502], length 36
+12:17:11.123372 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 20613:20673, ack 13104, win 884, options [nop,nop,TS val 3542637761 ecr 631245701], length 60
+12:17:11.123388 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 20673, win 2047, options [nop,nop,TS val 631245760 ecr 3542637761], length 0
+12:17:11.179541 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 20673:20733, ack 13140, win 884, options [nop,nop,TS val 3542637818 ecr 631245760], length 60
+12:17:11.179571 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 20733, win 2047, options [nop,nop,TS val 631245815 ecr 3542637818], length 0
+12:17:11.332121 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 13140:13176, ack 20733, win 2048, options [nop,nop,TS val 631245966 ecr 3542637818], length 36
+12:17:11.387727 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 20733:20793, ack 13176, win 884, options [nop,nop,TS val 3542638025 ecr 631245966], length 60
+12:17:11.387758 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 20793, win 2047, options [nop,nop,TS val 631246021 ecr 3542638025], length 0
+12:17:11.408276 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 13176:13212, ack 20793, win 2048, options [nop,nop,TS val 631246041 ecr 3542638025], length 36
+12:17:11.464826 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 20793:20853, ack 13212, win 884, options [nop,nop,TS val 3542638102 ecr 631246041], length 60
+12:17:11.464857 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 20853, win 2047, options [nop,nop,TS val 631246096 ecr 3542638102], length 0
+12:17:11.705227 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 13212:13248, ack 20853, win 2048, options [nop,nop,TS val 631246334 ecr 3542638102], length 36
+12:17:11.710882 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 13248:13284, ack 20853, win 2048, options [nop,nop,TS val 631246339 ecr 3542638102], length 36
+12:17:11.733190 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 13284:13320, ack 20853, win 2048, options [nop,nop,TS val 631246361 ecr 3542638102], length 36
+12:17:11.758129 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 13284, win 884, options [nop,nop,TS val 3542638396 ecr 631246334], length 0
+12:17:11.766777 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 20853:20913, ack 13284, win 884, options [nop,nop,TS val 3542638405 ecr 631246334], length 60
+12:17:11.766807 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 20913, win 2047, options [nop,nop,TS val 631246394 ecr 3542638405], length 0
+12:17:11.776731 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 20913:20973, ack 13320, win 884, options [nop,nop,TS val 3542638413 ecr 631246361], length 60
+12:17:11.776762 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 20973, win 2047, options [nop,nop,TS val 631246403 ecr 3542638413], length 0
+12:17:11.787979 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 20973:21033, ack 13320, win 884, options [nop,nop,TS val 3542638426 ecr 631246361], length 60
+12:17:11.788009 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 21033, win 2047, options [nop,nop,TS val 631246414 ecr 3542638426], length 0
+12:17:11.803903 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 13320:13356, ack 21033, win 2048, options [nop,nop,TS val 631246429 ecr 3542638426], length 36
+12:17:11.870373 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 21033:21093, ack 13356, win 884, options [nop,nop,TS val 3542638508 ecr 631246429], length 60
+12:17:11.870412 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 21093, win 2047, options [nop,nop,TS val 631246494 ecr 3542638508], length 0
+12:17:12.284208 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 13356:13392, ack 21093, win 2048, options [nop,nop,TS val 631246905 ecr 3542638508], length 36
+12:17:12.350613 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 21093:21153, ack 13392, win 884, options [nop,nop,TS val 3542638988 ecr 631246905], length 60
+12:17:12.350647 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 21153, win 2047, options [nop,nop,TS val 631246971 ecr 3542638988], length 0
+12:17:12.368730 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 13392:13428, ack 21153, win 2048, options [nop,nop,TS val 631246988 ecr 3542638988], length 36
+12:17:12.464124 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 21153:21213, ack 13428, win 884, options [nop,nop,TS val 3542639062 ecr 631246988], length 60
+12:17:12.464155 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 21213, win 2047, options [nop,nop,TS val 631247083 ecr 3542639062], length 0
+12:17:12.678139 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 13428:13464, ack 21213, win 2048, options [nop,nop,TS val 631247295 ecr 3542639062], length 36
+12:17:12.714676 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 13464:13500, ack 21213, win 2048, options [nop,nop,TS val 631247331 ecr 3542639062], length 36
+12:17:12.733313 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 21213:21273, ack 13464, win 884, options [nop,nop,TS val 3542639372 ecr 631247295], length 60
+12:17:12.733345 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 21273, win 2047, options [nop,nop,TS val 631247349 ecr 3542639372], length 0
+12:17:12.770008 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 21273:21333, ack 13500, win 884, options [nop,nop,TS val 3542639408 ecr 631247331], length 60
+12:17:12.770044 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 21333, win 2047, options [nop,nop,TS val 631247385 ecr 3542639408], length 0
+12:17:12.944437 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 13500:13536, ack 21333, win 2048, options [nop,nop,TS val 631247558 ecr 3542639408], length 36
+12:17:13.007565 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 21333:21393, ack 13536, win 884, options [nop,nop,TS val 3542639646 ecr 631247558], length 60
+12:17:13.007596 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 21393, win 2047, options [nop,nop,TS val 631247621 ecr 3542639646], length 0
+12:17:13.199832 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 13536:13572, ack 21393, win 2048, options [nop,nop,TS val 631247812 ecr 3542639646], length 36
+12:17:13.260704 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 21393:21453, ack 13572, win 884, options [nop,nop,TS val 3542639899 ecr 631247812], length 60
+12:17:13.260738 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 21453, win 2047, options [nop,nop,TS val 631247872 ecr 3542639899], length 0
+12:17:13.518079 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 13572:13608, ack 21453, win 2048, options [nop,nop,TS val 631248129 ecr 3542639899], length 36
+12:17:13.519082 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 13608:13644, ack 21453, win 2048, options [nop,nop,TS val 631248130 ecr 3542639899], length 36
+12:17:13.569504 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 13644, win 884, options [nop,nop,TS val 3542640208 ecr 631248129], length 0
+12:17:13.610422 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 21453:21513, ack 13644, win 884, options [nop,nop,TS val 3542640224 ecr 631248129], length 60
+12:17:13.610472 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 21513, win 2047, options [nop,nop,TS val 631248220 ecr 3542640224], length 0
+12:17:13.619578 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 13644:13680, ack 21513, win 2048, options [nop,nop,TS val 631248228 ecr 3542640224], length 36
+12:17:13.722590 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 21513:21573, ack 13680, win 884, options [nop,nop,TS val 3542640334 ecr 631248228], length 60
+12:17:13.722629 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 21573, win 2047, options [nop,nop,TS val 631248331 ecr 3542640334], length 0
+12:17:13.940722 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 13680:13716, ack 21573, win 2048, options [nop,nop,TS val 631248547 ecr 3542640334], length 36
+12:17:13.943958 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 13716:13752, ack 21573, win 2048, options [nop,nop,TS val 631248550 ecr 3542640334], length 36
+12:17:13.987090 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 13752, win 884, options [nop,nop,TS val 3542640625 ecr 631248547], length 0
+12:17:13.998893 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 21573:21633, ack 13752, win 884, options [nop,nop,TS val 3542640637 ecr 631248547], length 60
+12:17:13.998934 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 21633, win 2047, options [nop,nop,TS val 631248604 ecr 3542640637], length 0
+12:17:14.032815 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 21633:21693, ack 13752, win 884, options [nop,nop,TS val 3542640642 ecr 631248547], length 60
+12:17:14.032846 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 21693, win 2047, options [nop,nop,TS val 631248637 ecr 3542640642], length 0
+12:17:14.087208 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 13752:13788, ack 21693, win 2048, options [nop,nop,TS val 631248689 ecr 3542640642], length 36
+12:17:14.150957 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 21693:21753, ack 13788, win 884, options [nop,nop,TS val 3542640786 ecr 631248689], length 60
+12:17:14.150988 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 21753, win 2047, options [nop,nop,TS val 631248752 ecr 3542640786], length 0
+12:17:14.353105 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 13788:13824, ack 21753, win 2048, options [nop,nop,TS val 631248953 ecr 3542640786], length 36
+12:17:14.360337 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 13824:13860, ack 21753, win 2048, options [nop,nop,TS val 631248960 ecr 3542640786], length 36
+12:17:14.408474 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 13860, win 884, options [nop,nop,TS val 3542641042 ecr 631248953], length 0
+12:17:14.418164 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 21753:21813, ack 13860, win 884, options [nop,nop,TS val 3542641053 ecr 631248953], length 60
+12:17:14.418192 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 21813, win 2047, options [nop,nop,TS val 631249017 ecr 3542641053], length 0
+12:17:14.420797 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 21813:21873, ack 13860, win 884, options [nop,nop,TS val 3542641059 ecr 631248953], length 60
+12:17:14.420819 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 21873, win 2047, options [nop,nop,TS val 631249019 ecr 3542641059], length 0
+12:17:14.433825 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 13860:13896, ack 21873, win 2048, options [nop,nop,TS val 631249031 ecr 3542641059], length 36
+12:17:14.494122 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 21873:21933, ack 13896, win 884, options [nop,nop,TS val 3542641133 ecr 631249031], length 60
+12:17:14.494154 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 21933, win 2047, options [nop,nop,TS val 631249091 ecr 3542641133], length 0
+12:17:14.740758 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 13896:13932, ack 21933, win 2048, options [nop,nop,TS val 631249335 ecr 3542641133], length 36
+12:17:14.747227 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 13932:13968, ack 21933, win 2048, options [nop,nop,TS val 631249341 ecr 3542641133], length 36
+12:17:14.747998 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 13968:14004, ack 21933, win 2048, options [nop,nop,TS val 631249341 ecr 3542641133], length 36
+12:17:14.790115 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 14004, win 884, options [nop,nop,TS val 3542641428 ecr 631249335], length 0
+12:17:14.801456 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 21933:21993, ack 14004, win 884, options [nop,nop,TS val 3542641440 ecr 631249335], length 60
+12:17:14.801482 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 21993, win 2047, options [nop,nop,TS val 631249395 ecr 3542641440], length 0
+12:17:14.803685 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 14004:14040, ack 21993, win 2048, options [nop,nop,TS val 631249397 ecr 3542641440], length 36
+12:17:14.806703 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 21993:22053, ack 14004, win 884, options [nop,nop,TS val 3542641445 ecr 631249335], length 60
+12:17:14.806717 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 22053, win 2047, options [nop,nop,TS val 631249400 ecr 3542641445], length 0
+12:17:14.891091 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 22053:22113, ack 14040, win 884, options [nop,nop,TS val 3542641499 ecr 631249397], length 60
+12:17:14.891120 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 22113, win 2047, options [nop,nop,TS val 631249482 ecr 3542641499], length 0
+12:17:15.783888 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 14040:14076, ack 22113, win 2048, options [nop,nop,TS val 631250372 ecr 3542641499], length 36
+12:17:15.844491 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 22113:22173, ack 14076, win 884, options [nop,nop,TS val 3542642482 ecr 631250372], length 60
+12:17:15.844548 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 22173, win 2047, options [nop,nop,TS val 631250432 ecr 3542642482], length 0
+12:17:16.040870 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 14076:14112, ack 22173, win 2048, options [nop,nop,TS val 631250627 ecr 3542642482], length 36
+12:17:16.097347 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 22173:22233, ack 14112, win 884, options [nop,nop,TS val 3542642735 ecr 631250627], length 60
+12:17:16.097407 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 22233, win 2047, options [nop,nop,TS val 631250683 ecr 3542642735], length 0
+12:17:16.365657 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 14112:14148, ack 22233, win 2048, options [nop,nop,TS val 631250950 ecr 3542642735], length 36
+12:17:16.428334 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 22233:22293, ack 14148, win 884, options [nop,nop,TS val 3542643065 ecr 631250950], length 60
+12:17:16.428394 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 22293, win 2047, options [nop,nop,TS val 631251012 ecr 3542643065], length 0
+12:17:16.628661 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 14148:14184, ack 22293, win 2048, options [nop,nop,TS val 631251211 ecr 3542643065], length 36
+12:17:16.660726 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 14184:14220, ack 22293, win 2048, options [nop,nop,TS val 631251242 ecr 3542643065], length 36
+12:17:16.686449 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 22293:22353, ack 14184, win 884, options [nop,nop,TS val 3542643324 ecr 631251211], length 60
+12:17:16.686481 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 22353, win 2047, options [nop,nop,TS val 631251267 ecr 3542643324], length 0
+12:17:16.716180 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 22353:22413, ack 14220, win 884, options [nop,nop,TS val 3542643354 ecr 631251242], length 60
+12:17:16.716223 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 22413, win 2047, options [nop,nop,TS val 631251296 ecr 3542643354], length 0
+12:17:16.910433 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 14220:14256, ack 22413, win 2048, options [nop,nop,TS val 631251489 ecr 3542643354], length 36
+12:17:16.968280 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 22413:22473, ack 14256, win 884, options [nop,nop,TS val 3542643606 ecr 631251489], length 60
+12:17:16.968340 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 22473, win 2047, options [nop,nop,TS val 631251546 ecr 3542643606], length 0
+12:17:17.134587 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 14256:14292, ack 22473, win 2048, options [nop,nop,TS val 631251712 ecr 3542643606], length 36
+12:17:17.202954 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 22473:22533, ack 14292, win 884, options [nop,nop,TS val 3542643828 ecr 631251712], length 60
+12:17:17.202984 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 22533, win 2047, options [nop,nop,TS val 631251780 ecr 3542643828], length 0
+12:17:17.227748 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 14292:14328, ack 22533, win 2048, options [nop,nop,TS val 631251804 ecr 3542643828], length 36
+12:17:17.228980 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 14328:14364, ack 22533, win 2048, options [nop,nop,TS val 631251805 ecr 3542643828], length 36
+12:17:17.274375 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 14364, win 884, options [nop,nop,TS val 3542643910 ecr 631251804], length 0
+12:17:17.304370 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 22533:22593, ack 14364, win 884, options [nop,nop,TS val 3542643926 ecr 631251804], length 60
+12:17:17.304397 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 22593, win 2047, options [nop,nop,TS val 631251878 ecr 3542643926], length 0
+12:17:17.511590 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 14364:14400, ack 22593, win 2048, options [nop,nop,TS val 631252083 ecr 3542643926], length 36
+12:17:17.515457 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 14400:14436, ack 22593, win 2048, options [nop,nop,TS val 631252086 ecr 3542643926], length 36
+12:17:17.557054 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 14436, win 884, options [nop,nop,TS val 3542644195 ecr 631252083], length 0
+12:17:17.568395 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 22593:22653, ack 14436, win 884, options [nop,nop,TS val 3542644205 ecr 631252083], length 60
+12:17:17.568423 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 22653, win 2047, options [nop,nop,TS val 631252137 ecr 3542644205], length 0
+12:17:17.575742 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 22653:22713, ack 14436, win 884, options [nop,nop,TS val 3542644212 ecr 631252083], length 60
+12:17:17.575795 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 22713, win 2047, options [nop,nop,TS val 631252144 ecr 3542644212], length 0
+12:17:17.773754 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 14436:14472, ack 22713, win 2048, options [nop,nop,TS val 631252341 ecr 3542644212], length 36
+12:17:17.774528 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 14472:14508, ack 22713, win 2048, options [nop,nop,TS val 631252341 ecr 3542644212], length 36
+12:17:17.813085 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [.], ack 14508, win 884, options [nop,nop,TS val 3542644451 ecr 631252341], length 0
+12:17:17.839633 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 22713:22773, ack 14508, win 884, options [nop,nop,TS val 3542644468 ecr 631252341], length 60
+12:17:17.839657 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 22773, win 2047, options [nop,nop,TS val 631252406 ecr 3542644468], length 0
+12:17:17.842013 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 14508:14544, ack 22773, win 2048, options [nop,nop,TS val 631252408 ecr 3542644468], length 36
+12:17:17.916809 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 22773:22833, ack 14544, win 884, options [nop,nop,TS val 3542644555 ecr 631252408], length 60
+12:17:17.916838 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 22833, win 2047, options [nop,nop,TS val 631252482 ecr 3542644555], length 0
+12:17:18.062143 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 14544:14580, ack 22833, win 2048, options [nop,nop,TS val 631252625 ecr 3542644555], length 36
+12:17:18.141797 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 22833:22893, ack 14580, win 884, options [nop,nop,TS val 3542644756 ecr 631252625], length 60
+12:17:18.141825 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 22893, win 2047, options [nop,nop,TS val 631252704 ecr 3542644756], length 0
+12:17:19.496342 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 14580:14616, ack 22893, win 2048, options [nop,nop,TS val 631254057 ecr 3542644756], length 36
+12:17:19.559333 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 22893:22953, ack 14616, win 884, options [nop,nop,TS val 3542646197 ecr 631254057], length 60
+12:17:19.559390 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 22953, win 2047, options [nop,nop,TS val 631254119 ecr 3542646197], length 0
+12:17:21.263383 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 14616:14652, ack 22953, win 2048, options [nop,nop,TS val 631255822 ecr 3542646197], length 36
+12:17:21.333971 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 22953:23181, ack 14652, win 884, options [nop,nop,TS val 3542647972 ecr 631255822], length 228
+12:17:21.334030 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 23181, win 2044, options [nop,nop,TS val 631255892 ecr 3542647972], length 0
+12:17:21.784241 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 14652:14688, ack 23181, win 2048, options [nop,nop,TS val 631256341 ecr 3542647972], length 36
+12:17:21.854862 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 23181:23545, ack 14688, win 884, options [nop,nop,TS val 3542648493 ecr 631256341], length 364
+12:17:21.854895 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 23545, win 2042, options [nop,nop,TS val 631256411 ecr 3542648493], length 0
+12:17:22.416412 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [P.], seq 14688:14724, ack 23545, win 2048, options [nop,nop,TS val 631256971 ecr 3542648493], length 36
+12:17:22.485188 IP 3.84.253.187.22 > 192.168.1.25.49488: Flags [P.], seq 23545:23813, ack 14724, win 884, options [nop,nop,TS val 3542649122 ecr 631256971], length 268
+12:17:22.485221 IP 192.168.1.25.49488 > 3.84.253.187.22: Flags [.], ack 23813, win 2043, options [nop,nop,TS val 631257039 ecr 3542649122], length 0
+
