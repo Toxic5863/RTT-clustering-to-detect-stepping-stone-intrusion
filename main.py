@@ -9,7 +9,7 @@ import statistics
 E = list()  # echoes
 S = list()  # sends
 X = list()  # samples for MMD algorithm
-t = 0.25  # threshold value that determines whether a new cluster is made
+t = 0.01  # threshold value that determines whether a new cluster is made
 p = 0  # number of cluster centers found
 C = list()  # cluster centers
 r = list()  # cluster sizes
@@ -112,7 +112,7 @@ def get_mean_of_cluster(ndarrayx):
 get_mean_of_cluster_vec = np.vectorize(get_mean_of_cluster)
 
 # -------------loading in packet data--------------
-with open("Data/SeparateLocations/4-connection-dataset13.txt", "r") as packetData:
+with open("Data/LaptopSensor/4steppingstones.txt", "r") as packetData:
     first_line = packetData.readline()
     first_time = pr.get_time(first_line)
     send_source = pr.get_source(first_line)
@@ -129,7 +129,7 @@ with open("Data/SeparateLocations/4-connection-dataset13.txt", "r") as packetDat
                 E.append(pr.get_time(line) - first_time)
 # print(E)
 # print(S)
-difference_limit = 8
+difference_limit = 7
 differences = [[np.nan for i in range(difference_limit)] for j in range(len(S))]
 for a in range(len(S)):
     difference_limiter = 0
@@ -283,7 +283,7 @@ for a in range(len(clusters[0, :])):
 cluster_analysis_update()
 
 print("Creating subsets of consecutive elements in clusters...\n")
-g = 3
+g = 2
 clustering_ratios = list()
 for a in range(len(clusters[0, :])):
     subsets = [[0 for i in range(np.count_nonzero(clusters[:, a]))] for j in range(np.count_nonzero(clusters[:, a]))]
@@ -323,17 +323,17 @@ for a in clustering_ratios:
     number_of_clustering_ratios += 1
 average_clustering_ratio /= number_of_clustering_ratios
 
-minimum_difference = 2 * statistics.stdev(clustering_ratios)
+minimum_difference = statistics.stdev(clustering_ratios)
 print("Filtering for clusters whose ratio is two standard deviations above the mean...")
 for a in clustering_ratios:
     if a - average_clustering_ratio >= minimum_difference:
         high_ratio_clusters.append(a)
 
 print("\ndebug:")
-last_cluster = clusters[:np.count_nonzero(clusters[:, -1]), -1]
+#last_cluster = clusters[:np.count_nonzero(clusters[:, -1]), -1]
 # for a in range(len(last_cluster)):
 #     print(S.index(last_cluster[a].send))
 print(average_clustering_ratio)
 print(clustering_ratios)
-print(high_ratio_clusters)
+print(len(high_ratio_clusters))
 time.sleep(1)
