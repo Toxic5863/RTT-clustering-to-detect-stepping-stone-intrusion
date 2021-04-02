@@ -9,14 +9,14 @@ import statistics
 E = list()  # echoes
 S = list()  # sends
 X = list()  # samples for MMD algorithm
-t = 0.1  # threshold value that determines whether a new cluster is made
+t = 0.01  # threshold value that determines whether a new cluster is made
 p = 0  # number of cluster centers found
 C = list()  # cluster centers
 r = list()  # cluster sizes
 u = np.zeros((1000, 1000))
 d = int
 average_clustering_ratio = int
-number_of_clustering_ratios = int
+number_of_clustering_ratios = 0
 high_ratio_clusters = list()
 clusters_needed = True
 sends = 0
@@ -284,42 +284,21 @@ cluster_analysis_update()
 print("Creating subsets of consecutive elements in clusters...\n")
 g = 2
 clustering_ratios = list()
+for a in range(len(clusters[0, :])):
+    previous_send_index = -3
+    consecutive_elements = 0
+    send_indices = list()
+    for b in range(np.count_nonzero(clusters[:, a])):
+        current_RTT = clusters[b][a]
+        current_send_index = S.index(current_RTT.send)
+        send_indices.append(current_send_index)
+        if abs(current_send_index - previous_send_index) <= g:
+            consecutive_elements += 1
+        previous_send_index = current_send_index
+    cluster_range = max(send_indices) - min(send_indices)
+    clustering_ratio = (consecutive_elements / cluster_range) if cluster_range != 0 else 0
+    clustering_ratios.append(clustering_ratio)
 
-    # this whole section needs to be redone
-    # to calculate the total number of connected
-    # elements in a cluster divided by the range
-    # of the cluster (maximum send index minus minimum)
-
-# for a in range(len(clusters[0, :])):
-#     subsets = [[] for j in range(np.count_nonzero(clusters[:, a]))]
-#     subset_count = 0
-#     current_subset = list()
-#     current_send = 0
-#     total_sends = list()
-#     subset_sizes = list()
-#     for b in range(np.count_nonzero(clusters[:, a])):
-#         if not current_subset:
-#             current_subset.append(clusters[b][a])
-#             current_send = clusters[b][a].send
-#         if abs(S.index(clusters[b][a].send) - S.index(current_send)) <= g:
-#             current_subset.append(clusters[b][a])
-#         else:
-#             subsets[subset_count] = current_subset
-#             subset_count += 1
-#             current_subset = list()
-#         current_send = clusters[b][a].send
-#         total_sends.append(current_send)
-#     subset_count += 1
-#     indices = list()
-#     for b in range(len(total_sends)):
-#         indices.append(S.index(total_sends[b]))
-#     cluster_range = max(indices) - min(indices)
-#     for b in range(subset_count):
-#         subset_sizes.append(len(subsets[b]))
-#     biggest_subset_length = sum(subset_sizes)
-#     clustering_ratio = (biggest_subset_length/cluster_range) if cluster_range != 0 else 0
-#     clustering_ratios.append(clustering_ratio)
-#     print("subsets of", a, ":", subsets)
 
 print("Calculating average clustering ratio...\n")
 number_of_clustering_ratios, average_clustering_ratio = 0, 0
