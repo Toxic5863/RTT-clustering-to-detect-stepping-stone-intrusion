@@ -6,7 +6,7 @@ def isPositive(integerx):
 
 
 def get_time(stringx):
-    unadjusted_time = re.search(r'\d*:\d*:\d*\.\d*\s', stringx).group()[:-1]
+    unadjusted_time = re.search(r'\d+:\d+:\d+\.\d+\s', stringx).group()[:-1]
     adjusted_time = re.split(r'\.|:', unadjusted_time)
     adjusted_time[3] = "0." + adjusted_time[3]
     return float(adjusted_time[0]) * 3600 + float(adjusted_time[1]) * 60 + float(adjusted_time[2]) + float(
@@ -22,7 +22,7 @@ def check_if_send(stringx, stringy):
 
 
 def get_source(stringx):
-    return re.search(r'IP \S+ >', stringx).group()[3:]
+    return re.search(r'IP \S+ >', stringx).group()[3:-2]
 
 
 def get_destination(stringx):

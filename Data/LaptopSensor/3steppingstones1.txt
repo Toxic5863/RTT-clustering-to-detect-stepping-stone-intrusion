@@ -724,4 +724,3 @@
 13:33:13.643795 IP ec2-52-87-244-84.compute-1.amazonaws.com.ssh > archlinux.56912: Flags [P.], seq 74658:74694, ack 14309, win 936, options [nop,nop,TS val 3038200553 ecr 4020752672], length 36
 13:33:13.737072 IP archlinux.56912 > ec2-52-87-244-84.compute-1.amazonaws.com.ssh: Flags [P.], seq 14309:14345, ack 74694, win 954, options [nop,nop,TS val 4020752885 ecr 3038200553], length 36
 13:33:13.855899 IP ec2-52-87-244-84.compute-1.amazonaws.com.ssh > archlinux.56912: Flags [P.], seq 74694:74842, ack 14345, win 936, options [nop,nop,TS val 3038200765 ecr 4020752885], length 148
-

@@ -9,7 +9,7 @@ import statistics
 E = list()  # echoes
 S = list()  # sends
 X = list()  # samples for MMD algorithm
-t = 0.004  # threshold value that determines whether a new cluster is made
+t = 0.001  # threshold value that determines whether a new cluster is made
 p = 0  # number of cluster centers found
 C = list()  # cluster centers
 r = list()  # cluster sizes
@@ -54,6 +54,7 @@ class RTT():
 
 
 def flatten(listx):
+    print("Flattening", listx)
     temp = list()
     for a in listx:
         for b in a:
@@ -112,32 +113,41 @@ def get_mean_of_cluster(ndarrayx):
 get_mean_of_cluster_vec = np.vectorize(get_mean_of_cluster)
 
 # -------------loading in packet data--------------
-with open("Data/LaptopSensor/4steppingstones1.txt", "r") as packetData:
+with open("Data/LaptopSensor/3steppingstones1.txt", "r") as packetData:
     first_line = packetData.readline()
-    first_time = pr.get_time(first_line)
+    # first_time = pr.get_time(first_line)
     send_source = pr.get_source(first_line)
     S.append(pr.get_time(first_line))
-    for line in packetData.readlines()[:-2]:
+    print("source:", send_source)
+    # print(packetData.readlines())
+    # time.sleep(10)
+    for line in packetData.readlines()[:]:
         # print(end="")     #dummy line
         timeStamp = "at " + str(pr.get_time(line))
         if pr.check_push_flag(line):
             if pr.check_if_send(line, send_source):
-                # print("send from", pr.get_source(line), "to", pr.get_destination(line), timeStamp, "\n")
-                S.append(pr.get_time(line) - first_time)
+                print("send from", pr.get_source(line), "to", pr.get_destination(line), timeStamp, "\n")
+                S.append(pr.get_time(line))
             else:
-                # print("echo from", pr.get_source(line), "to", pr.get_destination(line), timeStamp, "\n")
-                E.append(pr.get_time(line) - first_time)
+                print("echo from", pr.get_source(line), "to", pr.get_destination(line), timeStamp, "\n")
+                E.append(pr.get_time(line))
 # print(E)
 # print(S)
-difference_limit = 6
+difference_limit = int(3 * ( len(E)/len(S)))
+difference_limit = 1
+print("Window size:", difference_limit)
 differences = [[np.nan for i in range(difference_limit)] for j in range(len(S))]
 for a in range(len(S)):
     difference_limiter = 0
     for b in range(len(E)):
+        # print(S[a],"and", E[b], end=" ")
         if E[b] - S[a] > 0 and difference_limiter < difference_limit:
+            # print("match!")
             differences[a][difference_limiter] = RTT(S[a], E[b])
             # print("updating differences[" + str(b) + "][" + str(difference_limiter) + "] to", RTT(S[a], E[b]))
             difference_limiter += 1
+        # else:
+        #     # print("don't match!")
 # print(differences)
 
 
@@ -154,6 +164,7 @@ j0 = int
 alpha = 0
 X_prime = X.copy()
 print("Length of X':", len(X_prime))
+print("X':", X_prime)
 # print("\n\nX' is", X_prime, "\n\n")
 # print("\nBefore MMD:")
 x1 = X_prime.index(min(X_prime))
@@ -198,6 +209,8 @@ while clusters_needed:
         C.append(X_prime.pop(X_prime.index(x_i0)))
         u[0][p - 1] = X.index(x_i0)
         alpha = get_alpha(C)
+    if not X_prime:
+        clusters_needed = False
     # print("clusters:", C, "\ndistances:", len(distances), "\nd:", d, "\nalpha:", alpha, "\nclusters needed:", clusters_needed, "\n")
 
 # initializing r for 1 <= j <= p
