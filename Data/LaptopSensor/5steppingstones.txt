@@ -559,4 +559,3 @@
 01:08:05.894448 IP ec2-3-82-198-45.compute-1.amazonaws.com.ssh > archlinux.33052: Flags [P.], seq 21862:21898, ack 12249, win 936, options [nop,nop,TS val 3826292314 ecr 1938789608], length 36
 01:08:05.952651 IP ec2-3-82-198-45.compute-1.amazonaws.com.ssh > archlinux.33052: Flags [P.], seq 21898:21934, ack 12249, win 936, options [nop,nop,TS val 3826292392 ecr 1938789819], length 36
 01:08:06.059900 IP ec2-3-82-198-45.compute-1.amazonaws.com.ssh > archlinux.33052: Flags [P.], seq 21934:22098, ack 12249, win 936, options [nop,nop,TS val 3826292499 ecr 1938789877], length 164
-
