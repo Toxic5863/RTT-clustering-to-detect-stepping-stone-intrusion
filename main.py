@@ -4,12 +4,13 @@ import matplotlib.pyplot as plt
 import packetreader as pr
 import copy
 import statistics
+import os
 
 # -------------------overhead-------------------
 E = list()  # echoes
 S = list()  # sends
 X = list()  # samples for MMD algorithm
-t = 0.001  # threshold value that determines whether a new cluster is made
+t = 0.02  # threshold value that determines whether a new cluster is made
 p = 0  # number of cluster centers found
 C = list()  # cluster centers
 r = list()  # cluster sizes
@@ -29,7 +30,7 @@ class RTT():
     def __init__(self, send, echo):
         self.send, self.echo = send, echo
         self.time = self.echo - self.send
-        self.time *= 1000
+        # self.time *= 1000
 
     def __lt__(self, other):
         return True if float(self) < float(other) else False
@@ -82,7 +83,7 @@ def get_alpha(C):
 
 def cluster_analysis_update():
     print("\nNo. of Clusters:" + str(p))
-    print("\nShape of u:", np.shape(u))
+    print("\nShape of clusters:", np.shape(clusters))
     print("\nCluster sizes are:")
     print(" | ", end="")
     for a in range(p):
@@ -113,7 +114,7 @@ def get_mean_of_cluster(ndarrayx):
 get_mean_of_cluster_vec = np.vectorize(get_mean_of_cluster)
 
 # -------------loading in packet data--------------
-with open("Data/LaptopSensor/3steppingstones1.txt", "r") as packetData:
+with open("Data/verification.txt", "r") as packetData:
     first_line = packetData.readline()
     # first_time = pr.get_time(first_line)
     send_source = pr.get_source(first_line)
@@ -126,15 +127,28 @@ with open("Data/LaptopSensor/3steppingstones1.txt", "r") as packetData:
         timeStamp = "at " + str(pr.get_time(line))
         if pr.check_push_flag(line):
             if pr.check_if_send(line, send_source):
-                print("send from", pr.get_source(line), "to", pr.get_destination(line), timeStamp, "\n")
+                # print("send from", pr.get_source(line), "to", pr.get_destination(line), timeStamp, "\n")
                 S.append(pr.get_time(line))
             else:
-                print("echo from", pr.get_source(line), "to", pr.get_destination(line), timeStamp, "\n")
+                # print("echo from", pr.get_source(line), "to", pr.get_destination(line), timeStamp, "\n")
                 E.append(pr.get_time(line))
+
+print("Writing send and echo lists to fs...")
+with open("sendsfile.txt", "w") as sends_file:
+    for a in range(len(S)):
+        entry = str(S[a]) + "\t" + str(a) + "\n"
+        sends_file.write(entry)
+
+with open("echoesfile.txt", "w") as echoes_file:
+    for a in range(len(E)):
+        entry = str(E[a]) + "\t" + str(a) + "\n"
+        echoes_file.write(entry)
+print("Done writing\n")
+
 # print(E)
 # print(S)
-difference_limit = int(3 * ( len(E)/len(S)))
-difference_limit = 1
+difference_limit = int(3 * (len(E) / len(S)))
+difference_limit = 3
 print("Window size:", difference_limit)
 differences = [[np.nan for i in range(difference_limit)] for j in range(len(S))]
 for a in range(len(S)):
@@ -232,7 +246,6 @@ for i in range(len(X_prime)):
     u[r[j] - 1][j] = X.index(X_prime[i])
 # outputting data after clustering
 # print("inputted X:\t", X, "\nX':\t", X_prime, "\nC:\t", C, "\np:\t", p, "\nu:\t", u, "\nr:\t", r, "\nalpha:\t", alpha)
-
 # updating cluster centers to be means of the clusters
 print("Updating cluster centers...")
 clusters = get_element_of_X_vec(u.astype(int))
@@ -244,7 +257,7 @@ end_time = time.time()
 
 # ------------------final output-------------------
 print("\n\n\n\n\n\n\nThe Specifics:")
-print("\n\nClusters:\n", clusters)
+# print("\n\nClusters:\n", clusters)
 print("\n\nCluster Centers:\t", C)
 print("\n\nMMD execution time:\t", end_time - start_time, "seconds")
 
@@ -296,9 +309,9 @@ cluster_analysis_update()
 
 print("Creating subsets of consecutive elements in clusters...\n")
 g = 2
-clustering_ratios = list()
+clustering_ratios = dict()
 for a in range(len(clusters[0, :])):
-    previous_send_index = -3
+    previous_send_index = S.index(clusters[0][a].send)
     consecutive_elements = 0
     send_indices = list()
     for b in range(np.count_nonzero(clusters[:, a])):
@@ -309,22 +322,23 @@ for a in range(len(clusters[0, :])):
             consecutive_elements += 1
         previous_send_index = current_send_index
     cluster_range = max(send_indices) - min(send_indices)
-    clustering_ratio = (consecutive_elements / cluster_range) if cluster_range != 0 else 0
-    clustering_ratios.append(clustering_ratio)
+    clustering_ratio = (consecutive_elements / cluster_range) if cluster_range != 0 else 1
+    clustering_ratios.update({clustering_ratio: a})
+    # print("number of elements in cluster", :", np.count_nonzero(clusters[:, a]))
+    # print("number of connected elements:", consecutive_elements)
 
-
-print("Calculating average clustering ratio...\n")
+print("\n\nCalculating average clustering ratio...\n")
 number_of_clustering_ratios, average_clustering_ratio = 0, 0
-for a in clustering_ratios:
+for a in list(clustering_ratios.keys()):
     average_clustering_ratio += a
     number_of_clustering_ratios += 1
 average_clustering_ratio /= number_of_clustering_ratios
 
-minimum_difference = 2 * statistics.stdev(clustering_ratios)
+minimum_difference = 1 * statistics.stdev(clustering_ratios)
 print("Filtering for clusters whose ratio is two standard deviations above the mean...")
-for a in range(len(clustering_ratios)):
-    if clustering_ratios[a] - average_clustering_ratio >= minimum_difference:
-        high_ratio_clusters.append(a)
+for a in list(clustering_ratios.keys()):
+    if a - average_clustering_ratio >= minimum_difference:
+        high_ratio_clusters.append(clustering_ratios[a])
 
 # find maximum disjoint subset
 # code goes here
@@ -336,4 +350,34 @@ for a in range(len(clustering_ratios)):
 print("list of clustering ratios:", clustering_ratios)
 print("mean clustering ratio:", average_clustering_ratio)
 print("clustering ratios two standard deviations above the mean:", len(high_ratio_clusters))
+
+try:
+    os.mkdir("High Ratio Clusters")
+except FileExistsError:
+    print("Folder 'High Ratio Clusters' already exists")
+
+filename = "highratiocluster"
+filenumber = 0
+for a in high_ratio_clusters:
+    # print(u[np.count_nonzero(u[:, a])])
+    with open("High Ratio Clusters/" + filename + str(filenumber) + ".txt", "w") as writefile:
+        for b in range(np.count_nonzero(clusters[:, a])):
+            entry = "(" + str(clusters[b, a]) + ", " + str(clusters[b, a].send) + ", " + str(clusters[b, a].echo) + ") "
+            writefile.write(entry)
+    filenumber += 1
+
+try:
+    os.mkdir("Clusters")
+except FileExistsError:
+    print("Folder 'Clusters' already exists")
+
+filename = "clusters"
+filenumber = 0
+for a in range(np.count_nonzero(clusters[0, :])):
+    with open("Clusters/" + filename + str(filenumber) + ".txt", "w") as writefile:
+        # for b in range(np.count_nonzero)
+        for b in range(np.count_nonzero(clusters[:, a])):
+            entry = "(" + str(clusters[b, a]) + ", " + str(clusters[b, a].send) + ", " + str(clusters[b, a].echo) + ") "
+            writefile.write(entry)
+    filenumber += 1
 time.sleep(1)
