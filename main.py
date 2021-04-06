@@ -30,7 +30,6 @@ class RTT():
     def __init__(self, send, echo):
         self.send, self.echo = send, echo
         self.time = self.echo - self.send
-        # self.time *= 1000
 
     def __lt__(self, other):
         return True if float(self) < float(other) else False
@@ -314,6 +313,7 @@ for a in range(len(clusters[0, :])):
     previous_send_index = S.index(clusters[0][a].send)
     consecutive_elements = 0
     send_indices = list()
+    # print("Calculating clustering ratio for cluster", a)
     for b in range(np.count_nonzero(clusters[:, a])):
         current_RTT = clusters[b][a]
         current_send_index = S.index(current_RTT.send)
@@ -321,24 +321,40 @@ for a in range(len(clusters[0, :])):
         if abs(current_send_index - previous_send_index) <= g:
             consecutive_elements += 1
         previous_send_index = current_send_index
-    cluster_range = max(send_indices) - min(send_indices)
-    clustering_ratio = (consecutive_elements / cluster_range) if cluster_range != 0 else 1
-    clustering_ratios.update({clustering_ratio: a})
-    # print("number of elements in cluster", :", np.count_nonzero(clusters[:, a]))
+    cluster_range = len(send_indices) #(send_indices) - min(send_indices)
+    clustering_ratio = (consecutive_elements / cluster_range)
+    clustering_ratios.update({a: clustering_ratio})
+    # print("number of elements in cluster, :", np.count_nonzero(clusters[:, a]))
     # print("number of connected elements:", consecutive_elements)
+
+
+# removing anomalously small clusters
+average_cluster_size = 0
+cluster_sizes = list()
+for a in clustering_ratios.keys():
+    cluster_sizes.append(np.count_nonzero(clusters[:, a]))
+average_cluster_size = sum(cluster_sizes) / len(cluster_sizes)
+new_clustering_ratios = dict()
+for a in clustering_ratios.keys():
+    if  not(np.count_nonzero(clusters[:, a]) < 0.3 * average_cluster_size):
+        new_clustering_ratios.update({a: clustering_ratios[a]})
+clustering_ratios = new_clustering_ratios
+
 
 print("\n\nCalculating average clustering ratio...\n")
 number_of_clustering_ratios, average_clustering_ratio = 0, 0
-for a in list(clustering_ratios.keys()):
+for a in clustering_ratios.values():
     average_clustering_ratio += a
     number_of_clustering_ratios += 1
 average_clustering_ratio /= number_of_clustering_ratios
 
-minimum_difference = 1 * statistics.stdev(clustering_ratios)
+clustering_ratio_std_dev = statistics.stdev(clustering_ratios.values())
+minimum_difference = 0.03 * clustering_ratio_std_dev
+print("Standard deviation:", minimum_difference)
 print("Filtering for clusters whose ratio is two standard deviations above the mean...")
-for a in list(clustering_ratios.keys()):
-    if a - average_clustering_ratio >= minimum_difference:
-        high_ratio_clusters.append(clustering_ratios[a])
+for a in clustering_ratios.keys():
+    if clustering_ratios[a] - average_clustering_ratio >= minimum_difference:
+        high_ratio_clusters.append(a)
 
 # find maximum disjoint subset
 # code goes here
@@ -347,22 +363,24 @@ for a in list(clustering_ratios.keys()):
 # last_cluster = clusters[:np.count_nonzero(clusters[:, -1]), -1]
 # for a in range(len(last_cluster)):
 #     print(S.index(last_cluster[a].send))
-print("list of clustering ratios:", clustering_ratios)
+print("list of clustering ratios:")
+for a in clustering_ratios.keys():
+    print("cluster", str(a) + ":", clustering_ratios[a])
 print("mean clustering ratio:", average_clustering_ratio)
 print("clustering ratios two standard deviations above the mean:", len(high_ratio_clusters))
 
 try:
-    os.mkdir("High Ratio Clusters")
+    os.mkdir("Selected Clusters")
 except FileExistsError:
-    print("Folder 'High Ratio Clusters' already exists")
+    print("Folder 'Selected Clusters' already exists")
 
-filename = "highratiocluster"
+filename = "selected cluster "
 filenumber = 0
 for a in high_ratio_clusters:
     # print(u[np.count_nonzero(u[:, a])])
-    with open("High Ratio Clusters/" + filename + str(filenumber) + ".txt", "w") as writefile:
+    with open("Selected Clusters/" + filename + str(filenumber) + ".txt", "w") as writefile:
         for b in range(np.count_nonzero(clusters[:, a])):
-            entry = "(" + str(clusters[b, a]) + ", " + str(clusters[b, a].send) + ", " + str(clusters[b, a].echo) + ") "
+            entry = "(" + str(clusters[b, a]) + ", " + str(S.index(clusters[b, a].send)) + ", " + str(E.index(clusters[b, a].echo)) + ") "
             writefile.write(entry)
     filenumber += 1
 
@@ -371,13 +389,13 @@ try:
 except FileExistsError:
     print("Folder 'Clusters' already exists")
 
-filename = "clusters"
+filename = "cluster"
 filenumber = 0
 for a in range(np.count_nonzero(clusters[0, :])):
     with open("Clusters/" + filename + str(filenumber) + ".txt", "w") as writefile:
         # for b in range(np.count_nonzero)
         for b in range(np.count_nonzero(clusters[:, a])):
-            entry = "(" + str(clusters[b, a]) + ", " + str(clusters[b, a].send) + ", " + str(clusters[b, a].echo) + ") "
+            entry = "(" + str(clusters[b, a]) + ", " + str(S.index(clusters[b, a].send)) + ", " + str(E.index(clusters[b, a].echo)) + ") "
             writefile.write(entry)
     filenumber += 1
 time.sleep(1)
