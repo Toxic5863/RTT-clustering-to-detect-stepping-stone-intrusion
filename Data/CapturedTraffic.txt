@@ -88,6 +88,3 @@
 14:49:53.773287 IP 192.168.205.233.53074 > 192.168.205.238.22: Flags [P.], seq 324:360, ack 325, win 335, options [nop,nop,TS val 519140 ecr 519511], length 36
 14:49:53.782287 IP 192.168.205.238.22 > 192.168.205.233.53074: Flags [P.], seq 325:361, ack 360, win 270, options [nop,nop,TS val 519845 ecr 519140], length 36
 14:49:53.782345 IP 192.168.205.233.53074 > 192.168.205.238.22: Flags [.], ack 361, win 335, options [nop,nop,TS val 519142 ecr 519845], length 0
-
-
-

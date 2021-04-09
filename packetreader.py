@@ -22,8 +22,8 @@ def check_if_send(stringx, stringy):
 
 
 def get_source(stringx):
-    return re.search(r'IP \S+ >', stringx).group()[3:-2]
+    return re.search(r'IP \d+\.\d+\.\d+\.\d+\.', stringx).group()[3:-1]
 
 
 def get_destination(stringx):
-    return re.search(r'>\s\S+ ', stringx).group()[2:]
+    return re.search(r'>\s\d+\.\d+\.\d+\.\d+\.', stringx).group()[2:-1]
