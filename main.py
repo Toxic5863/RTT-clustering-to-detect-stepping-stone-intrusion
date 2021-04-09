@@ -346,8 +346,11 @@ filename = "selected cluster "
 filenumber = 0
 for a in high_ratio_clusters:
     with open("Selected Clusters/" + filename + str(filenumber) + ".txt", "w") as writefile:
+        ordered_cluster = list()
         for b in range(np.count_nonzero(clusters[:, a])): # writing the clusters' data to the files
-            entry = "(" + str(clusters[b, a]) + ", " + str(S.index(clusters[b, a].send)) + ", " + str(E.index(clusters[b, a].echo)) + ") "
+            ordered_cluster.append(clusters[b, a])
+        for b in sorted(ordered_cluster, key=lambda x: x.send):
+            entry = "(" + str(b) + ", " + str(S.index(b.send)) + ", " + str(E.index(b.echo)) + ") "
             writefile.write(entry)
     filenumber += 1
 
@@ -360,8 +363,11 @@ filename = "cluster "
 filenumber = 0
 for a in range(np.count_nonzero(clusters[0, :])):
     with open("Clusters/" + filename + str(filenumber) + ".txt", "w") as writefile:
-        for b in range(np.count_nonzero(clusters[:, a])): # writing the clusters' data to the files
-            entry = "(" + str(clusters[b, a]) + ", " + str(S.index(clusters[b, a].send)) + ", " + str(E.index(clusters[b, a].echo)) + ") "
-            writefile.write(entry)
+        ordered_cluster = list()
+        for b in range(np.count_nonzero(clusters[:, a])):
+            ordered_cluster.append(clusters[b, a]) # adding the clusters to a list that will be ordered
+        for b in sorted(ordered_cluster, key=lambda x: x.send): # ordering the clusters by send packet
+            entry = "(" + str(b)+ ", " + str(S.index(b.send)) + ", " + str(E.index(b.echo)) + ") " # writing the clusters
+            writefile.write(entry)                                                                 # to a file
     filenumber += 1
 time.sleep(1)
