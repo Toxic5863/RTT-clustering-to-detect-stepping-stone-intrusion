@@ -10,7 +10,7 @@ import os
 E = list()  # echoes
 S = list()  # sends
 X = list()  # samples for MMD algorithm
-t = 0.001  # threshold value that determines whether a new cluster is made
+t = 0.2  # threshold value that determines whether a new cluster is made
 p = 0  # number of cluster centers found
 C = list()  # cluster centers
 r = list()  # cluster sizes
@@ -139,7 +139,7 @@ with open("echoesfile.txt", "w") as echoes_file: # writing the set E to a file f
         echoes_file.write(entry)
 print("Done writing\n")
 
-difference_limit = 3 # this is the window within which we look for echoes after each send
+difference_limit = 1 # this is the window within which we look for echoes after each send
 print("Window size:", difference_limit)
 differences = [[np.nan for i in range(difference_limit)] for j in range(len(S))] # an empty 2d array in which the potential RTTs will be stored
 for a in range(len(S)): # for each send packet
@@ -164,17 +164,19 @@ alpha = 0 # the a value that we use for determining whether to make a new cluste
 X_prime = X.copy() # creating X', a copy of X that we will modify throughout the MMD algorithm
 print("Length of X':", len(X_prime))
 print("X':", X_prime)
-x1 = X_prime.index(min(X_prime)) # getting the smallest RTT (which should be the first send minus the first echo
+x1 = 0 # getting the smallest RTT (which should be the first send minus the first echo
 C.append(X_prime.pop(x1)) # using the smallest RTT as our first cluster
-
 # setting first element of u to 1
 u[0][0] = x1 # updating u to include our newly created cluster center
 
 # setting C2 to j0-th element of x, s.t. the j0-th element of X is the element with the greatest distance from C1,
 # which should be the largest element of X, since there are no negative elements in the set and C1 is the first (and
 # thus by the nature of X also the smallest) element of X. also, setting second element of u to j0
-j0 = X_prime.index(max(X_prime))
-u[0][1] = X.index(X_prime[j0])
+j0 = 0
+for a in range(len(X_prime)):
+    if abs(X_prime[a] - C[0]) > abs(X_prime[j0] - C[0]):
+        j0 = a
+u[0][1] = j0
 C.append(X_prime.pop(j0))
 
 # updating number of clusters found
@@ -320,7 +322,7 @@ for a in clustering_ratios.values():
 average_clustering_ratio /= number_of_clustering_ratios
 
 print(clustering_ratios.values())
-clustering_ratio_std_dev = statistics.stdev(clustering_ratios.values()) # getting the standar dev. of the set of clustering ratios
+clustering_ratio_std_dev = statistics.stdev(clustering_ratios.values()) if len(clustering_ratios) > 1 else 0# getting the standar dev. of the set of clustering ratios
 minimum_difference = 0.03 * clustering_ratio_std_dev # calculating the number of standard deviations that
 print("Standard deviation:", minimum_difference)     # a cluster should be above the mean to make it into the final set
 print("Filtering for clusters whose ratio is two standard deviations above the mean...")
