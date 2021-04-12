@@ -296,7 +296,7 @@ for a in range(len(clusters[0, :])):
         if abs(current_send_index - previous_send_index) <= g: # if the distance between the previous index and the
             consecutive_elements += 1                          # current one is within window g, the consecutive elements
         previous_send_index = current_send_index               # list is updated and the previous index is set to the current one
-    cluster_range = len(send_indices)             # the range of the cluster is equal to the number of elements in it
+    cluster_range = max(send_indices) - min(send_indices) + 1  # the range of the cluster is equal to the number of elements in it
     clustering_ratio = (consecutive_elements / cluster_range) # calculating the clustering ratio
     clustering_ratios.update({a: clustering_ratio}) # adding the clustering ratio and its corresponding cluster index to
                                                     # a dictionary
