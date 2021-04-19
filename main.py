@@ -174,10 +174,11 @@ u[0][0] = x1 # updating u to include our newly created cluster center
 # thus by the nature of X also the smallest) element of X. also, setting second element of u to j0
 j0 = 0
 for a in range(len(X_prime)):
-    if abs(X_prime[a] - C[0]) > abs(X_prime[j0] - C[0]):
+    if abs(X[a] - C[0]) > abs(X[j0] - C[0]):
         j0 = a
 u[0][1] = j0
-C.append(X_prime.pop(j0))
+j0_in_X_prime = X_prime.index(X[j0])
+C.append(X_prime.pop(j0_in_X_prime))
 
 # updating number of clusters found
 p = 2
@@ -215,6 +216,7 @@ r = [1] * p
 # appropriately shrinking u to the size of its contained data
 u_0 = u[0]
 u = np.empty((len(X), p)) * np.nan   # remaking u to accommodate all of the elements
+print(end="")
 for a in range(len(u[0])):
     u[0][a] = u_0[a]
 # matching elements in X' to their closest elements of C via u
